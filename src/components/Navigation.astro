@@ -39,98 +39,28 @@ const currentPath = Astro.url.pathname;
           </a>
         </li>
       </ul>
-
-      <!-- Mobile hamburger — onclick inline, 100% reliable -->
-      <button
-        type="button"
-        class="lg:hidden relative z-[60] flex flex-col items-center justify-center w-10 h-10 gap-[5px]"
-        aria-label="Abrir menu"
-        aria-expanded="false"
-        onclick="
-          var m = document.getElementById('mobileMenu');
-          var o = document.getElementById('mobileOverlay');
-          var b1 = this.querySelector('[data-bar=1]');
-          var b2 = this.querySelector('[data-bar=2]');
-          var b3 = this.querySelector('[data-bar=3]');
-          if (m.style.display === 'block') {
-            m.style.display = 'none';
-            o.style.display = 'none';
-            this.setAttribute('aria-expanded','false');
-            b1.style.transform = '';
-            b2.style.opacity = '';
-            b3.style.transform = '';
-            document.body.style.overflow = '';
-          } else {
-            m.style.display = 'block';
-            o.style.display = 'block';
-            this.setAttribute('aria-expanded','true');
-            b1.style.transform = 'rotate(45deg) translateY(7px)';
-            b2.style.opacity = '0';
-            b3.style.transform = 'rotate(-45deg) translateY(-7px)';
-            document.body.style.overflow = 'hidden';
-          }
-        "
-      >
-        <span data-bar="1" class="block w-6 h-[2px] bg-brand transition-transform duration-300 origin-center"></span>
-        <span data-bar="2" class="block w-6 h-[2px] bg-brand transition-opacity duration-300"></span>
-        <span data-bar="3" class="block w-6 h-[2px] bg-brand transition-transform duration-300 origin-center"></span>
-      </button>
     </div>
   </div>
 
-  <!-- Mobile Overlay -->
-  <div
-    id="mobileOverlay"
-    class="lg:hidden fixed inset-0 bg-brand-dark/40 backdrop-blur-sm z-[55]"
-    style="display:none"
-    aria-hidden="true"
-    onclick="
-      document.getElementById('mobileMenu').style.display='none';
-      this.style.display='none';
-      document.body.style.overflow='';
-    "
-  ></div>
-
-  <!-- Mobile Menu -->
-  <div
-    id="mobileMenu"
-    class="lg:hidden fixed top-[72px] left-0 right-0 bottom-0 z-[56] bg-surface/98 border-b border-brand/5 overflow-y-auto"
-    style="display:none"
-    role="dialog"
-    aria-label="Menu de navegação"
-    aria-modal="true"
-  >
-    <div class="container mx-auto px-6 py-8">
-      <ul class="flex flex-col gap-1 list-none m-0 p-0">
+  <!-- Mobile: links always visible, stacked horizontally with scroll -->
+  <div class="lg:hidden border-t border-brand/5 bg-surface/95 backdrop-blur-md">
+    <div class="container mx-auto px-6">
+      <div class="flex items-center gap-4 overflow-x-auto py-2 no-scrollbar" style="-webkit-overflow-scrolling:touch">
         {navItems.map(item => (
-          <li>
-            <a
-              href={item.href}
-              class="block py-3 px-2 text-brand-dark/80 font-medium hover:text-brand hover:bg-brand/5 rounded-lg transition-colors"
-              onclick="
-                document.getElementById('mobileMenu').style.display='none';
-                document.getElementById('mobileOverlay').style.display='none';
-                document.body.style.overflow='';
-              "
-            >
-              {item.label}
-            </a>
-          </li>
-        ))}
-        <li class="pt-4">
           <a
-            href="/onde-comprar/"
-            class="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-white bg-gradient-to-r from-brand to-brand-light px-6 py-3 rounded-full"
-            onclick="
-              document.getElementById('mobileMenu').style.display='none';
-              document.getElementById('mobileOverlay').style.display='none';
-              document.body.style.overflow='';
-            "
+            href={item.href}
+            class={`whitespace-nowrap text-xs font-medium transition-colors hover:text-brand ${currentPath === item.href ? 'text-brand' : 'text-brand-dark/80'}`}
           >
-            Oferta Especial
+            {item.label}
           </a>
-        </li>
-      </ul>
+        ))}
+        <a
+          href="/onde-comprar/"
+          class="whitespace-nowrap inline-flex items-center gap-1 text-xs font-semibold uppercase tracking-wider text-white bg-gradient-to-r from-brand to-brand-light px-3 py-1.5 rounded-full flex-shrink-0"
+        >
+          Comprar
+        </a>
+      </div>
     </div>
   </div>
 </nav>

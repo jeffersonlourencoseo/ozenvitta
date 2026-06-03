@@ -122,9 +122,14 @@ const {
         transition-duration: 0.01ms !important;
       }
     }
-  </style>
 
-  <link rel="stylesheet" href="/styles/menu.css" />
+    /* Mobile nav has a second row of links — compensate padding */
+    @media (max-width: 1023px) {
+      .pt-\[72px\] {
+        padding-top: 110px !important;
+      }
+    }
+  </style>
 </head>
 
 <body class="bg-surface text-brand-dark antialiased">

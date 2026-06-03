@@ -1,6 +1,4 @@
 ---
-import MobileMenu from './MobileMenu.jsx';
-
 const navItems = [
   { label: "Início", href: "/" },
   { label: "O que é", href: "/o-que-e/" },
@@ -15,22 +13,20 @@ const navItems = [
 const currentPath = Astro.url.pathname;
 ---
 
-<nav class="fixed top-0 left-0 right-0 z-50 bg-surface/95 backdrop-blur-md border-b border-brand/5">
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100">
   <div class="container mx-auto px-6 lg:px-12">
     <div class="flex items-center justify-between h-[72px]">
-      <a href="/" class="flex flex-col leading-none relative z-[60]">
+      <!-- Logo -->
+      <a href="/" class="flex flex-col leading-none">
         <span class="font-display text-2xl font-bold text-brand tracking-tight">Ozenvitta</span>
         <span class="text-[0.65rem] font-semibold text-accent uppercase tracking-[0.15em] mt-0.5">Review</span>
       </a>
 
-      <!-- Desktop nav -->
+      <!-- Desktop links -->
       <ul class="hidden lg:flex items-center gap-8 list-none m-0 p-0">
         {navItems.map(item => (
           <li>
-            <a
-              href={item.href}
-              class={`text-sm font-medium transition-colors hover:text-brand ${currentPath === item.href ? 'text-brand' : 'text-brand-dark/90'}`}
-            >
+            <a href={item.href} class={`text-sm font-medium hover:text-brand ${currentPath === item.href ? 'text-brand' : 'text-gray-700'}`}>
               {item.label}
             </a>
           </li>
@@ -42,8 +38,50 @@ const currentPath = Astro.url.pathname;
         </li>
       </ul>
 
-      <!-- Mobile menu — Preact island, always hydrated on client -->
-      <MobileMenu client:only="preact" />
+      <!-- Mobile: simple button + hidden panel -->
+      <div class="lg:hidden">
+        <!-- Overlay (hidden) -->
+        <div id="mobOverlay" style="display:none;position:fixed;inset:0;background:rgba(31,20,66,0.4);backdrop-filter:blur(4px);z-index:55" onclick="document.getElementById('mobMenu').style.display='none';this.style.display='none';document.body.style.overflow='';"></div>
+
+        <!-- Menu panel (hidden) -->
+        <div id="mobMenu" style="display:none;position:fixed;top:72px;left:0;right:0;bottom:0;background:#fff;z-index:56;overflow-y:auto">
+          <div class="container mx-auto px-6 py-8">
+            <ul class="flex flex-col gap-1 list-none m-0 p-0">
+              {navItems.map(item => (
+                <li>
+                  <a href={item.href} class="block py-3 px-2 text-gray-700 font-medium hover:text-brand hover:bg-blue-50 rounded-lg transition-colors" onclick="document.getElementById('mobMenu').style.display='none';document.getElementById('mobOverlay').style.display='none';document.body.style.overflow='';">
+                    {item.label}
+                  </a>
+                </li>
+              ))}
+              <li class="pt-4">
+                <a href="/onde-comprar/" class="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-white bg-gradient-to-r from-brand to-brand-light px-6 py-3 rounded-full">
+                  Oferta Especial
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Hamburger button -->
+        <button type="button" style="position:relative;z-index:60;display:flex;flex-direction:column;align-items:center;justify-content:center;width:40px;height:40px;gap:5px;background:none;border:none;padding:0;cursor:pointer" aria-label="Menu" onclick="
+          var m = document.getElementById('mobMenu');
+          var o = document.getElementById('mobOverlay');
+          if(m.style.display === 'block'){
+            m.style.display='none';
+            o.style.display='none';
+            document.body.style.overflow='';
+          }else{
+            m.style.display='block';
+            o.style.display='block';
+            document.body.style.overflow='hidden';
+          }
+        ">
+          <span style="display:block;width:24px;height:2px;background:#1e3a8a"></span>
+          <span style="display:block;width:24px;height:2px;background:#1e3a8a"></span>
+          <span style="display:block;width:24px;height:2px;background:#1e3a8a"></span>
+        </button>
+      </div>
     </div>
   </div>
 </nav>

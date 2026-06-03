@@ -1,4 +1,6 @@
 ---
+import MobileMenu from './MobileMenu.jsx';
+
 const navItems = [
   { label: "Início", href: "/" },
   { label: "O que é", href: "/o-que-e/" },
@@ -39,28 +41,9 @@ const currentPath = Astro.url.pathname;
           </a>
         </li>
       </ul>
-    </div>
-  </div>
 
-  <!-- Mobile: links always visible, stacked horizontally with scroll -->
-  <div class="lg:hidden border-t border-brand/5 bg-surface/95 backdrop-blur-md">
-    <div class="container mx-auto px-6">
-      <div class="flex items-center gap-4 overflow-x-auto py-2 no-scrollbar" style="-webkit-overflow-scrolling:touch">
-        {navItems.map(item => (
-          <a
-            href={item.href}
-            class={`whitespace-nowrap text-xs font-medium transition-colors hover:text-brand ${currentPath === item.href ? 'text-brand' : 'text-brand-dark/80'}`}
-          >
-            {item.label}
-          </a>
-        ))}
-        <a
-          href="/onde-comprar/"
-          class="whitespace-nowrap inline-flex items-center gap-1 text-xs font-semibold uppercase tracking-wider text-white bg-gradient-to-r from-brand to-brand-light px-3 py-1.5 rounded-full flex-shrink-0"
-        >
-          Comprar
-        </a>
-      </div>
+      <!-- Mobile menu — Preact island, always hydrated on client -->
+      <MobileMenu client:only="preact" />
     </div>
   </div>
 </nav>

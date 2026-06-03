@@ -1,52 +1,19 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const toggle = document.getElementById('navToggle');
+  const toggle = document.getElementById('menuToggle');
   const menu = document.getElementById('mobileMenu');
-  const overlay = document.getElementById('mobileOverlay');
-  const bar1 = toggle?.querySelector('[data-bar="1"]');
-  const bar2 = toggle?.querySelector('[data-bar="2"]');
-  const bar3 = toggle?.querySelector('[data-bar="3"]');
-  let isOpen = false;
+  if (!toggle || !menu) return;
 
-  function openMenu() {
-    isOpen = true;
-    menu?.classList.remove('translate-x-full');
-    overlay?.classList.remove('opacity-0', 'pointer-events-none');
-    overlay?.classList.add('opacity-100', 'pointer-events-auto');
-    toggle?.setAttribute('aria-expanded', 'true');
-
-    bar1?.classList.add('rotate-45', 'translate-y-[7px]');
-    bar2?.classList.add('opacity-0');
-    bar3?.classList.add('-rotate-45', '-translate-y-[7px]');
-
-    document.body.style.overflow = 'hidden';
-  }
-
-  function closeMenu() {
-    isOpen = false;
-    menu?.classList.add('translate-x-full');
-    overlay?.classList.remove('opacity-100', 'pointer-events-auto');
-    overlay?.classList.add('opacity-0', 'pointer-events-none');
-    toggle?.setAttribute('aria-expanded', 'false');
-
-    bar1?.classList.remove('rotate-45', 'translate-y-[7px]');
-    bar2?.classList.remove('opacity-0');
-    bar3?.classList.remove('-rotate-45', '-translate-y-[7px]');
-
-    document.body.style.overflow = '';
-  }
-
-  toggle?.addEventListener('click', function () {
-    if (isOpen) closeMenu();
-    else openMenu();
+  // Close menu when clicking any link inside it
+  menu.querySelectorAll('a').forEach(function (link) {
+    link.addEventListener('click', function () {
+      toggle.checked = false;
+    });
   });
 
-  overlay?.addEventListener('click', closeMenu);
-
-  menu?.querySelectorAll('a').forEach(function (link) {
-    link.addEventListener('click', closeMenu);
-  });
-
+  // Close on Escape key
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape' && isOpen) closeMenu();
+    if (e.key === 'Escape' && toggle.checked) {
+      toggle.checked = false;
+    }
   });
 });

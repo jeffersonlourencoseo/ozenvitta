@@ -14,6 +14,9 @@ const currentPath = Astro.url.pathname;
 ---
 
 <nav class="fixed top-0 left-0 right-0 z-50 bg-surface/95 backdrop-blur-md border-b border-brand/5">
+  <!-- Hidden checkbox controls the mobile menu state -->
+  <input type="checkbox" id="menuToggle" class="peer sr-only" aria-label="Abrir menu" />
+
   <div class="container mx-auto px-6 lg:px-12">
     <div class="flex items-center justify-between h-[72px]">
       <a href="/" class="flex flex-col leading-none relative z-[60]">
@@ -21,17 +24,20 @@ const currentPath = Astro.url.pathname;
         <span class="text-[0.65rem] font-semibold text-accent uppercase tracking-[0.15em] mt-0.5">Review</span>
       </a>
 
-      <button
-        id="navToggle"
-        class="lg:hidden relative z-[60] flex flex-col items-center justify-center w-10 h-10 gap-[5px]"
-        aria-label="Abrir menu"
+      <!-- Hamburger button (label for checkbox) -->
+      <label
+        for="menuToggle"
+        class="lg:hidden relative z-[60] flex flex-col items-center justify-center w-10 h-10 gap-[5px] cursor-pointer"
         aria-expanded="false"
         aria-controls="mobileMenu"
       >
-        <span class="block w-6 h-[2px] bg-brand transition-transform duration-300 origin-center" data-bar="1"></span>
-        <span class="block w-6 h-[2px] bg-brand transition-opacity duration-300" data-bar="2"></span>
-        <span class="block w-6 h-[2px] bg-brand transition-transform duration-300 origin-center" data-bar="3"></span>
-      </button>
+        <!-- Bar 1 -->
+        <span class="block w-6 h-[2px] bg-brand transition-transform duration-300 origin-center peer-checked:rotate-45 peer-checked:translate-y-[7px]"></span>
+        <!-- Bar 2 -->
+        <span class="block w-6 h-[2px] bg-brand transition-opacity duration-300 peer-checked:opacity-0"></span>
+        <!-- Bar 3 -->
+        <span class="block w-6 h-[2px] bg-brand transition-transform duration-300 origin-center peer-checked:-rotate-45 peer-checked:-translate-y-[7px]"></span>
+      </label>
 
       <ul class="hidden lg:flex items-center gap-8 list-none m-0 p-0">
         {navItems.map(item => (
@@ -55,15 +61,14 @@ const currentPath = Astro.url.pathname;
 
   <!-- Mobile Overlay -->
   <div
-    id="mobileOverlay"
-    class="lg:hidden fixed inset-0 bg-brand-dark/40 backdrop-blur-sm z-[55] opacity-0 pointer-events-none transition-opacity duration-300"
+    class="lg:hidden fixed inset-0 bg-brand-dark/40 backdrop-blur-sm z-[55] opacity-0 pointer-events-none transition-opacity duration-300 peer-checked:opacity-100 peer-checked:pointer-events-auto"
     aria-hidden="true"
   ></div>
 
   <!-- Mobile Menu -->
   <div
     id="mobileMenu"
-    class="lg:hidden fixed top-[72px] left-0 right-0 bottom-0 z-[56] bg-surface/98 border-b border-brand/5 translate-x-full transition-transform duration-300 ease-out overflow-y-auto"
+    class="lg:hidden fixed top-[72px] left-0 right-0 bottom-0 z-[56] bg-surface/98 border-b border-brand/5 translate-x-full transition-transform duration-300 ease-out overflow-y-auto peer-checked:translate-x-0"
     role="dialog"
     aria-label="Menu de navegação"
     aria-modal="true"

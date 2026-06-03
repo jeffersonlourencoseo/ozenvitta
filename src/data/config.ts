@@ -5,7 +5,7 @@
 
 export const SITE_CONFIG = {
   // Domínio e identidade
-  domain: 'https://ozenvitta-site.vercel.app',
+  domain: 'https://portalozenvitta.vercel.app',
   siteName: 'Blog Ozenvitta',
   tagline: 'Análise Independente do Suplemento Ozenvitta',
   language: 'pt-BR',
@@ -30,7 +30,7 @@ export const SITE_CONFIG = {
   expert: {
     name: 'Dra. Carla Mendonça',
     jobTitle: 'Nutricionista Funcional e Especialista em Suplementação Natural',
-    url: 'https://ozenvitta-site.vercel.app/sobre-nos/',
+    url: 'https://portalozenvitta.vercel.app/sobre-nos/',
     description:
       'Nutricionista funcional com mais de 12 anos de experiência em suplementação natural e emagrecimento saudável.',
   },
@@ -54,7 +54,7 @@ export const SITE_CONFIG = {
     priceCurrency: 'BRL',
     availability: 'https://schema.org/InStock',
     sku: 'OZENVITTA-60CAP',
-    image: 'https://ozenvitta-site.vercel.app/images/produto.jpg',
+    image: 'https://portalozenvitta.vercel.app/images/produto.jpg',
     aggregateRating: {
       ratingValue: '4.8',
       bestRating: '5',
@@ -71,7 +71,7 @@ export const SITE_CONFIG = {
   },
 
   // Performance & SEO
-  ogImage: 'https://ozenvitta-site.vercel.app/images/og-default.jpg',
+  ogImage: 'https://portalozenvitta.vercel.app/images/og-default.jpg',
   twitterHandle: '',
   themeColor: '#1e3a8a',
 } as const;

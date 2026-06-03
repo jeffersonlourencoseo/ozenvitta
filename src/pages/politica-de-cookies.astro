@@ -1,0 +1,81 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout
+  title="Política de Cookies | Blog Ozenvitta"
+  description="Entenda como usamos cookies no Blog Ozenvitta para melhorar sua navegação."
+  noindex={true}
+  schemaType="page"
+  breadcrumbs={[{ name: 'Política de Cookies', url: 'https://ozenvitta-site.vercel.app/politica-de-cookies/' }]}
+>
+  <Navigation />
+
+  <main class="pt-[72px]">
+    <section class="py-24 lg:py-32">
+      <div class="container mx-auto px-6 lg:px-12 max-w-4xl">
+        <!-- Breadcrumb -->
+        <nav aria-label="Navegação" class="mb-8">
+          <ol class="flex items-center gap-2 text-sm text-brand-dark/50 list-none m-0 p-0">
+            <li>
+              <a href="/" class="inline-flex items-center gap-1 hover:text-brand transition-colors">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                </svg>
+                Início
+              </a>
+            </li>
+            <li class="text-brand-dark/30">/</li>
+            <li class="text-brand-dark font-medium" aria-current="page">Política de Cookies</li>
+          </ol>
+        </nav>
+
+        <h1 class="font-display text-4xl md:text-5xl font-bold text-brand-dark leading-tight mb-10">Política de Cookies</h1>
+
+        <div class="prose prose-lg max-w-none text-brand-dark/80">
+          <p class="text-lg leading-relaxed mb-6">
+            <strong>Política de Cookies — Blog Ozenvitta</strong>
+          </p>
+
+          <h2 class="font-display text-2xl font-bold text-brand-dark mt-8 mb-4">1. O que são Cookies</h2>
+          <p class="leading-relaxed mb-6">
+            Cookies são pequenos arquivos de texto armazenados no seu navegador quando você visita um site. Eles ajudam o site a lembrar suas preferências e melhorar sua experiência.
+          </p>
+
+          <h2 class="font-display text-2xl font-bold text-brand-dark mt-8 mb-4">2. Como Usamos Cookies</h2>
+          <p class="leading-relaxed mb-4">
+            Utilizamos os seguintes tipos de cookies:
+          </p>
+          <ul class="space-y-3 mb-6">
+            <li><strong>Cookies essenciais:</strong> Necessários para o funcionamento básico do site (ex: menu mobile, preferências de tema).</li>
+            <li><strong>Cookies analíticos:</strong> Usados pelo Google Analytics para entender como os visitantes interagem com o site (páginas visitadas, tempo de permanência).</li>
+            <li><strong>Cookies de marketing:</strong> Usados para rastrear a origem de cliques em links de afiliados e medir conversão.</li>
+          </ul>
+
+          <h2 class="font-display text-2xl font-bold text-brand-dark mt-8 mb-4">3. Gerenciamento de Cookies</h2>
+          <p class="leading-relaxed mb-6">
+            Você pode gerenciar ou desativar cookies nas configurações do seu navegador. Note que a desativação de cookies essenciais pode afetar o funcionamento do site.
+          </p>
+
+          <h2 class="font-display text-2xl font-bold text-brand-dark mt-8 mb-4">4. Terceiros</h2>
+          <p class="leading-relaxed mb-6">
+            Utilizamos serviços de terceiros que podem definir seus próprios cookies:
+          </p>
+          <ul class="space-y-3 mb-6">
+            <li>Google Analytics (análise de tráfego)</li>
+            <li>Google Tag Manager (rastreamento de eventos)</li>
+            <li>Monetizze (processamento de compras via links de afiliados)</li>
+          </ul>
+
+          <p class="text-sm text-brand-dark/60 mt-8">
+            <strong>Última atualização:</strong> 24 de maio de 2026.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

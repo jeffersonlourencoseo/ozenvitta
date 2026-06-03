@@ -1,0 +1,73 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout
+  title="Contato Blog Ozenvitta: Fale Conosco"
+  description="Entre em contato com a equipe do Blog Ozenvitta Review. Tem dúvidas sobre o Ozenvitta? Envie sua mensagem."
+  schemaType="page"
+  breadcrumbs={[{ name: 'Contato', url: 'https://ozenvitta-site.vercel.app/contato/' }]}
+>
+  <Navigation />
+
+  <main class="pt-[72px]">
+    <section class="py-24 lg:py-32">
+      <div class="container mx-auto px-6 lg:px-12 max-w-4xl">
+        <!-- Breadcrumb -->
+        <nav aria-label="Navegação" class="mb-8">
+          <ol class="flex items-center gap-2 text-sm text-brand-dark/50 list-none m-0 p-0">
+            <li>
+              <a href="/" class="inline-flex items-center gap-1 hover:text-brand transition-colors">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                </svg>
+                Início
+              </a>
+            </li>
+            <li class="text-brand-dark/30">/</li>
+            <li class="text-brand-dark font-medium" aria-current="page">Contato</li>
+          </ol>
+        </nav>
+
+        <h1 class="font-display text-4xl md:text-5xl font-bold text-brand-dark leading-tight mb-10">Contato</h1>
+
+        <div class="prose prose-lg max-w-none">
+          <p class="text-lg text-brand-dark/70 leading-relaxed mb-6">
+            Tem dúvidas sobre o Ozenvitta, sugestões de conteúdo ou quer falar com nossa equipe? Entre em contato conosco. Responderemos em até 48 horas úteis.
+          </p>
+
+          <div class="bg-surface-alt p-8 rounded-2xl border border-brand/5 mt-12">
+            <h2 class="font-display text-2xl font-bold text-brand-dark mb-6">Informações de Contato</h2>
+
+            <div class="space-y-4">
+              <div>
+                <span class="text-sm font-semibold text-brand-dark/50 uppercase tracking-wider">Email</span>
+                <p class="text-brand-dark">contato@portalozenvitta.com.br</p>
+              </div>
+
+              <div>
+                <span class="text-sm font-semibold text-brand-dark/50 uppercase tracking-wider">Horário de Atendimento</span>
+                <p class="text-brand-dark">Segunda a Sexta, das 9h às 18h (horário de Brasília)</p>
+              </div>
+
+              <div>
+                <span class="text-sm font-semibold text-brand-dark/50 uppercase tracking-wider">Prazo de Resposta</span>
+                <p class="text-brand-dark">Até 48 horas úteis</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-info-bg border-l-4 border-brand-light p-6 rounded-r-xl mt-8">
+            <p class="text-brand-dark/80 text-sm leading-relaxed">
+              <strong>Importante:</strong> Este site é um review independente com links de afiliados. Para questões sobre pedidos, entregas, reembolsos ou dúvidas sobre o produto em si, entre em contato diretamente com o <a href="https://app.monetizze.com.br/r/AXC25796271" target="_blank" rel="noopener noreferrer nofollow sponsored" class="text-brand font-semibold hover:underline">suporte oficial do Ozenvitta</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

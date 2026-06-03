@@ -1,0 +1,75 @@
+---
+const year = new Date().getFullYear();
+
+const footerNav = [
+  { label: "Sobre nós", href: "/sobre-nos/" },
+  { label: "Política de Privacidade", href: "/politica-de-privacidade/" },
+  { label: "Termos de Uso", href: "/termos-de-uso/" },
+  { label: "Política de Cookies", href: "/politica-de-cookies/" },
+  { label: "Contato", href: "/contato/" },
+];
+
+const mainNav = [
+  { label: "O que é", href: "/o-que-e/" },
+  { label: "Composição", href: "/composicao/" },
+  { label: "Benefícios", href: "/beneficios/" },
+  { label: "Como Usar", href: "/como-usar/" },
+  { label: "Contraindicações", href: "/contraindicacoes/" },
+  { label: "Depoimentos", href: "/depoimentos/" },
+  { label: "Onde Comprar", href: "/onde-comprar/" },
+];
+---
+
+<footer class="bg-brand text-white">
+  <div class="container mx-auto px-6 lg:px-12 py-24 lg:py-32">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-16">
+      <!-- Brand -->
+      <div class="lg:col-span-1">
+        <span class="font-display text-3xl font-bold">Ozenvitta</span>
+        <p class="text-white/80 text-sm mt-4 max-w-xs leading-relaxed">
+          Análise independente e completa do suplemento Ozenvitta em gotas do Ozenvitta.
+        </p>
+      </div>
+
+      <!-- Main Nav -->
+      <div>
+        <p class="text-xs font-semibold uppercase tracking-widest text-white/90 mb-6">Navegação</p>
+        <ul class="space-y-3">
+          {mainNav.map(item => (
+            <li>
+              <a href={item.href} class="text-white/80 text-sm hover:text-white transition-colors">{item.label}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Footer Pages -->
+      <div>
+        <p class="text-xs font-semibold uppercase tracking-widest text-white/90 mb-6">Informações</p>
+        <ul class="space-y-3">
+          {footerNav.map(item => (
+            <li>
+              <a href={item.href} class="text-white/80 text-sm hover:text-white transition-colors">{item.label}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- CTA -->
+      <div>
+        <p class="text-xs font-semibold uppercase tracking-widest text-white/90 mb-6">Oferta Exclusiva</p>
+        <p class="text-white/80 text-sm mb-6">Acesse o site oficial com desconto e garantia de satisfação.</p>
+        <a href="https://app.monetizze.com.br/r/AXC25796271" target="_blank" rel="noopener noreferrer nofollow sponsored" class="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-white bg-accent px-6 py-3 rounded-full hover:bg-accent-dark transition-colors">
+          Comprar Ozenvitta Original com Desconto
+        </a>
+      </div>
+    </div>
+
+    <div class="border-t border-white/10 mt-16 pt-10 text-center">
+      <p class="text-white/80 text-xs mb-2">
+        Este site contém links de afiliados. Ao comprar por nossos links, podemos receber uma comissão, sem custo adicional para você.
+      </p>
+      <p class="text-white/80 text-sm">© {year} Ozenvitta Review. Todos os direitos reservados.</p>
+    </div>
+  </div>
+</footer>

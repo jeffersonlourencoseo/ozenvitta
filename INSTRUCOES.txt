@@ -1,0 +1,261 @@
+============================================================
+INSTRUCOES — Gerador de Sites Review de Nutraceuticos
+============================================================
+
+Este e o passo a passo COMPLETO para criar um novo site
+review usando o template generico.
+
+============================================================
+O QUE VOCE PRECISA TER NA SUA MAQUINA
+============================================================
+
+1. Node.js instalado (versao 22.x ou superior)
+2. Git instalado (para deploy no Vercel)
+3. Conta no GitHub
+4. Conta no Vercel
+
+============================================================
+ESTRUTURA DE PASTAS
+============================================================
+
+C:\Users\Jefferson\Desktop\SEO LOCAL\MONJAUX\
+├── nutraceutico-site\              ← PASTA DO MODELO (NAO APAGUE)
+│   ├── src\                        ← Codigo fonte
+│   ├── public\                     ← Imagens, favicon, etc
+│   ├── scripts\                    ← Scripts do gerador
+│   │   ├── create-new-site.js     ← SCRIPT PRINCIPAL
+│   │   ├── produto-template.json  ← MODELO VAZIO
+│   │   ├── exemplo-produto.json   ← EXEMPLO PREENCHIDO
+│   │   ├── GERAR-SITE.bat         ← Duplo clique para gerar
+│   │   └── palavras-chave-template.txt
+│   └── ...
+└── (outras pastas de projetos)\n
+============================================================
+PASSO 1: PREPARAR O ARQUIVO JSON DO PRODUTO
+============================================================
+
+Va em:
+   nutraceutico-site/scripts/
+
+Copie o arquivo:
+   produto-template.json
+
+Renomeie para o nome do seu produto. Exemplo:
+   meu-produto.json
+
+Abra o arquivo e preencha TUDO que esta em maiusculas:
+
+   "nome": "NOME_DO_PRODUTO"              → "Vitacaps"
+   "nomeSlug": "nome-do-produto"         → "vitacaps"
+   "siteOficial": "https://siteoficial.com" → "https://vitacaps.com.br"
+   "linkAfiliado": "SEU_LINK"             → "https://app.monetizze.com.br/r/ABC123"
+   "precoPopular": "197.00"               → preco do kit mais popular
+   "corTema": "#1e3a8a"                   → cor hexadecimal da marca
+   "expertNome": "Dra. Nome"              → nome da especialista
+   ...
+
+DICA: Use o exemplo-produto.json como referencia.
+      Ele esta todo preenchido com dados ficticios.
+
+============================================================
+PASSO 2: GERAR O SITE (DUAS FORMAS)
+============================================================
+
+FORMA A: Duplo clique (recomendado para leigos)
+-----------------------------------------------
+
+1. Va em: nutraceutico-site/scripts/
+2. De um duplo clique em: GERAR-SITE.bat
+3. Digite o nome do seu arquivo JSON
+   Exemplo: meu-produto.json
+4. Aperte ENTER
+5. Aguarde a mensagem "GERACAO CONCLUIDA!"
+
+FORMA B: Terminal (para quem conhece)
+--------------------------------------
+
+1. Abra o terminal na pasta: nutraceutico-site/scripts/
+2. Digite:
+      node create-new-site.js meu-produto.json
+3. Aguarde o site ser gerado
+
+RESULTADO:
+   Sera criada uma pasta NOVA ao lado de nutraceutico-site.
+   Exemplo: C:\Users\Jefferson\Desktop\SEO LOCAL\MONJAUX\vitacaps-site\
+
+============================================================
+PASSO 3: PREPARAR PALAVRAS-CHAVE (OBRIGATORIO)
+============================================================
+
+Na pasta do novo site (ex: vitacaps-site\), abra:
+
+   KW-vitacaps.txt
+
+Preencha com as palavras-chave que voce quer ranquear.
+Use uma palavra por linha.
+
+Exemplo:
+   vitacaps funciona
+   vitacaps funciona mesmo
+   vitacaps emagrece
+   vitacaps preco
+   ...
+
+DEPOIS DE PREENCHER, voce tem DUAS opcoes:
+
+   OPCAO A (recomendada): Me envie o arquivo preenchido
+            → Eu atualizo TODO o copy do site automaticamente
+
+   OPCAO B: Edite voce mesmo
+            → Abra cada arquivo .md em src/content/pages/
+            → Troque as keywords genericas pelas suas
+            → Faca o mesmo na index.astro
+
+============================================================
+PASSO 4: COLOCAR IMAGENS
+============================================================
+
+Dentro da pasta do novo site, va em:
+
+   public/images/
+
+Coloque as seguintes imagens (mantenha os nomes exatos):
+
+   logo.png              → 200x50px, fundo transparente
+   produto.jpg           → 800x800px, foto do produto
+   og-default.jpg        → 1200x630px, Open Graph padrao
+   og-o-que-e.jpg        → 1200x630px, OG da pagina "O que e"
+   og-composicao.jpg     → 1200x630px, OG da pagina "Composicao"
+   og-beneficios.jpg     → 1200x630px, OG da pagina "Beneficios"
+   og-como-usar.jpg      → 1200x630px, OG da pagina "Como Usar"
+   og-contraindicacoes.jpg → 1200x630px, OG da pagina "Contraindicacoes"
+   og-depoimentos.jpg    → 1200x630px, OG da pagina "Depoimentos"
+   og-onde-comprar.jpg   → 1200x630px, OG da pagina "Onde Comprar"
+   antes-depois-1.jpg    → minimo 600x400px
+   antes-depois-2.jpg    → minimo 600x400px
+   antes-depois-3.jpg    → minimo 600x400px
+   antes-depois-4.jpg    → minimo 600x400px
+   antes-depois-5.jpg    → minimo 600x400px
+
+IMPORTANTE:
+   Se nao tiver todas as OG images, use a og-default.jpg
+   para todas. Mas e melhor criar uma para cada pagina.
+
+============================================================
+PASSO 5: BUILD LOCAL (TESTAR)
+============================================================
+
+Abra o terminal na pasta do novo site. Exemplo:
+   cd "C:\Users\Jefferson\Desktop\SEO LOCAL\MONJAUX\vitacaps-site"
+
+Digite:
+   npm install
+
+Espere instalar (pode demorar 1-2 minutos).
+
+Depois digite:
+   npm run build
+
+Verifique se aparece:
+   "16 page(s) built"
+   "Sitemap gerado com 15 rotas"
+
+Se aparecer, o site esta pronto!
+
+============================================================
+PASSO 6: DEPLOY NO VERCEL
+============================================================
+
+1. Va no GitHub e crie um repositorio NOVO
+   Exemplo: https://github.com/seu-usuario/vitacaps-site
+
+2. No terminal, na pasta do site, digite:
+      git init
+      git add .
+      git commit -m "Primeiro commit"
+      git branch -M main
+      git remote add origin https://github.com/seu-usuario/vitacaps-site.git
+      git push -u origin main
+
+3. Va no Vercel (vercel.com)
+   - Clique em "Add New Project"
+   - Importe o repositorio do GitHub
+   - Clique em "Deploy"
+
+4. Pronto! O site esta no ar.
+
+============================================================
+PASSO 7: POS-DEPLOY
+============================================================
+
+1. Acesse o URL que o Vercel gerou
+2. Teste todos os links
+3. Verifique se as imagens aparecem
+4. Submeta o sitemap.xml no Google Search Console
+5. Configure o Google Analytics
+
+============================================================
+ARQUIVOS QUE NUNCA DEVEM SER ALTERADOS
+============================================================
+
+Dentro do projeto gerado, NAO mude esses arquivos:
+
+   src/components/SEO.astro
+   src/components/SchemaMarkup.astro
+   src/layouts/Layout.astro
+   src/components/Navigation.astro
+   src/components/Footer.astro
+   scripts/async-css-postbuild.js
+   scripts/generate-sitemap.js
+
+============================================================
+O QUE FAZER SE DER ERRO NO BUILD
+============================================================
+
+Erro comum 1: "Cannot find module"
+   → Solucao: npm install
+
+Erro comum 2: "images not found"
+   → Solucao: coloque as imagens em public/images/
+
+Erro comum 3: "syntax error in config.ts"
+   → Solucao: verifique se o produto.json tem aspas corretas
+
+Erro comum 4: "16 pages built" mas nao aparece
+   → Solucao: verifique se o arquivo .md tem frontmatter correto
+
+============================================================
+CHECKLIST ANTES DE DEPLOY
+============================================================
+
+[ ] Nome do produto substituido em TODO o site
+[ ] Link de afiliado correto em TODOS os CTAs
+[ ] Precos atualizados
+[ ] Imagens na pasta public/images/
+[ ] Palavras-chave preenchidas no KW-*.txt
+[ ] npm run build passou sem erros
+[ ] 16 paginas geradas
+[ ] Sitemap gerado
+
+============================================================
+SUPORTE
+============================================================
+
+Se algo quebrar, me envie:
+   1. O erro que apareceu no terminal
+   2. O arquivo produto.json que voce usou
+   3. Print da pasta do projeto
+
+============================================================
+DICAS IMPORTANTES
+============================================================
+
+- Nunca delete a pasta nutraceutico-site. Ela e o MODELO.
+- Cada novo produto gera uma pasta NOVA ao lado dela.
+- Sempre faca npm run build antes de commitar.
+- Mantenha o padrao de CTA vermelho (#e74c3c) em todas as paginas.
+- Use o checklist acima para nao esquecer nada.
+
+============================================================
+ULTIMA ATUALIZACAO: 2026-06-03
+============================================================

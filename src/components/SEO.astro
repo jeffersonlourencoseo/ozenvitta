@@ -1,0 +1,161 @@
+---
+import { SITE_CONFIG } from '../data/config';
+
+export interface Props {
+  title: string;
+  description: string;
+  keywords?: string;
+  image?: string;
+  canonical?: string;
+  noindex?: boolean;
+  ogType?: string;
+  ogAlt?: string;
+  ogLocale?: string;
+}
+
+const {
+  title,
+  description,
+  keywords = SITE_CONFIG.keywordsDefault,
+  image = SITE_CONFIG.ogImage,
+  canonical,
+  noindex = false,
+  ogType = 'website',
+  ogAlt,
+  ogLocale = SITE_CONFIG.locale,
+} = Astro.props;
+
+const canonicalUrl = canonical ?? (SITE_CONFIG.domain + Astro.url.pathname);
+const pageTitle = title.includes(SITE_CONFIG.siteName)
+  ? title
+  : `${title} | ${SITE_CONFIG.siteName}`;
+
+const currentPath = Astro.url.pathname;
+
+const ogAltTexts: Record<string, string> = {
+  '/': 'Ozenvitta Review — Análise Completa do Suplemento',
+  '/o-que-e/': 'O que é o Ozenvitta — Suplemento Natural em Gotas',
+  '/composicao/': 'Composição do Ozenvitta — 9 Ingredientes Naturais',
+  '/beneficios/': 'Benefícios do Ozenvitta — Queima de Gordura e Saciedade',
+  '/como-usar/': 'Como Usar Ozenvitta — 12 Gotas por Dia',
+  '/contraindicacoes/': 'Contraindicações do Ozenvitta',
+  '/onde-comprar/': 'Onde Comprar Ozenvitta Original com Desconto',
+  '/depoimentos/': 'Depoimentos de Quem Usou Ozenvitta',
+  '/sobre-nos/': 'Sobre o Blog Ozenvitta',
+  '/contato/': 'Contato — Blog Ozenvitta',
+};
+
+const resolvedOgAlt = ogAlt ?? ogAltTexts[currentPath] ?? `Imagem de destaque: ${pageTitle}`;
+
+const articleSlugs = ['/o-que-e/', '/composicao/', '/beneficios/', '/como-usar/', '/contraindicacoes/'];
+const isArticle = ogType === 'article' || articleSlugs.includes(currentPath);
+const publishedTime = '2026-05-24';
+const modifiedTime = '2026-05-24';
+---
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="generator" content={Astro.generator} />
+
+<!-- Título e Meta Básicas -->
+<title>{pageTitle}</title>
+<meta name="description" content={description} />
+<meta name="author" content={SITE_CONFIG.author.name} />
+<meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'} />
+<meta name="googlebot" content={noindex ? 'noindex, follow' : 'index, follow'} />
+
+<!-- Canonical -->
+<link rel="canonical" href={canonicalUrl} />
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<meta name="theme-color" content={SITE_CONFIG.themeColor} />
+
+<!-- Preconnect Performance -->
+<link rel="preconnect" href="https://www.googletagmanager.com" />
+<link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+<link rel="preconnect" href="https://www.google-analytics.com" />
+<link rel="dns-prefetch" href="https://www.google-analytics.com" />
+
+<!-- Open Graph (Facebook / LinkedIn / WhatsApp) -->
+<meta property="og:title" content={pageTitle} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonicalUrl} />
+<meta property="og:site_name" content={SITE_CONFIG.siteName} />
+<meta property="og:image" content={image} />
+<meta property="og:image:alt" content={resolvedOgAlt} />
+<meta property="og:type" content={isArticle ? 'article' : ogType} />
+<meta property="og:locale" content={ogLocale} />
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={pageTitle} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={image} />
+<meta name="twitter:image:alt" content={resolvedOgAlt} />
+
+<!-- Artigo específico (somente quando ogType === 'article' ou página de conteúdo) -->
+{isArticle && (
+  <>
+    <meta property="article:published_time" content={publishedTime} />
+    <meta property="article:modified_time" content={modifiedTime} />
+    <meta property="article:author" content={SITE_CONFIG.author.name} />
+    <meta property="article:publisher" content={SITE_CONFIG.domain} />
+    <meta property="article:section" content="Saúde e Suplementação" />
+  </>
+)}
+
+<!-- Google Tag Manager — carregado após first paint para não bloquear renderização -->
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+
+  function loadGtag() {
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX';
+    s.async = true;
+    document.head.appendChild(s);
+  }
+
+  if ('requestIdleCallback' in window) {
+    window.requestIdleCallback(loadGtag, { timeout: 3000 });
+  } else {
+    window.addEventListener('load', function() {
+      setTimeout(loadGtag, 2000);
+    });
+  }
+
+  // Fila de eventos para cliques antes do GTag carregar
+  window._gtagQueue = window._gtagQueue || [];
+  var origGtag = gtag;
+  window.gtag = function() {
+    window._gtagQueue.push(arguments);
+    origGtag.apply(null, arguments);
+  };
+</script>
+
+<!-- Event tracking para cliques em afiliado -->
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.body.addEventListener('click', function(e) {
+      var el = e.target.closest('a');
+      if (!el) return;
+      var href = el.getAttribute('href') || '';
+      if (href.indexOf('app.monetizze.com.br/r/AXC25796271') > -1) {
+        var location = 'generic';
+        if (el.closest('#onde-comprar')) location = 'onde-comprar';
+        else if (el.closest('footer')) location = 'footer';
+        else if (el.closest('section#o-que-e')) location = 'o-que-e';
+        else if (document.querySelector('section.relative.min-h-\[90vh\]') && el.closest('section.relative.min-h-\[90vh\]')) location = 'cta-hero';
+        else if (document.querySelector('main') && el.closest('main')) location = 'homepage';
+        if (typeof gtag === 'function') {
+          gtag('event', 'click_afiliado', { location: location });
+        }
+      }
+    });
+  });
+</script>

@@ -1,0 +1,151 @@
+---
+const navItems = [
+  { label: "Início", href: "/" },
+  { label: "O que é", href: "/o-que-e/" },
+  { label: "Composição", href: "/composicao/" },
+  { label: "Benefícios", href: "/beneficios/" },
+  { label: "Como Usar", href: "/como-usar/" },
+  { label: "Contraindicações", href: "/contraindicacoes/" },
+  { label: "Depoimentos", href: "/depoimentos/" },
+  { label: "Onde Comprar", href: "/onde-comprar/" },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<nav class="fixed top-0 left-0 right-0 z-50 bg-surface/95 backdrop-blur-md border-b border-brand/5">
+  <div class="container mx-auto px-6 lg:px-12">
+    <div class="flex items-center justify-between h-[72px]">
+      <a href="/" class="flex flex-col leading-none relative z-[60]">
+        <span class="font-display text-2xl font-bold text-brand tracking-tight">Ozenvitta</span>
+        <span class="text-[0.65rem] font-semibold text-accent uppercase tracking-[0.15em] mt-0.5">Review</span>
+      </a>
+
+      <button
+        id="navToggle"
+        class="lg:hidden relative z-[60] flex flex-col items-center justify-center w-10 h-10 gap-[5px]"
+        aria-label="Abrir menu"
+        aria-expanded="false"
+        aria-controls="mobileMenu"
+      >
+        <span class="block w-6 h-[2px] bg-brand transition-transform duration-300 origin-center" data-bar="1"></span>
+        <span class="block w-6 h-[2px] bg-brand transition-opacity duration-300" data-bar="2"></span>
+        <span class="block w-6 h-[2px] bg-brand transition-transform duration-300 origin-center" data-bar="3"></span>
+      </button>
+
+      <ul class="hidden lg:flex items-center gap-8 list-none m-0 p-0">
+        {navItems.map(item => (
+          <li>
+            <a
+              href={item.href}
+              class={`text-sm font-medium transition-colors hover:text-brand ${currentPath === item.href ? 'text-brand' : 'text-brand-dark/90'}`}
+            >
+              {item.label}
+            </a>
+          </li>
+        ))}
+        <li>
+          <a href="/onde-comprar/" class="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-white bg-gradient-to-r from-brand to-brand-light px-5 py-2.5 rounded-full hover:shadow-lg hover:-translate-y-0.5 transition-all">
+            Oferta Especial
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Mobile Overlay -->
+  <div
+    id="mobileOverlay"
+    class="lg:hidden fixed inset-0 bg-brand-dark/40 backdrop-blur-sm z-[55] opacity-0 pointer-events-none transition-opacity duration-300"
+    aria-hidden="true"
+  ></div>
+
+  <!-- Mobile Menu -->
+  <div
+    id="mobileMenu"
+    class="lg:hidden fixed top-[72px] left-0 right-0 bottom-0 z-[56] bg-surface/98 border-b border-brand/5 translate-x-full transition-transform duration-300 ease-out overflow-y-auto"
+    role="dialog"
+    aria-label="Menu de navegação"
+    aria-modal="true"
+  >
+    <div class="container mx-auto px-6 py-8">
+      <ul class="flex flex-col gap-1 list-none m-0 p-0">
+        {navItems.map(item => (
+          <li>
+            <a
+              href={item.href}
+              class="block py-3 px-2 text-brand-dark/80 font-medium hover:text-brand hover:bg-brand/5 rounded-lg transition-colors"
+            >
+              {item.label}
+            </a>
+          </li>
+        ))}
+        <li class="pt-4">
+          <a href="/onde-comprar/" class="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-white bg-gradient-to-r from-brand to-brand-light px-6 py-3 rounded-full">
+            Oferta Especial
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  const toggle = document.getElementById('navToggle');
+  const menu = document.getElementById('mobileMenu');
+  const overlay = document.getElementById('mobileOverlay');
+  const bar1 = toggle?.querySelector('[data-bar="1"]');
+  const bar2 = toggle?.querySelector('[data-bar="2"]');
+  const bar3 = toggle?.querySelector('[data-bar="3"]');
+  let isOpen = false;
+
+  function openMenu() {
+    isOpen = true;
+    menu?.classList.remove('translate-x-full');
+    overlay?.classList.remove('opacity-0', 'pointer-events-none');
+    overlay?.classList.add('opacity-100', 'pointer-events-auto');
+    toggle?.setAttribute('aria-expanded', 'true');
+
+    // Animate hamburger to X
+    bar1?.classList.add('rotate-45', 'translate-y-[7px]');
+    bar2?.classList.add('opacity-0');
+    bar3?.classList.add('-rotate-45', '-translate-y-[7px]');
+
+    // Lock scroll
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeMenu() {
+    isOpen = false;
+    menu?.classList.add('translate-x-full');
+    overlay?.classList.remove('opacity-100', 'pointer-events-auto');
+    overlay?.classList.add('opacity-0', 'pointer-events-none');
+    toggle?.setAttribute('aria-expanded', 'false');
+
+    // Animate X back to hamburger
+    bar1?.classList.remove('rotate-45', 'translate-y-[7px]');
+    bar2?.classList.remove('opacity-0');
+    bar3?.classList.remove('-rotate-45', '-translate-y-[7px]');
+
+    // Unlock scroll
+    document.body.style.overflow = '';
+  }
+
+  toggle?.addEventListener('click', () => {
+    if (isOpen) closeMenu();
+    else openMenu();
+  });
+
+  overlay?.addEventListener('click', closeMenu);
+
+  menu?.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      closeMenu();
+    });
+  });
+
+  // Close on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && isOpen) closeMenu();
+  });
+</script>

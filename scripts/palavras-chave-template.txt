@@ -1,0 +1,61 @@
+# PALAVRAS-CHAVE — [NOME_DO_PRODUTO]
+# Preencha abaixo com as palavras que pesquisadores digitam no Google
+# para encontrar o produto. Essas palavras guiarão TODO o copy do site.
+# Uma palavra por linha. Use # para comentários.
+
+# ============================================================
+# PALAVRAS PRINCIPAIS (volume alto, intenção de compra)
+# ============================================================
+[NOME_DO_PRODUTO] funciona
+[NOME_DO_PRODUTO] funciona mesmo
+[NOME_DO_PRODUTO] emagrece
+[NOME_DO_PRODUTO] emagrece mesmo
+[NOME_DO_PRODUTO] preço
+[NOME_DO_PRODUTO] valor
+[NOME_DO_PRODUTO] onde comprar
+[NOME_DO_PRODUTO] site oficial
+[NOME_DO_PRODUTO] original
+[NOME_DO_PRODUTO] desconto
+[NOME_DO_PRODUTO] kit
+
+# ============================================================
+# PALAVRAS INFORMATIVAS (o que é, como usar)
+# ============================================================
+o que é [NOME_DO_PRODUTO]
+pra que serve o [NOME_DO_PRODUTO]
+[NOME_DO_PRODUTO] para que serve
+[NOME_DO_PRODUTO] como usar
+[NOME_DO_PRODUTO] dosagem
+[NOME_DO_PRODUTO] como tomar
+[NOME_DO_PRODUTO] composição
+[NOME_DO_PRODUTO] ingredientes
+[NOME_DO_PRODUTO] benefícios
+[NOME_DO_PRODUTO] contraindicações
+
+# ============================================================
+# PALAVRAS DE COMPARAÇÃO E REVIEW
+# ============================================================
+[NOME_DO_PRODUTO] reclame aqui
+[NOME_DO_PRODUTO] é bom
+[NOME_DO_PRODUTO] vale a pena
+[NOME_DO_PRODUTO] depoimentos
+[NOME_DO_PRODUTO] resultados
+[NOME_DO_PRODUTO] antes e depois
+[NOME_DO_PRODUTO] resenha
+[NOME_DO_PRODUTO] análise
+
+# ============================================================
+# PALAVRAS DE NICHO (ex: emagrecimento, energia, etc)
+# ============================================================
+suplemento para emagrecer
+emagrecer naturalmente
+como perder barriga
+acelerar metabolismo
+reduzir compulsão alimentar
+saciedade prolongada
+
+# ============================================================
+# PALAVRAS DE MARCA / CONCORRENCIA (se houver)
+# ============================================================
+# substituto do [produto concorrente]
+# diferença entre [produto] e [concorrente]

@@ -1,0 +1,81 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout
+  title="Termos de Uso | Blog Ozenvitta"
+  description="Termos e condições de uso do Blog Ozenvitta. Leia antes de navegar."
+  noindex={true}
+  schemaType="page"
+  breadcrumbs={[{ name: 'Termos de Uso', url: 'https://ozenvitta-site.vercel.app/termos-de-uso/' }]}
+>
+  <Navigation />
+
+  <main class="pt-[72px]">
+    <section class="py-24 lg:py-32">
+      <div class="container mx-auto px-6 lg:px-12 max-w-4xl">
+        <!-- Breadcrumb -->
+        <nav aria-label="Navegação" class="mb-8">
+          <ol class="flex items-center gap-2 text-sm text-brand-dark/50 list-none m-0 p-0">
+            <li>
+              <a href="/" class="inline-flex items-center gap-1 hover:text-brand transition-colors">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                </svg>
+                Início
+              </a>
+            </li>
+            <li class="text-brand-dark/30">/</li>
+            <li class="text-brand-dark font-medium" aria-current="page">Termos de Uso</li>
+          </ol>
+        </nav>
+
+        <h1 class="font-display text-4xl md:text-5xl font-bold text-brand-dark leading-tight mb-10">Termos de Uso</h1>
+
+        <div class="prose prose-lg max-w-none text-brand-dark/80">
+          <p class="text-lg leading-relaxed mb-6">
+            <strong>Termos de Uso — Blog Ozenvitta</strong>
+          </p>
+
+          <h2 class="font-display text-2xl font-bold text-brand-dark mt-8 mb-4">1. Aceitação dos Termos</h2>
+          <p class="leading-relaxed mb-6">
+            Ao acessar e usar o Blog Ozenvitta, você concorda em cumprir estes termos. Se não concordar, não utilize este site.
+          </p>
+
+          <h2 class="font-display text-2xl font-bold text-brand-dark mt-8 mb-4">2. Natureza do Conteúdo</h2>
+          <p class="leading-relaxed mb-6">
+            Este site é um blog de review independente. As opiniões expressas são baseadas em pesquisa e análise do produto Ozenvitta. Não somos representantes oficiais do fabricante.
+          </p>
+
+          <h2 class="font-display text-2xl font-bold text-brand-dark mt-8 mb-4">3. Isenção de Responsabilidade</h2>
+          <p class="leading-relaxed mb-6">
+            As informações sobre saúde e suplementos neste site são apenas para fins informativos. Não substituem consulta médica, diagnóstico ou tratamento. Sempre consulte um profissional de saúde antes de usar qualquer suplemento.
+          </p>
+
+          <h2 class="font-display text-2xl font-bold text-brand-dark mt-8 mb-4">4. Links de Afiliados</h2>
+          <p class="leading-relaxed mb-6">
+            Este site contém links de afiliados. Ao clicar em um link de compra e realizar uma compra, podemos receber uma comissão, sem custo adicional para você. Isso ajuda a manter o site ativo.
+          </p>
+
+          <h2 class="font-display text-2xl font-bold text-brand-dark mt-8 mb-4">5. Propriedade Intelectual</h2>
+          <p class="leading-relaxed mb-6">
+            Todo o conteúdo (textos, imagens, logos) é propriedade do Blog Ozenvitta, salvo indicação em contrário. É proibida a reprodução sem autorização prévia.
+          </p>
+
+          <h2 class="font-display text-2xl font-bold text-brand-dark mt-8 mb-4">6. Alterações nos Termos</h2>
+          <p class="leading-relaxed mb-6">
+            Reservamo-nos o direito de alterar estes termos a qualquer momento.
+          </p>
+
+          <p class="text-sm text-brand-dark/60 mt-8">
+            <strong>Última atualização:</strong> 24 de maio de 2026.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

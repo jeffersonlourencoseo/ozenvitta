@@ -1,0 +1,121 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout
+  title="Sobre o Blog Ozenvitta: Quem Somos e Nossa Missão"
+  description="Conheça a equipe por trás do Ozenvitta Review. Nossa missão é oferecer análises honestas e independentes de suplementos naturais."
+  schemaType="page"
+  breadcrumbs={[{ name: 'Sobre nós', url: 'https://ozenvitta-site.vercel.app/sobre-nos/' }]}
+>
+  <Navigation />
+
+  <main class="pt-[72px]">
+    <section class="py-24 lg:py-32">
+      <div class="container mx-auto px-6 lg:px-12 max-w-4xl">
+        <!-- Breadcrumb -->
+        <nav aria-label="Navegação" class="mb-8">
+          <ol class="flex items-center gap-2 text-sm text-brand-dark/50 list-none m-0 p-0">
+            <li>
+              <a href="/" class="inline-flex items-center gap-1 hover:text-brand transition-colors">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                </svg>
+                Início
+              </a>
+            </li>
+            <li class="text-brand-dark/30">/</li>
+            <li class="text-brand-dark font-medium" aria-current="page">Sobre nós</li>
+          </ol>
+        </nav>
+
+        <h1 class="font-display text-4xl md:text-5xl font-bold text-brand-dark leading-tight mb-10">Sobre nós</h1>
+
+        <div class="prose prose-lg max-w-none">
+          <p class="text-lg text-brand-dark/70 leading-relaxed mb-6">
+            O <strong>Ozenvitta Review</strong> nasceu da necessidade de oferecer análises honestas, completas e independentes sobre suplementos nutracêuticos no mercado brasileiro.
+          </p>
+
+          <p class="text-lg text-brand-dark/70 leading-relaxed mb-6">
+            Nossa equipe é formada por profissionais da área de saúde, nutrição e redação especializada em bem-estar. Não temos vínculo com o fabricante do Ozenvitta, o que nos permite avaliar o produto com total imparcialidade e transparência.
+          </p>
+
+          <h2 class="font-display text-2xl md:text-3xl font-bold text-brand-dark mt-12 mb-6">Quem Somos</h2>
+
+          <div class="bg-surface-alt p-6 rounded-2xl border border-brand/5 mb-8">
+            <div class="flex flex-col md:flex-row gap-6 items-start">
+              <div class="w-24 h-24 rounded-full bg-brand/10 flex items-center justify-center text-3xl flex-shrink-0">
+                👩‍⚕️
+              </div>
+              <div>
+                <h3 class="font-display text-2xl font-bold text-brand-dark mb-1">Dra. Carla Mendonça</h3>
+                <p class="text-sm text-accent font-semibold mb-3">Nutricionista Funcional e Especialista em Suplementação Natural</p>
+                <p class="text-brand-dark/80 text-sm leading-relaxed mb-3">
+                  Nutricionista funcional com mais de 12 anos de experiência em suplementação natural, emagrecimento saudável e regulagem metabólica. Responsável pela revisão técnica e científica de todos os conteúdos publicados no Blog Ozenvitta. Nossa análise do Ozenvitta segue critérios rigorosos de evidência científica.
+                </p>
+                <p class="text-brand-dark/80 text-sm leading-relaxed">
+                  <strong>Formação:</strong> Graduação em Nutrição, pós-graduação em Nutrição Funcional e Esportiva. Membro do CRN-X (Conselho Regional de Nutricionistas — 10ª Região).
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <h2 class="font-display text-2xl md:text-3xl font-bold text-brand-dark mt-12 mb-6">Como Avaliamos o Ozenvitta</h2>
+
+          <p class="text-lg text-brand-dark/70 leading-relaxed mb-6">
+            Nossa análise do Ozenvitta segue uma metodologia rigorosa baseada em evidências científicas. Não aceitamos patrocínio do fabricante para alterar nossas conclusões:
+          </p>
+
+          <ul class="space-y-3 text-brand-dark/70 mb-8">
+            <li class="flex items-start gap-2">
+              <span class="text-success font-bold">1.</span>
+              <span><strong>Revisão bibliográfica:</strong> consultamos estudos científicos indexados (PubMed, SciELO, Google Scholar) sobre cada ingrediente da fórmula.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-success font-bold">2.</span>
+              <span><strong>Análise da fórmula:</strong> verificamos a sinergia entre os componentes, dosagens e formas de apresentação.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-success font-bold">3.</span>
+              <span><strong>Avaliação de segurança:</strong> conferimos contraindicações, interações medicamentosas e perfil de tolerância.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-success font-bold">4.</span>
+              <span><strong>Transparência:</strong> destacamos tanto os benefícios quanto as limitações do produto.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-success font-bold">5.</span>
+              <span><strong>Monitoramento contínuo:</strong> atualizamos o conteúdo conforme novas pesquisas e mudanças regulatórias.</span>
+            </li>
+          </ul>
+
+          <h2 class="font-display text-2xl md:text-3xl font-bold text-brand-dark mt-12 mb-6">Aviso Importante</h2>
+
+          <div class="bg-warning-bg border-l-4 border-warning p-6 rounded-r-xl mb-8">
+            <div class="flex items-start gap-4">
+              <svg class="w-6 h-6 text-warning flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01M12 17h.01M8.5 2.5a2 2 0 00-2 2v15a2 2 0 002 2h7a2 2 0 002-2v-15a2 2 0 00-2-2h-7z"/></svg>
+              <div>
+                <p class="text-brand-dark/80 text-sm leading-relaxed mb-2">
+                  <strong>Este site contém links de afiliados.</strong> Isso significa que podemos receber uma comissão se você realizar uma compra através dos nossos links, sem nenhum custo adicional para você. Essa parceria não influencia nossa análise ou opinião sobre os produtos.
+                </p>
+                <p class="text-brand-dark/80 text-sm leading-relaxed">
+                  <strong>O Ozenvitta é um suplemento alimentar, não um medicamento.</strong> Os resultados descritos no site variam de pessoa para pessoa. Este site não substitui orientação médica, diagnóstico ou tratamento. <strong>Consulte um médico ou nutricionista antes de iniciar qualquer suplementação</strong>, especialmente se você tem condições de saúde pré-existentes, está grávida, amamentando ou faz uso de medicamentos.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <h2 class="font-display text-2xl md:text-3xl font-bold text-brand-dark mt-12 mb-6">Nossa Missão</h2>
+
+          <p class="text-lg text-brand-dark/70 leading-relaxed mb-6">
+            Informar com transparência, destacando tanto os benefícios quanto as contraindicações de cada produto que analisamos. Acreditamos que o consumidor tem direito a informações claras, baseadas em evidências e apresentadas por profissionais qualificados, antes de fazer qualquer compra.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

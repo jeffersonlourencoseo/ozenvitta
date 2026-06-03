@@ -1,0 +1,221 @@
+{
+  "produto": {
+    "nome": "Vitacaps",
+    "nomeSlug": "vitacaps",
+    "categoria": "Suplemento Alimentar em Cápsulas",
+    "formato": "cápsulas",
+    "volumeFrasco": "60 cápsulas",
+    "dosagem": "2 cápsulas ao dia",
+    "quantidadeIngredientes": "8",
+    "siteOficial": "https://vitacaps.com.br",
+    "linkAfiliado": "https://app.monetizze.com.br/r/ABC12345678",
+    "precoPopular": "197.00",
+    "precoAvista1": "147.00",
+    "precoParcelado1": "14,76",
+    "precoAvista3": "197.00",
+    "precoParcelado3": "19,78",
+    "precoAvista5": "247.00",
+    "precoParcelado5": "24,90",
+    "precoAvista8": "377.00",
+    "precoParcelado8": "37,90",
+    "sku": "VITACAPS-60CAP",
+    "corTema": "#2E8B57",
+    "dominio": "https://vitacaps-site.vercel.app",
+    "siteName": "Blog Vitacaps",
+    "tagline": "Análise Independente do Suplemento Vitacaps",
+    "expertNome": "Dra. Carolina Martins",
+    "expertCargo": "Nutricionista Funcional e Especialista em Suplementação Natural",
+    "expertDescricao": "Nutricionista funcional com mais de 10 anos de experiência em suplementação natural e emagrecimento saudável.",
+    "email": "contato@blogvitacaps.com.br",
+    "ogImage": "https://vitacaps-site.vercel.app/images/og-default.jpg",
+    "productImage": "https://vitacaps-site.vercel.app/images/produto.jpg",
+    "reviewCount": "1843",
+    "ratingValue": "4.7",
+    "socialProofNumero": "1.200",
+    "socialProofTexto": "pessoas",
+    "bonusApp": "App Vitacaps com 40+ aulas",
+    "bonusEbooks": "5 E-books digitais exclusivos",
+    "bonusGrupo": "Grupo VIP de apoiadores",
+    "tempoGarantiaDias": "30",
+    "palavrasChave": [
+      "vitacaps funciona",
+      "vitacaps funciona mesmo",
+      "vitacaps emagrece",
+      "vitacaps emagrece mesmo",
+      "vitacaps preço",
+      "vitacaps valor",
+      "vitacaps onde comprar",
+      "vitacaps site oficial",
+      "vitacaps original",
+      "vitacaps desconto",
+      "vitacaps kit",
+      "o que é vitacaps",
+      "vitacaps para que serve",
+      "vitacaps composição",
+      "vitacaps ingredientes",
+      "vitacaps benefícios",
+      "vitacaps contraindicações",
+      "vitacaps depoimentos",
+      "vitacaps resultados",
+      "vitacaps antes e depois",
+      "vitacaps reclame aqui",
+      "vitacaps é bom",
+      "vitacaps vale a pena",
+      "vitacaps como usar",
+      "vitacaps dosagem",
+      "suplemento para emagrecer",
+      "emagrecer naturalmente",
+      "acelerar metabolismo"
+    ]
+  },
+  "conteudo": {
+    "oQueE": {
+      "resumo": "O Vitacaps é um suplemento alimentar natural em cápsulas desenvolvido com fórmula exclusiva.",
+      "beneficiosList": [
+        "Acelerar o metabolismo",
+        "Controlar o apetite",
+        "Auxiliar na queima de gordura",
+        "Reduzir a compulsão alimentar",
+        "Melhorar a digestão e reduzir o inchaço"
+      ],
+      "problemasTabela": [
+        { "problema": "Metabolismo lento", "solucao": "Termogênicos naturais aceleram a queima" },
+        { "problema": "Fome entre refeições", "solucao": "Fibras solúveis promovem saciedade" },
+        { "problema": "Compulsão por doces", "solucao": "Cromo estabiliza glicose e reduz desejos" },
+        { "problema": "Barriga estufada", "solucao": "Ingredientes melhoram digestão" },
+        { "problema": "Cansaço excessivo", "solucao": "Vitaminas aumentam energia" }
+      ],
+      "ecossistema": [
+        "📱 App com videoaulas (nutricionista, psicóloga e personal)",
+        "📚 E-books digitais (receitas, exercícios, plano 30 dias)",
+        "👥 Grupo VIP com suporte de nutricionista"
+      ]
+    },
+    "composicao": {
+      "ingredientes": [
+        { "nome": "Cromo Picolinato", "emoji": "🔥", "acao": "Regula a glicose no sangue e reduz a compulsão por doces" },
+        { "nome": "Fibras Solúveis", "emoji": "🍃", "acao": "Promovem saciedade e regulam o intestino" },
+        { "nome": "Cafeína Natural", "emoji": "⚡", "acao": "Acelera o metabolismo e aumenta a disposição" },
+        { "nome": "L-Carnitina", "emoji": "💪", "acao": "Transporta gordura para ser queimada como energia" },
+        { "nome": "Vitamina B6", "emoji": "🧠", "acao": "Auxilia no metabolismo de proteínas e gorduras" },
+        { "nome": "Chá Verde", "emoji": "🍵", "acao": "Potente antioxidante que auxilia na queima calórica" }
+      ],
+      "sinergia": "A combinação de Cromo com Fibras Solúveis cria uma dupla poderosa no controle glicêmico e saciedade, enquanto a L-Carnitina e a Cafeína Natural trabalham na queima de gordura, potencializando o emagrecimento de forma natural e segura."
+    },
+    "beneficios": {
+      "itens": [
+        {
+          "titulo": "Saciedade Prolongada",
+          "emoji": "🍽️",
+          "descricao": "Você já abriu a geladeira à noite comendo escondido e sentindo culpa? As fibras solúveis expandem no trato digestivo, criando plenitude e reduzindo a fome entre refeições.",
+          "resultadoPratico": "Você come naturalmente menos, sem passar fome."
+        },
+        {
+          "titulo": "Aceleração do Metabolismo",
+          "emoji": "🔥",
+          "descricao": "Cafeína Natural e Chá Verde aumentam o gasto calórico basal. Seu corpo queima mais energia mesmo em repouso.",
+          "resultadoPratico": "Você queima gordura dormindo."
+        },
+        {
+          "titulo": "Redução da Compulsão",
+          "emoji": "🧠",
+          "descricao": "O pior não é comer — é comer por ansiedade. O Cromo estabiliza os níveis de açúcar no sangue, reduzindo os desejos por doces.",
+          "resultadoPratico": "Você quebra o ciclo ansiedade → comer → culpa."
+        },
+        {
+          "titulo": "Mais Energia no Dia a Dia",
+          "emoji": "⚡",
+          "descricao": "Vitamina B6 e Cafeína Natural combatem o cansaço excessivo, mantendo você disposta para trabalhar, cuidar da casa e treinar.",
+          "resultadoPratico": "Acorda disposta e mantém energia estável até de noite."
+        }
+      ]
+    },
+    "comoUsar": {
+      "passos": [
+        { "nome": "Dosagem", "texto": "Tome 2 cápsulas por dia com um copo de água." },
+        { "nome": "Melhor horário", "texto": "Uma cápsula antes do café da manhã e outra antes do almoço." },
+        { "nome": "Duração", "texto": "Para resultados consistentes, recomenda-se o uso por pelo menos 90 dias (3 frascos)." }
+      ],
+      "timeline": [
+        { "tempo": "Semana 1-2", "efeito": "Primeiros sinais de saciedade e disposição" },
+        { "tempo": "Mês 1-2", "efeito": "Redução de medidas e mais energia" },
+        { "tempo": "Mês 3+", "efeito": "Resultados expressivos e consolidados" }
+      ]
+    },
+    "contraindicacoes": {
+      "quemNaoPode": [
+        "Gestantes e lactantes",
+        "Crianças menores de 18 anos",
+        "Pessoas com hipersensibilidade a cafeína"
+      ],
+      "interacoes": [
+        "Medicamentos para diabetes",
+        "Anticoagulantes",
+        "Remédios para tireoide"
+      ],
+      "efeitos": "Alguns usuários podem sentir leve desconforto digestivo inicial nos primeiros dias. Pessoas sensíveis a cafeína podem sentir agitação leve."
+    },
+    "depoimentos": [
+      {
+        "nome": "Maria S.",
+        "idade": "34",
+        "cidade": "São Paulo",
+        "tempoUso": "3 meses",
+        "kit": "3 frascos",
+        "texto": "Depois dos 30, meu metabolismo parou. Já tinha tentado de tudo. Com o Vitacaps, em 3 meses perdi 8 kg sem passar fome e sem irritação."
+      },
+      {
+        "nome": "Fernanda R.",
+        "idade": "29",
+        "cidade": "Rio de Janeiro",
+        "tempoUso": "2 meses",
+        "kit": "3 frascos",
+        "texto": "Minha compulsão por doces sumiu. Antes comia chocolate todo dia escondida. Hoje nem sinto falta. É libertador."
+      },
+      {
+        "nome": "Juliana M.",
+        "idade": "42",
+        "cidade": "Curitiba",
+        "tempoUso": "4 meses",
+        "kit": "5 frascos",
+        "texto": "Consegui vestir um vestido que não usava há 5 anos. As amigas não param de perguntar o que fiz. Indiquei pra todo mundo!"
+      },
+      {
+        "nome": "Patrícia L.",
+        "idade": "37",
+        "cidade": "Belo Horizonte",
+        "tempoUso": "3 meses",
+        "kit": "3 frascos",
+        "texto": "O que mais me surpreendeu foi a energia. Antes chegava morta do trabalho. Agora consigo cuidar da casa e ainda brincar com meus filhos."
+      },
+      {
+        "nome": "Renata K.",
+        "idade": "31",
+        "cidade": "Porto Alegre",
+        "tempoUso": "2 meses",
+        "kit": "3 frascos",
+        "texto": "Fiquei desconfiada no início, mas em 3 semanas já senti a diferença na roupa. Agora não largo mais."
+      }
+    ],
+    "ondeComprar": {
+      "aviso": "O Vitacaps original só é vendido pelo site oficial.",
+      "kits": [
+        { "nome": "1 Frasco — Tratamento Inicial (30 dias)", "parcelado": "12x R$ 14,76", "avista": "147,00", "popular": false },
+        { "nome": "3 Frascos — Leve 3 Pague 2 (90 dias) ⭐ Mais Popular", "parcelado": "12x R$ 19,78", "avista": "197,00", "popular": true },
+        { "nome": "5 Frascos — Kit Família (150 dias)", "parcelado": "12x R$ 24,80", "avista": "247,00", "popular": false },
+        { "nome": "8 Frascos — Transformação Total (240 dias)", "parcelado": "12x R$ 37,85", "avista": "377,00", "popular": false }
+      ],
+      "naoComprar": ["Mercado Livre", "Shopee", "Amazon Marketplace", "Sites de descontos não autorizados", "Revendedores em redes sociais"]
+    },
+    "faq": [
+      { "pergunta": "Vitacaps funciona mesmo?", "resposta": "A fórmula do Vitacaps combina ingredientes naturais com ação documentada na literatura científica para saciedade, metabolismo e controle glicêmico. Resultados variam conforme o estilo de vida de cada pessoa." },
+      { "pergunta": "Vitacaps emagrece?", "resposta": "O Vitacaps auxilia no emagrecimento ao agir no metabolismo, saciedade e controle da compulsão alimentar. Resultados individuais variam conforme alimentação e atividade física." },
+      { "pergunta": "Pra que serve o Vitacaps?", "resposta": "O Vitacaps é um suplemento alimentar natural formulado para auxiliar no processo de emagrecimento, acelerando o metabolismo e controlando o apetite. Não é um medicamento." },
+      { "pergunta": "Quanto tempo leva para fazer efeito?", "resposta": "Os primeiros resultados geralmente são percebidos nas primeiras duas a quatro semanas. Para resultados mais expressivos, recomenda-se o uso por pelo menos 3 meses." },
+      { "pergunta": "Vitacaps tem efeitos colaterais?", "resposta": "É composto por ingredientes naturais e é bem tolerado. Pessoas sensíveis a cafeína podem sentir agitação leve. Consulte um médico se tiver condições pré-existentes." },
+      { "pergunta": "Qual o preço do Vitacaps?", "resposta": "O Vitacaps está disponível em kits promociais no site oficial: 1 frasco por R$ 147.00; kit com 3 frascos por R$ 197.00; kit com 5 frascos por R$ 247.00; e kit com 8 frascos por R$ 377.00. Todos com frete grátis." },
+      { "pergunta": "Onde comprar Vitacaps com desconto?", "resposta": "O desconto oficial está disponível apenas no site oficial do Vitacaps. Não compre em marketplaces para evitar produtos falsificados." },
+      { "pergunta": "Vitacaps é aprovado pela Anvisa?", "resposta": "O Vitacaps é um suplemento alimentar, não um medicamento. É isento de registro obrigatório na Anvisa, conforme a legislação brasileira vigente (RDC 27/2010)." }
+    ]
+  }
+}

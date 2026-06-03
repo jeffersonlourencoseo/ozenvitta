@@ -1,0 +1,153 @@
+---
+import SEO from '../components/SEO.astro';
+import SchemaMarkup from '../components/SchemaMarkup.astro';
+
+export interface Props {
+  title: string;
+  description: string;
+  keywords?: string;
+  image?: string;
+  canonical?: string;
+  noindex?: boolean;
+  ogType?: string;
+  ogAlt?: string;
+  schemaType?: 'home' | 'product' | 'page' | 'faq' | 'article';
+  schemaTitle?: string;
+  schemaDesc?: string;
+  schemaImage?: string;
+  schemaFaq?: Array<{ question: string; answer: string }>;
+  breadcrumbs?: Array<{ name: string; url: string }>;
+  schemaHowTo?: Array<{ name: string; text: string; image?: string }>;
+}
+
+const {
+  title,
+  description,
+  keywords,
+  image,
+  canonical,
+  noindex = false,
+  ogType = 'website',
+  ogAlt,
+  schemaType = 'page',
+  schemaTitle,
+  schemaDesc,
+  schemaImage,
+  schemaFaq,
+  breadcrumbs,
+  schemaHowTo,
+} = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <SEO
+    title={title}
+    description={description}
+    keywords={keywords}
+    image={image}
+    canonical={canonical}
+    noindex={noindex}
+    ogType={ogType}
+    ogAlt={ogAlt}
+  />
+
+  <!-- Preload Performance: apenas fontes críticas para first paint -->
+  <link rel="preload" href="/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/fonts/inter-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/fonts/cormorant-garamond-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+
+  <!-- Fontes críticas inline — apenas 3 variantes para first paint -->
+  <style is:inline>
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url('/fonts/inter-latin-400-normal.woff2') format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url('/fonts/inter-latin-600-normal.woff2') format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+      font-family: 'Cormorant Garamond';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url('/fonts/cormorant-garamond-latin-700-normal.woff2') format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+  </style>
+
+  <!-- Fontes não-críticas carregadas lazy via stylesheet -->
+  <link rel="stylesheet" href="/fonts/fonts-deferred.css" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="/fonts/fonts-deferred.css" /></noscript>
+
+  <style is:global>
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 88px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    ::selection {
+      background-color: #1e3a8a;
+      color: #fff;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+      text-wrap: balance;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-surface text-brand-dark antialiased">
+  <slot />
+
+  <!-- CTA Sticky Mobile -->
+  <div class="fixed bottom-0 left-0 right-0 bg-white border-t border-brand/10 p-3 z-50 lg:hidden shadow-[0_-4px_20px_rgba(0,0,0,0.1)]">
+    <a href="https://app.monetizze.com.br/r/AXC25796271"
+       target="_blank"
+       class="flex items-center justify-center gap-2 text-sm font-bold uppercase tracking-wider text-white bg-brand w-full py-3 rounded-full"
+       rel="noopener noreferrer nofollow sponsored"
+    >
+      Comprar com Desconto
+    </a>
+  </div>
+
+  <!-- Schema JSON-LD — movido para o final do body para não bloquear renderização -->
+  <SchemaMarkup
+    type={schemaType}
+    title={schemaTitle || title}
+    description={schemaDesc || description}
+    image={schemaImage || image}
+    faqData={schemaFaq}
+    breadcrumbs={breadcrumbs}
+    howToData={schemaHowTo}
+  />
+</body>
+</html>

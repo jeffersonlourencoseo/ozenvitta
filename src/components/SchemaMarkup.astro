@@ -1,0 +1,273 @@
+---
+import { SITE_CONFIG } from '../data/config';
+
+export interface Props {
+  type: 'home' | 'product' | 'page' | 'faq' | 'article';
+  title?: string;
+  description?: string;
+  image?: string;
+  datePublished?: string;
+  dateModified?: string;
+  faqData?: Array<{ question: string; answer: string }>;
+  breadcrumbs?: Array<{ name: string; url: string }>;
+  howToData?: Array<{ name: string; text: string; image?: string }>;
+}
+
+const {
+  type,
+  title = SITE_CONFIG.titleDefault,
+  description = SITE_CONFIG.descriptionDefault,
+  image = SITE_CONFIG.ogImage,
+  datePublished = '2026-05-24',
+  dateModified = '2026-05-24',
+  faqData = [],
+  breadcrumbs = [],
+  howToData = [],
+} = Astro.props;
+
+const canonicalUrl = SITE_CONFIG.domain + Astro.url.pathname;
+
+// priceValidUntil dinâmico: 31 de dezembro do ano atual + 1
+const currentYear = new Date().getFullYear();
+const priceValidUntil = `${currentYear + 1}-12-31`;
+
+// Schema: Organization (E-E-A-T)
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: SITE_CONFIG.siteName,
+  alternateName: 'Blog Ozenvitta Review',
+  url: SITE_CONFIG.domain,
+  logo: `${SITE_CONFIG.domain}/images/logo.png`,
+  sameAs: Object.values(SITE_CONFIG.social).filter(Boolean),
+  contactPoint: {
+    '@type': 'ContactPoint',
+    email: SITE_CONFIG.author.email,
+    contactType: 'customer support',
+    areaServed: 'BR',
+    availableLanguage: 'Portuguese',
+  },
+};
+
+// Schema: Person (autor especialista)
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: SITE_CONFIG.expert.name,
+  jobTitle: SITE_CONFIG.expert.jobTitle,
+  url: SITE_CONFIG.expert.url,
+  description: SITE_CONFIG.expert.description,
+};
+
+// Schema: WebSite
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: SITE_CONFIG.siteName,
+  url: SITE_CONFIG.domain,
+  description: SITE_CONFIG.tagline,
+  publisher: {
+    '@type': 'Organization',
+    name: SITE_CONFIG.siteName,
+    url: SITE_CONFIG.domain,
+  },
+};
+
+// Schema: Product (com brand correto, SKU e validade dinâmica)
+const productSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: SITE_CONFIG.product.name,
+  sku: SITE_CONFIG.product.sku,
+  mpn: SITE_CONFIG.product.sku,
+  category: SITE_CONFIG.product.category,
+  image: [image, SITE_CONFIG.product.image],
+  description: 'Suplemento natural em gotas que auxilia na queima de gordura e controle do apetite.',
+  brand: {
+    '@type': 'Brand',
+    name: SITE_CONFIG.product.brand,
+  },
+  offers: {
+    '@type': 'Offer',
+    url: SITE_CONFIG.product.affiliateLink,
+    price: SITE_CONFIG.product.price,
+    priceCurrency: SITE_CONFIG.product.priceCurrency,
+    availability: SITE_CONFIG.product.availability,
+    priceValidUntil,
+  },
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: SITE_CONFIG.product.aggregateRating.ratingValue,
+    bestRating: SITE_CONFIG.product.aggregateRating.bestRating,
+    worstRating: SITE_CONFIG.product.aggregateRating.worstRating,
+    reviewCount: SITE_CONFIG.product.aggregateRating.reviewCount,
+  },
+  review: {
+    '@type': 'Review',
+    name: 'Análise Independente do Ozenvitta',
+    author: {
+      '@type': 'Person',
+      name: SITE_CONFIG.expert.name,
+      jobTitle: SITE_CONFIG.expert.jobTitle,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: SITE_CONFIG.siteName,
+      url: SITE_CONFIG.domain,
+    },
+    reviewRating: {
+      '@type': 'Rating',
+      ratingValue: SITE_CONFIG.product.aggregateRating.ratingValue,
+      bestRating: SITE_CONFIG.product.aggregateRating.bestRating,
+      worstRating: SITE_CONFIG.product.aggregateRating.worstRating,
+    },
+    reviewBody: 'Suplemento natural em gotas com fórmula de 13 ingredientes ativos. Bem tolerado, com resultados perceptíveis em 2-4 semanas de uso contínuo. Recomendação baseada em evidências científicas dos componentes individuais.',
+  },
+};
+
+// Schema: WebPage genérico
+const webpageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: title,
+  url: canonicalUrl,
+  description,
+  image,
+  datePublished,
+  dateModified,
+  author: {
+    '@type': 'Organization',
+    name: SITE_CONFIG.author.name,
+    url: SITE_CONFIG.domain,
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: SITE_CONFIG.siteName,
+    url: SITE_CONFIG.domain,
+  },
+  isPartOf: {
+    '@type': 'WebSite',
+    name: SITE_CONFIG.siteName,
+    url: SITE_CONFIG.domain,
+  },
+  inLanguage: SITE_CONFIG.language,
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': canonicalUrl,
+  },
+};
+
+// Schema: Article para páginas de conteúdo (com ImageObject, Person author e mainEntityOfPage)
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title,
+  description,
+  url: canonicalUrl,
+  image: {
+    '@type': 'ImageObject',
+    url: image,
+    width: 1200,
+    height: 630,
+  },
+  datePublished,
+  dateModified,
+  author: personSchema,
+  publisher: {
+    '@type': 'Organization',
+    name: SITE_CONFIG.siteName,
+    url: SITE_CONFIG.domain,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${SITE_CONFIG.domain}/images/logo.png`,
+      width: 512,
+      height: 512,
+    },
+  },
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': canonicalUrl,
+  },
+};
+
+// Schema: FAQPage
+const faqSchema =
+  faqData.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqData.map((faq) => ({
+          '@type': 'Question',
+          name: faq.question,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: faq.answer,
+          },
+        })),
+      }
+    : null;
+
+// Schema: HowTo
+const howToSchema =
+  howToData.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'HowTo',
+        name: `Como usar ${SITE_CONFIG.product.name}`,
+        description: 'Guia passo a passo para usar o Ozenvitta em gotas corretamente.',
+        totalTime: 'P1M',
+        step: howToData.map((step, index) => ({
+          '@type': 'HowToStep',
+          position: index + 1,
+          name: step.name,
+          text: step.text,
+          image: step.image ? { '@type': 'ImageObject', url: step.image } : undefined,
+        })),
+      }
+    : null;
+
+// Schema: BreadcrumbList
+const breadcrumbSchema = breadcrumbs.length > 0
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Início',
+          item: `${SITE_CONFIG.domain}/`,
+        },
+        ...breadcrumbs.map((crumb, index) => ({
+          '@type': 'ListItem',
+          position: index + 2,
+          name: crumb.name,
+          item: crumb.url,
+        })),
+      ],
+    }
+  : null;
+
+const homeSchemas = [organizationSchema, websiteSchema, productSchema];
+if (faqSchema) homeSchemas.push(faqSchema);
+if (howToSchema) homeSchemas.push(howToSchema);
+
+const schemas: Record<string, any[]> = {
+  home: homeSchemas,
+  product: [organizationSchema, webpageSchema, productSchema],
+  page: [organizationSchema, webpageSchema],
+  article: [organizationSchema, articleSchema],
+  faq: faqSchema ? [organizationSchema, websiteSchema, faqSchema] : [organizationSchema, websiteSchema],
+};
+
+let activeSchemas = schemas[type] || schemas.page;
+if (breadcrumbSchema) {
+  activeSchemas = [...activeSchemas, breadcrumbSchema];
+}
+---
+
+{
+  activeSchemas.map((schema: any) => (
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  ))
+}

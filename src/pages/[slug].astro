@@ -1,0 +1,255 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('pages');
+  return pages.map((page) => ({
+    params: { slug: page.slug },
+    props: { page },
+  }));
+}
+
+const { page } = Astro.props;
+const { Content } = await page.render();
+
+const articleSlugs = ['o-que-e', 'composicao', 'beneficios', 'como-usar', 'contraindicacoes'];
+const isArticle = articleSlugs.includes(page.slug);
+const schemaType = isArticle ? 'article' : 'page';
+
+const breadcrumbs = [{ name: page.data.title, url: `https://ozenvitta-site.vercel.app/${page.slug}/` }];
+
+const navLinks = [
+  { label: 'O que é', href: '/o-que-e/', slug: 'o-que-e' },
+  { label: 'Composição', href: '/composicao/', slug: 'composicao' },
+  { label: 'Benefícios', href: '/beneficios/', slug: 'beneficios' },
+  { label: 'Como Usar', href: '/como-usar/', slug: 'como-usar' },
+  { label: 'Contraindicações', href: '/contraindicacoes/', slug: 'contraindicacoes' },
+  { label: 'Depoimentos', href: '/depoimentos/', slug: 'depoimentos' },
+  { label: 'Onde Comprar', href: '/onde-comprar/', slug: 'onde-comprar' },
+];
+---
+
+<Layout
+  title={`${page.data.title}`}
+  description={page.data.description}
+  keywords={page.data.keywords}
+  image={`https://ozenvitta-site.vercel.app/images/og-${page.slug}.jpg`}
+  schemaType={schemaType}
+  schemaTitle={page.data.title}
+  schemaDesc={page.data.description}
+  schemaImage={`https://ozenvitta-site.vercel.app/images/og-${page.slug}.jpg`}
+  breadcrumbs={breadcrumbs}
+>
+  <Navigation />
+
+  <main class="pt-[72px]">
+    <!-- Hero do Artigo -->
+    <section class="relative py-16 lg:py-24 bg-gradient-to-br from-brand/5 via-surface to-brand-light/5 overflow-hidden">
+      <div class="absolute top-[-10%] right-[-5%] w-[400px] h-[400px] bg-brand/10 rounded-full blur-[100px]"></div>
+      <div class="container mx-auto px-6 lg:px-12 max-w-4xl relative z-10">
+        <!-- Breadcrumb -->
+        <nav aria-label="Navegação" class="mb-6">
+          <ol class="flex items-center gap-2 text-sm text-brand-dark/50 list-none m-0 p-0">
+            <li><a href="/" class="hover:text-brand transition-colors">Início</a></li>
+            <li class="text-brand-dark/30">/</li>
+            <li class="text-brand-dark font-medium" aria-current="page">{page.data.navLabel}</li>
+          </ol>
+        </nav>
+
+        <h1 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-brand-dark leading-tight mb-6">
+          {page.data.title.replace(' | Blog Ozenvitta', '').replace(' — Blog Ozenvitta', '')}
+        </h1>
+
+        {isArticle && (
+          <div class="flex items-center gap-3 text-sm text-brand-dark/60 mb-4">
+            <span class="inline-flex items-center gap-1 bg-brand/10 text-brand px-3 py-1 rounded-full font-medium">
+              Análise Independente
+            </span>
+            <span>•</span>
+            <span>Atualizado em 2026</span>
+          </div>
+        )}
+
+        <p class="text-lg text-brand-dark/70 leading-relaxed max-w-3xl">
+          {page.data.description}
+        </p>
+      </div>
+    </section>
+
+    <!-- Aviso Médico -->
+    {isArticle && (
+      <div class="container mx-auto px-6 lg:px-12 max-w-4xl -mt-6 relative z-10">
+        <div class="bg-warning-bg border border-warning/20 p-4 rounded-xl flex items-start gap-3">
+          <svg class="w-5 h-5 text-warning flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+          </svg>
+          <p class="text-sm text-brand-dark/80 leading-relaxed">
+            <strong>Aviso:</strong> Este site é um review independente. O Ozenvitta é um suplemento alimentar, não um medicamento. Os resultados podem variar. Consulte um médico antes de iniciar qualquer suplementação.
+          </p>
+        </div>
+      </div>
+    )}
+
+    <!-- Conteúdo -->
+    <section class="py-12 lg:py-16">
+      <div class="container mx-auto px-6 lg:px-12 max-w-4xl">
+        <article class="article-content">
+          <Content />
+        </article>
+
+        <!-- CTA Final -->
+        <div class="mt-16 bg-gradient-to-br from-brand/5 to-brand-light/5 border-2 border-accent p-8 lg:p-10 rounded-2xl text-center">
+          <h3 class="font-display text-2xl md:text-3xl font-bold text-brand-dark mb-4">
+            Quer Experimentar o Ozenvitta?
+          </h3>
+          <p class="text-brand-dark/80 mb-8 max-w-xl mx-auto leading-relaxed">
+            Kit mais popular (3 frascos) com 40% OFF + Frete Grátis + App com 50+ aulas + 7 e-books + Grupo VIP 1.400+ membros.
+          </p>
+          <a
+            href="https://app.monetizze.com.br/r/AXC25796271"
+            target="_blank"
+            rel="noopener noreferrer nofollow sponsored"
+            class="inline-flex items-center gap-2 text-base font-semibold uppercase tracking-wider text-white bg-accent px-8 py-4 rounded-full hover:bg-accent-dark hover:shadow-xl hover:-translate-y-0.5 transition-all"
+          >
+            Site oficial Ozenvitta com desconto →
+          </a>
+          <p class="text-sm text-brand-dark/70 mt-4">
+            12x de R$ 19,78 no cartão • Garantia 30 dias • Frete Grátis
+          </p>
+        </div>
+
+        <!-- Navegação entre páginas -->
+        <div class="mt-12 pt-8 border-t border-brand/10">
+          <p class="text-xs font-semibold uppercase tracking-widest text-brand-dark/50 mb-4">Continue lendo:</p>
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+            {navLinks.filter(l => l.slug !== page.slug).slice(0, 4).map(link => (
+              <a href={link.href} class="text-sm text-brand-dark/80 hover:text-brand bg-surface-alt px-4 py-3 rounded-xl transition-colors border border-brand/5 hover:border-brand/20">
+                {link.label} →
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+
+  <style is:global>
+    .article-content h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-top: 3rem;
+      margin-bottom: 1.25rem;
+      line-height: 1.25;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid rgba(45, 156, 219, 0.15);
+    }
+    .article-content h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      line-height: 1.3;
+    }
+    .article-content h4 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+    .article-content p {
+      color: rgba(26, 26, 46, 0.8);
+      line-height: 1.8;
+      margin-bottom: 1.25rem;
+      font-size: 1.05rem;
+    }
+    .article-content ul, .article-content ol {
+      margin-bottom: 1.5rem;
+      padding-left: 1.5rem;
+    }
+    .article-content li {
+      color: rgba(26, 26, 46, 0.8);
+      line-height: 1.8;
+      margin-bottom: 0.5rem;
+      font-size: 1.05rem;
+    }
+    .article-content li::marker {
+      color: #2d9cdb;
+    }
+    .article-content blockquote {
+      background: #f8f7f5;
+      border-left: 4px solid #2d9cdb;
+      padding: 1.5rem;
+      margin: 2rem 0;
+      border-radius: 0 1rem 1rem 0;
+      font-style: italic;
+    }
+    .article-content blockquote p {
+      margin-bottom: 0;
+    }
+    .article-content blockquote p:last-child {
+      margin-bottom: 0;
+    }
+    .article-content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+    .article-content th {
+      background: rgba(45, 156, 219, 0.08);
+      font-weight: 600;
+      text-align: left;
+      padding: 0.75rem 1rem;
+      border-bottom: 2px solid rgba(45, 156, 219, 0.2);
+      color: #1a1a2e;
+    }
+    .article-content td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid rgba(45, 156, 219, 0.1);
+      color: rgba(26, 26, 46, 0.8);
+    }
+    .article-content tr:hover {
+      background: rgba(45, 156, 219, 0.03);
+    }
+    .article-content a {
+      color: #2d9cdb;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .article-content a:hover {
+      text-decoration: underline;
+    }
+    .article-content hr {
+      border: none;
+      border-top: 1px solid rgba(45, 156, 219, 0.15);
+      margin: 2.5rem 0;
+    }
+    .article-content img {
+      border-radius: 1rem;
+      margin: 1.5rem 0;
+      width: 100%;
+      height: auto;
+    }
+    .article-content strong {
+      color: #1a1a2e;
+      font-weight: 600;
+    }
+    .article-content > div {
+      margin: 1.5rem 0;
+    }
+    .article-content p:empty {
+      display: none;
+    }
+  </style>
+</Layout>

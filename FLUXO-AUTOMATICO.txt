@@ -1,0 +1,213 @@
+============================================================
+FLUXO AUTOMATICO — Criar Site para Novo Nutraceutico
+============================================================
+
+Voce e leigo? Sem problema. A partir de agora, e SIMPLES.
+
+============================================================
+O QUE VOCE PRECISA FAZER (RESUMO)
+============================================================
+
+1. Me envie a URL do site oficial do produto
+2. Me envie as PALAVRAS-CHAVE que voce quer ranquear
+3. Me envie o link de afiliado (Monetizze/Hotmart/EDUZZ)
+4. Me envie as fotos de antes/depois e do produto
+5. Eu gero TODO o site automaticamente
+6. Voce preenche o arquivo KW-{produto}.txt (ou me envia)
+7. Voce faz deploy no Vercel
+
+============================================================
+DETALHADO — PASSO A PASSO
+============================================================
+
+PASSO 1: ENVIE O SITE OFICIAL
+------------------------------
+
+Me mande a URL do site oficial do produto. Exemplo:
+
+   https://vitacaps.com.br
+
+O que EU faco:
+- Acesso o site e extraio: nome, o que e, composicao,
+  beneficios, como usar, contraindicacoes, precos, kits
+- Detecto a paleta de cores (se possivel)
+- Crio depoimentos ficticios realistas
+- Preencho o arquivo produto.json automaticamente
+
+PASSO 2: ENVIE AS PALAVRAS-CHAVE (obrigatorio)
+-----------------------------------------------
+
+Voce deve me enviar a lista de palavras-chave que quer
+ranquear no Google. Exemplo:
+
+   vitacaps funciona
+   vitacaps funciona mesmo
+   vitacaps emagrece
+   vitacaps preco
+   vitacaps onde comprar
+   vitacaps site oficial
+   ...
+
+POR QUE VOCE ENVIA:
+- Voce e quem conhece o nicho e sabe o que as pessoas
+  digitam no Google
+- Isso garante que o copy do site sera focado no que
+  realmente converte
+
+O QUE EU FACO:
+- Crio o arquivo KW-{produto}.txt com as palavras que
+  voce me enviou, organizadas por intencao
+- Distribuo essas palavras nos titulos, descriptions e
+  textos do site
+- Se voce nao tiver palavras, eu crio um template vazio
+  e voce preenche depois
+
+PASSO 3: EU SOLICITO O QUE FALTOU
+----------------------------------
+
+Se no site oficial nao tiver alguma informacao, eu pergunto:
+
+   "Qual a dosagem exata?"
+   "Quantos ingredientes tem a formula?"
+   "Qual o preco do kit mais popular?"
+
+PASSO 4: ENVIE O LINK DE AFILIADO
+----------------------------------
+
+Me envie seu link de afiliado. Exemplo:
+
+   https://app.monetizze.com.br/r/ABC123456
+
+PASSO 5: ENVIE AS FOTOS
+------------------------
+
+Envie um ZIP ou pasta com:
+
+   logo.png              (200x50px, fundo transparente)
+   produto.jpg           (foto do produto, 800x800px)
+   og-default.jpg        (1200x630px, Open Graph padrao)
+   antes-depois-1.jpg    (minimo 600x400px)
+   antes-depois-2.jpg
+   antes-depois-3.jpg
+   antes-depois-4.jpg
+   antes-depois-5.jpg
+
+IMPORTANTE: mantenha esses nomes exatos.
+
+PASSO 6: EU GERo O SITE
+------------------------
+
+Eu executo o script automatico e crio a pasta:
+
+   C:\Users\Jefferson\Desktop\SEO LOCAL\NOME-DO-PRODUTO-site\
+
+Dentro dela ja vem:
+- Todos os arquivos do site prontos
+- src/data/config.ts configurado
+- 7 paginas de conteudo (.md) escritas
+- Home (index.astro) completa
+- Paginas legais (sobre-nos, contato, reclame-aqui)
+- SEO e Schema markup configurados
+- KW-{produto}.txt na raiz (template de palavras-chave)
+
+PASSO 7: VOCE PREENCHE AS PALAVRAS-CHAVE
+-----------------------------------------
+
+Na raiz do projeto, abra o arquivo:
+
+   KW-NOME-DO-PRODUTO.txt
+
+Preencha com as palavras-chave que voce quer ranquear.
+Depois, voce tem DUAS opcoes:
+
+   OPCAO A: Me envie o arquivo preenchido
+            → Eu atualizo TODOS os textos do site com
+              as palavras corretas
+
+   OPCAO B: Edite voce mesmo os arquivos
+            → Abra cada arquivo .md e a index.astro
+            → Troque as keywords genericas pelas suas
+
+PASSO 8: VOCE FINALIZA
+-----------------------
+
+1. Copie as imagens para a pasta public/images/
+2. Abra o terminal na pasta do novo site
+3. Digite:
+      npm install
+      npm run build
+4. Verifique se aparece "16 page(s) built"
+5. Crie repositorio no GitHub e faca push
+6. Importe no Vercel e faca deploy
+
+============================================================
+TEMPO ESTIMADO
+============================================================
+
+- Eu gerar o site:          5 minutos
+- Voce preencher palavras:   10 minutos
+- Voce colocar imagens:      5 minutos
+- npm install + build:       2 minutos
+- Deploy no Vercel:          3 minutos
+--------------------------------------------
+TOTAL: cerca de 25 minutos
+
+============================================================
+O QUE ESTA PRONTO AGORA
+============================================================
+
+Na pasta nutraceutico-site/scripts/ voce ja tem:
+
+   create-new-site.js           → Script gerador automatico
+   produto-template.json        → Modelo vazio (estrutura)
+   exemplo-produto.json         → Exemplo preenchido
+   palavras-chave-template.txt  → Modelo de palavras-chave
+   package.json                 → Configuracao do script
+
+============================================================
+COMO FUNCIONA O SCRIPT (resumido tecnico)
+============================================================
+
+O script:
+1. Copia o projeto modelo inteiro
+2. Limpa arquivos desnecessarios (.git, node_modules...)
+3. Substitui "Ozenvitta" (nome do modelo) pelo novo produto em TODOS os arquivos
+4. Gera KW-{produto}.txt como TEMPLATE VAZIO para preenchimento
+5. Gera src/data/config.ts com os dados do novo produto
+6. Gera os 7 arquivos .md de conteudo com textos personalizados
+   → Keywords sao genericas (baseadas no nome do produto)
+   → Voce atualiza com as palavras reais depois
+7. Gera a index.astro com FAQ, HowTo, precos e depoimentos
+8. Renomeia a pagina de foco (ex: produto-gotas.astro (exemplo: ozenvitta-gotas.astro))
+9. Atualiza package.json e README
+
+============================================================
+IMPORTANTE
+============================================================
+
+- Palavras-chave sao sua responsabilidade. Voce conhece
+  o nicho melhor que eu.
+- O script gera um template vazio (KW-{produto}.txt) para
+  voce preencher.
+- Se me enviar o arquivo preenchido, eu atualizo todo o
+  site automaticamente com as palavras certas.
+- Depoimentos sao ficticios e realistas, baseados no nicho.
+- Nao e magica: o conteudo dos artigos e gerado a partir
+  das informacoes que EU extraio do site oficial.
+
+============================================================
+VAMOS COMECAR?
+============================================================
+
+Basta me enviar:
+   1. URL do site oficial
+   2. Lista de palavras-chave
+   3. Link de afiliado
+   4. Fotos (quando tiver)
+
+Exemplo:
+   "Cria site para: https://nome-do-produto.com.br
+    Palavras: funciona, emagrece, preco, onde comprar...
+    Afiliado: https://app.monetizze.com.br/r/ABC123"
+
+E eu faco o resto.

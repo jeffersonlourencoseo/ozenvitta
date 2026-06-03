@@ -1,0 +1,58 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+
+const mainNav = [
+  { label: 'O que é', href: '/o-que-e/' },
+  { label: 'Composição', href: '/composicao/' },
+  { label: 'Benefícios', href: '/beneficios/' },
+  { label: 'Como Usar', href: '/como-usar/' },
+  { label: 'Contraindicações', href: '/contraindicacoes/' },
+  { label: 'Onde Comprar', href: '/onde-comprar/' },
+];
+---
+
+<Layout
+  title="Página Não Encontrada | Blog Ozenvitta"
+  description="A página que você procurou não foi encontrada. Explore nossa análise completa do Ozenvitta."
+  noindex={true}
+  schemaType="page"
+>
+  <Navigation />
+
+  <main class="pt-[72px]">
+    <section class="min-h-[70vh] flex items-center justify-center">
+      <div class="container mx-auto px-6 lg:px-12 text-center max-w-2xl">
+        <span class="font-display text-[8rem] md:text-[10rem] font-bold text-brand/10 leading-none block mb-6">404</span>
+        <h1 class="font-display text-4xl md:text-5xl font-bold text-brand-dark mb-6">Página Não Encontrada</h1>
+        <p class="text-lg text-brand-dark/70 mb-10 leading-relaxed">
+          A página que você procurou pode ter sido removida, renomeada ou nunca existiu.
+          Que tal voltar para a página inicial ou explorar um dos nossos guias sobre o Ozenvitta?
+        </p>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
+          <a href="/" class="inline-flex items-center gap-2 text-base font-semibold uppercase tracking-wider text-white bg-brand px-8 py-4 rounded-full hover:shadow-xl hover:-translate-y-0.5 transition-all">
+            Voltar para o Início
+          </a>
+          <a href="/onde-comprar/" class="inline-flex items-center gap-2 text-base font-medium text-brand border-2 border-brand px-8 py-4 rounded-full hover:bg-brand hover:text-white transition-all">
+            Ver Oferta Ozenvitta
+          </a>
+        </div>
+
+        <div class="border-t border-brand/10 pt-10">
+          <p class="text-sm font-semibold uppercase tracking-widest text-brand-dark/50 mb-4">Ou navegue para:</p>
+          <div class="flex flex-wrap items-center justify-center gap-3">
+            {mainNav.map(item => (
+              <a href={item.href} class="text-sm text-brand-dark/80 hover:text-brand transition-colors bg-surface-alt px-4 py-2 rounded-full">
+                {item.label}
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

@@ -4,7 +4,7 @@ import preact from "@astrojs/preact";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://ozenvitta-site.vercel.app',
+  site: 'https://portalozenvitta.vercel.app',
   compressHTML: true,
   integrations: [tailwind(), preact()],
   i18n: {

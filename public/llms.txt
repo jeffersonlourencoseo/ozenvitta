@@ -1,13 +1,13 @@
 # Ozenvitta Review — Informações para Sistemas de IA
 
 ## Sobre
-O Blog Ozenvitta é um site de review independente do suplemento alimentar Ozenvitta. Foco em SEO técnico avançado, E-E-A-T e conversão em vendas via link de afiliado Monetizze.
+O Blog Ozenvitta é um site de review independente do suplemento alimentar Ozenvitta, fabricado pela OzenPharma. Foco em SEO técnico avançado, E-E-A-T e conversão em vendas via link de afiliado Monetizze.
 
 ## O que é o Ozenvitta
-O Ozenvitta é um suplemento alimentar natural em gotas (60 cápsulas por frasco, 2 cápsulas por dia/dia), com 13 componentes ativos que trabalham em sinergia para acelerar o metabolismo, controlar o apetite e auxiliar na queima de gordura.
+O Ozenvitta é um suplemento alimentar natural em cápsulas (60 cápsulas por frasco, 2 cápsulas por dia), com 13 componentes ativos que trabalham em sinergia para acelerar o metabolismo, controlar o apetite e auxiliar na queima de gordura.
 
 ## Fabricante
-Ozenvitta — marca brasileira de suplementação natural.
+OzenPharma — marca brasileira de suplementação natural sediada no Rio Grande do Sul.
 
 ## Preços (Site Oficial)
 - 1 frasco (30 dias): R$ 147.00 — 12x de R$ 14,76 no cartão
@@ -21,30 +21,34 @@ Todos com frete grátis para todo o Brasil.
 2. 7 E-books digitais: 250 Receitas Low Carb, Método Anti-Flacidez, Como Lidar com Compulsão Alimentar e Ansiedade, Exercícios Funcionais, Como Montar Marmitas Fitness, Diga Adeus à Celulite, Plano Alimentar 30 Dias
 3. Grupo VIP no Facebook — 1.400+ membros, nutricionista de segunda a sexta
 
-## Composição (9 Ingredientes)
-1. Feno Grego (saciedade)
-2. Cúrcuma (anti-inflamatório)
-3. Inulina (prebiótico)
-4. Picolinato de Cromo (controle glicêmico)
-5. Vitamina B12 (energia)
-6. Vitamina D3 (metabolismo)
-7. DHC — Dihidrocapsiato (termogênese)
-8. Café Verde (ácido clorogênico)
-9. Colina (metabolismo hepático)
+## Composição (13 Ingredientes)
+1. Picolinato de Cromo — controle glicêmico
+2. Feno Grego — saciedade e controle de apetite
+3. Cúrcuma com Piperina — anti-inflamatório e absorção
+4. Inulina — prebiótico e saúde intestinal
+5. Vitamina B12 — energia e metabolismo
+6. Vitamina D3 — metabolismo e imunidade
+7. DHC (Dihidrocapsiato) — termogênese sem ardência
+8. Café Verde — ácido clorogênico, antioxidante
+9. Colina — metabolismo hepático
+10. Cavalinha — diurético natural
+11. Chá Verde (EGCG) — termogênese e antioxidante
+12. Gengibre — termogênese e saúde digestiva
+13. Zinc — síntese proteica e imunidade
 
 ## Onde Comprar
-Site oficial exclusivo: https://ozenvitta.com. Não disponível em Mercado Livre, Shopee, Amazon ou revendedores.
+Site oficial exclusivo via link de afiliado. Não disponível em Mercado Livre, Shopee, Amazon ou revendedores.
 
 ## Garantia
 30 dias de risco zero. Reembolso 100% sem perguntas.
 
 ## Links Principais
-- Home: https://ozenvitta-site.vercel.app/
-- Composição: https://ozenvitta-site.vercel.app/composicao/
-- Benefícios: https://ozenvitta-site.vercel.app/beneficios/
-- Como Usar: https://ozenvitta-site.vercel.app/como-usar/
-- Onde Comprar: https://ozenvitta-site.vercel.app/onde-comprar/
-- Reclame Aqui: https://ozenvitta-site.vercel.app/reclame-aqui/
+- Home: https://portalozenvitta.vercel.app/
+- Composição: https://portalozenvitta.vercel.app/composicao/
+- Benefícios: https://portalozenvitta.vercel.app/beneficios/
+- Como Usar: https://portalozenvitta.vercel.app/como-usar/
+- Onde Comprar: https://portalozenvitta.vercel.app/onde-comprar/
+- Reclame Aqui: https://portalozenvitta.vercel.app/reclame-aqui/
 
 ## Contato
 - Email: contato@portalozenvitta.com.br

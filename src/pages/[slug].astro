@@ -19,7 +19,7 @@ const articleSlugs = ['o-que-e', 'composicao', 'beneficios', 'como-usar', 'contr
 const isArticle = articleSlugs.includes(page.slug);
 const schemaType = isArticle ? 'article' : 'page';
 
-const breadcrumbs = [{ name: page.data.title, url: `https://ozenvitta-site.vercel.app/${page.slug}/` }];
+const breadcrumbs = [{ name: page.data.title, url: `https://portalozenvitta.vercel.app/${page.slug}/` }];
 
 const navLinks = [
   { label: 'O que é', href: '/o-que-e/', slug: 'o-que-e' },
@@ -36,11 +36,11 @@ const navLinks = [
   title={`${page.data.title}`}
   description={page.data.description}
   keywords={page.data.keywords}
-  image={`https://ozenvitta-site.vercel.app/images/og-${page.slug}.jpg`}
+  image={`https://portalozenvitta.vercel.app/images/og-${page.slug}.jpg`}
   schemaType={schemaType}
   schemaTitle={page.data.title}
   schemaDesc={page.data.description}
-  schemaImage={`https://ozenvitta-site.vercel.app/images/og-${page.slug}.jpg`}
+  schemaImage={`https://portalozenvitta.vercel.app/images/og-${page.slug}.jpg`}
   breadcrumbs={breadcrumbs}
 >
   <Navigation />

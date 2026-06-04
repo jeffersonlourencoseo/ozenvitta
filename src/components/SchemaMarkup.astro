@@ -82,7 +82,7 @@ const productSchema = {
   mpn: SITE_CONFIG.product.sku,
   category: SITE_CONFIG.product.category,
   image: [image, SITE_CONFIG.product.image],
-  description: 'Suplemento natural em gotas que auxilia na queima de gordura e controle do apetite.',
+  description: 'Suplemento natural em cápsulas que auxilia na queima de gordura e controle do apetite.',
   brand: {
     '@type': 'Brand',
     name: SITE_CONFIG.product.brand,
@@ -121,7 +121,7 @@ const productSchema = {
       bestRating: SITE_CONFIG.product.aggregateRating.bestRating,
       worstRating: SITE_CONFIG.product.aggregateRating.worstRating,
     },
-    reviewBody: 'Suplemento natural em gotas com fórmula de 13 ingredientes ativos. Bem tolerado, com resultados perceptíveis em 2-4 semanas de uso contínuo. Recomendação baseada em evidências científicas dos componentes individuais.',
+    reviewBody: 'Suplemento natural em cápsulas com fórmula de 13 ingredientes ativos. Bem tolerado, com resultados perceptíveis em 2-4 semanas de uso contínuo. Recomendação baseada em evidências científicas dos componentes individuais.',
   },
 };
 
@@ -214,7 +214,7 @@ const howToSchema =
         '@context': 'https://schema.org',
         '@type': 'HowTo',
         name: `Como usar ${SITE_CONFIG.product.name}`,
-        description: 'Guia passo a passo para usar o Ozenvitta em gotas corretamente.',
+        description: 'Guia passo a passo para usar o Ozenvitta em cápsulas corretamente.',
         totalTime: 'P1M',
         step: howToData.map((step, index) => ({
           '@type': 'HowToStep',

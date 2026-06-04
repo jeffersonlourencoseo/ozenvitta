@@ -5,9 +5,9 @@ export default {
     extend: {
       colors: {
         brand: {
-          DEFAULT: '#1e3a8a',
-          light: '#7361AE',
-          dark: '#1F1442',
+          DEFAULT: '#1B3A6B',
+          light: '#2A558C',
+          dark: '#0F2440',
         },
         accent: {
           DEFAULT: '#EE352F',
@@ -21,7 +21,7 @@ export default {
           DEFAULT: '#FFFFFF',
           alt: '#F5F5F8',
         },
-        muted: '#7361AE',
+        muted: '#4A6FA5',
         danger: {
           DEFAULT: '#B2302C',
           bg: '#FCE8E8',
@@ -31,8 +31,8 @@ export default {
           bg: '#FFF5E6',
         },
         info: {
-          DEFAULT: '#7361AE',
-          bg: '#EDE8F8',
+          DEFAULT: '#4A6FA5',
+          bg: '#E8EEF7',
         },
       },
       fontFamily: {

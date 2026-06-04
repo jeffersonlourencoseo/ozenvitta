@@ -91,6 +91,8 @@ const {
   <noscript><link rel="stylesheet" href="/fonts/fonts-deferred.css" /></noscript>
 
   <style is:global>
+    /* CLS fix: reserva padding-top do main antes do Tailwind carregar */
+    main.pt-\[72px\] { padding-top: 72px; }
     html {
       scroll-behavior: smooth;
       scroll-padding-top: 88px;

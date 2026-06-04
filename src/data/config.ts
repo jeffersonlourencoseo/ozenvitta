@@ -54,7 +54,7 @@ export const SITE_CONFIG = {
     priceCurrency: 'BRL',
     availability: 'https://schema.org/InStock',
     sku: 'OZENVITTA-60CAP',
-    image: 'https://portalozenvitta.vercel.app/images/produto.jpg',
+    image: 'https://portalozenvitta.vercel.app/images/produto.png',
     aggregateRating: {
       ratingValue: '4.8',
       bestRating: '5',

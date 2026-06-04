@@ -74,8 +74,6 @@ const modifiedTime = '2026-05-24';
 <meta name="theme-color" content={SITE_CONFIG.themeColor} />
 
 <!-- Preconnect Performance -->
-<link rel="preconnect" href="https://www.googletagmanager.com" />
-<link rel="dns-prefetch" href="https://www.googletagmanager.com" />
 <link rel="preconnect" href="https://www.google-analytics.com" />
 <link rel="dns-prefetch" href="https://www.google-analytics.com" />
 
@@ -107,29 +105,24 @@ const modifiedTime = '2026-05-24';
   </>
 )}
 
-<!-- Google Tag Manager — carregado após first paint para não bloquear renderização -->
+<!-- Google Tag Manager — DESATIVADO: substituir G-XXXXXXXXXX pelo ID real para ativar -->
+<!--
 <script is:inline>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-XXXXXXXXXX');
-
   function loadGtag() {
     var s = document.createElement('script');
     s.src = 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX';
     s.async = true;
     document.head.appendChild(s);
   }
-
   if ('requestIdleCallback' in window) {
     window.requestIdleCallback(loadGtag, { timeout: 3000 });
   } else {
-    window.addEventListener('load', function() {
-      setTimeout(loadGtag, 2000);
-    });
+    window.addEventListener('load', function() { setTimeout(loadGtag, 2000); });
   }
-
-  // Fila de eventos para cliques antes do GTag carregar
   window._gtagQueue = window._gtagQueue || [];
   var origGtag = gtag;
   window.gtag = function() {
@@ -137,25 +130,4 @@ const modifiedTime = '2026-05-24';
     origGtag.apply(null, arguments);
   };
 </script>
-
-<!-- Event tracking para cliques em afiliado -->
-<script is:inline>
-  document.addEventListener('DOMContentLoaded', function() {
-    document.body.addEventListener('click', function(e) {
-      var el = e.target.closest('a');
-      if (!el) return;
-      var href = el.getAttribute('href') || '';
-      if (href.indexOf('app.monetizze.com.br/r/AXC25796271') > -1) {
-        var location = 'generic';
-        if (el.closest('#onde-comprar')) location = 'onde-comprar';
-        else if (el.closest('footer')) location = 'footer';
-        else if (el.closest('section#o-que-e')) location = 'o-que-e';
-        else if (document.querySelector('section.relative.min-h-\[90vh\]') && el.closest('section.relative.min-h-\[90vh\]')) location = 'cta-hero';
-        else if (document.querySelector('main') && el.closest('main')) location = 'homepage';
-        if (typeof gtag === 'function') {
-          gtag('event', 'click_afiliado', { location: location });
-        }
-      }
-    });
-  });
-</script>
+-->

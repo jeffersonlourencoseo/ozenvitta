@@ -1,0 +1,105 @@
+---
+const navItems = [
+  { label: "Início", href: "/" },
+  { label: "O que é", href: "/o-que-e/" },
+  { label: "Composição", href: "/composicao/" },
+  { label: "Benefícios", href: "/beneficios/" },
+  { label: "Como Usar", href: "/como-usar/" },
+  { label: "Contraindicações", href: "/contraindicacoes/" },
+  { label: "Depoimentos", href: "/depoimentos/" },
+  { label: "Onde Comprar", href: "/onde-comprar/" },
+];
+---
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu — Blog Ozenvitta</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #fff;
+      color: #1f1442;
+      padding: 24px;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 32px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: 700;
+      color: #1e3a8a;
+      text-decoration: none;
+    }
+    .close {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 28px;
+      color: #1e3a8a;
+      text-decoration: none;
+    }
+    .links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .links a {
+      display: block;
+      padding: 16px;
+      color: #374151;
+      font-size: 18px;
+      font-weight: 500;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    .links a:hover, .links a:active {
+      background: #eff6ff;
+      color: #1e3a8a;
+    }
+    .cta {
+      margin-top: 24px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 28px;
+      background: linear-gradient(90deg, #1e3a8a, #7361ae);
+      color: #fff;
+      border-radius: 9999px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <a href="/" class="logo">Ozenvitta</a>
+    <a href="/" class="close">&times;</a>
+  </div>
+
+  <ul class="links">
+    {navItems.map(item => (
+      <li><a href={item.href}>{item.label}</a></li>
+    ))}
+  </ul>
+
+  <a href="/onde-comprar/" class="cta">Oferta Especial →</a>
+</body>
+</html>

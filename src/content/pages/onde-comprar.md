@@ -44,6 +44,15 @@ Produtos vendidos fora do canal oficial podem ser falsificados, adulterados, ven
 
 ---
 
+<div style="text-align:center;margin:2rem 0;">
+  <img src="/images/produto.png" alt="Frasco Ozenvitta Original — 60 cápsulas da OzenPharma" width="300" height="300" style="width:280px;height:auto;margin:0 auto;display:block;" loading="lazy" decoding="async" />
+  <p style="font-size:0.85rem;color:rgba(26,26,46,0.6);margin-top:0.5rem;">
+    Frasco original Ozenvitta — 60 cápsulas · OzenPharma
+  </p>
+</div>
+
+---
+
 ## 💰 Ozenvitta Preço — Kits Oficiais Atualizados
 
 O Ozenvitta trabalha com kits promocionais que oferecem maior economia conforme a quantidade de frascos.

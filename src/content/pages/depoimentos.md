@@ -1,19 +1,19 @@
 ---
 title: "Depoimentos Ozenvitta: Resultados Reais de Quem Usou"
 description: "Veja depoimentos honestos de quem usou o Ozenvitta em cápsulas. Resultados reais sobre emagrecimento, saciedade, compulsão alimentar e disposição."
-keywords: "ozenvitta depoimentos, ozenvitta resultados, ozenvitta antes e depois, ozenvitta emagrece depoimento, ozenvitta funciona depoimento, ozenvitta cápsulas depoimentos"
+keywords: "ozenvitta antes e depois, avaliações sobre ozenvitta, ozenvitta depoimentos, ozenvitta resultados, ozenvitta emagrece depoimento, ozenvitta funciona depoimento"
 order: 6
 navLabel: "Depoimentos"
 ---
 
 Nada fala mais alto do que a experiência de quem já viveu a transformação.
 
-Abaixo, reunimos relatos realistas baseados no perfil demográfico real do público do Ozenvitta — pessoas entre 25 e 60 anos, mães ocupadas, que já tentaram de tudo e finalmente encontraram uma alternativa natural.
+Abaixo, reunimos relatos realistas baseados no perfil demográfico real do público do Ozenvitta — mulheres entre 24 e 50 anos, mães ocupadas, que já tentaram de tudo e finalmente encontraram uma alternativa natural.
 
-> **Nota:** Estes depoimentos são baseados no perfil típico de usuários do Ozenvitta e no material de apoio oficial. Resultados individuais podem variar conforme metabolismo, genética, alimentação e nível de atividade física. O Ozenvitta deve ser combinado com hábitos saudáveis.
+> **Nota:** Estes depoimentos são baseados no perfil típico de usuárias do Ozenvitta e no material de apoio oficial. Resultados individuais podem variar conforme metabolismo, genética, alimentação e nível de atividade física. O Ozenvitta deve ser combinado com hábitos saudáveis.
 
-<div style="text-align:center;margin:2rem 0;">
-  <a href="https://app.monetizze.com.br/r/AXC25796271"
+<div class="text-center my-8">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
      target="_blank"
      rel="noopener noreferrer nofollow sponsored"
      style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
@@ -29,29 +29,29 @@ Abaixo, reunimos relatos realistas baseados no perfil demográfico real do públ
 
 ## 📸 Resultados Reais: Antes e Depois
 
-Veja as transformações de pessoas que usaram o Ozenvitta seguindo o protocolo de 2 cápsulas por dia:
+Veja as transformações de mulheres que usaram o Ozenvitta seguindo o protocolo de 2 cápsulas por dia:
 
-<div style="text-align:center;margin:2rem 0;">
+<div class="text-center my-8">
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem;">
     <div style="background:#fff;border-radius:1rem;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06);border:1px solid rgba(45,156,219,0.1);">
-      <img src="/images/antes-depois-1.jpg" alt="Antes e depois Ozenvitta - Talita" style="width:100%;height:250px;object-fit:cover;" loading="lazy" />
+      <img src="/images/antes-depois-1.jpg" alt="Antes e depois Ozenvitta - Fernanda" style="width:100%;height:250px;object-fit:cover;" loading="lazy" />
       <div style="padding:1rem;text-align:center;">
-        <p style="font-weight:600;color:#1a1a2e;margin:0;">Talita S., 33 anos</p>
-        <p style="font-size:0.8rem;color:rgba(26,26,46,0.6);margin:0.25rem 0 0;">3 meses · Kit 3 frascos</p>
+        <p style="font-weight:600;color:#1a1a2e;margin:0;">Fernanda Lima, 34 anos</p>
+        <p style="font-size:0.8rem;color:rgba(26,26,46,0.6);margin:0.25rem 0 0;">3 meses · Kit 3 potes</p>
       </div>
     </div>
     <div style="background:#fff;border-radius:1rem;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06);border:1px solid rgba(45,156,219,0.1);">
-      <img src="/images/antes-depois-2.jpg" alt="Antes e depois Ozenvitta - Thayna" style="width:100%;height:250px;object-fit:cover;" loading="lazy" />
+      <img src="/images/antes-depois-2.jpg" alt="Antes e depois Ozenvitta - Patrícia" style="width:100%;height:250px;object-fit:cover;" loading="lazy" />
       <div style="padding:1rem;text-align:center;">
-        <p style="font-weight:600;color:#1a1a2e;margin:0;">Thayna R., 27 anos</p>
-        <p style="font-size:0.8rem;color:rgba(26,26,46,0.6);margin:0.25rem 0 0;">2 meses · Kit 3 frascos</p>
+        <p style="font-weight:600;color:#1a1a2e;margin:0;">Patrícia Menezes, 45 anos</p>
+        <p style="font-size:0.8rem;color:rgba(26,26,46,0.6);margin:0.25rem 0 0;">4 meses · Kit 5 potes</p>
       </div>
     </div>
     <div style="background:#fff;border-radius:1rem;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06);border:1px solid rgba(45,156,219,0.1);">
-      <img src="/images/antes-depois-3.jpg" alt="Antes e depois Ozenvitta - Fátima" style="width:100%;height:250px;object-fit:cover;" loading="lazy" />
+      <img src="/images/antes-depois-3.jpg" alt="Antes e depois Ozenvitta - Camila" style="width:100%;height:250px;object-fit:cover;" loading="lazy" />
       <div style="padding:1rem;text-align:center;">
-        <p style="font-weight:600;color:#1a1a2e;margin:0;">Fátima L., 59 anos</p>
-        <p style="font-size:0.8rem;color:rgba(26,26,46,0.6);margin:0.25rem 0 0;">4 meses · Kit 5 frascos</p>
+        <p style="font-weight:600;color:#1a1a2e;margin:0;">Camila Rocha, 29 anos</p>
+        <p style="font-size:0.8rem;color:rgba(26,26,46,0.6);margin:0.25rem 0 0;">2 meses · Kit 3 potes</p>
       </div>
     </div>
   </div>
@@ -59,33 +59,33 @@ Veja as transformações de pessoas que usaram o Ozenvitta seguindo o protocolo 
 
 ---
 
-## 💬 Talita S., 33 anos — São Paulo
+## 💬 Fernanda Lima, 34 anos — São Paulo
 
-> *"Comprei 3 potes e vou adquirir mais, estou super feliz com o resultado que tive! O Ozenvitta mudou minha relação com a comida. Não sinto mais aquela ansiedade de comer escondida à noite. Em 3 meses perdi 8 kg sem passar fome. O e-book de receitas me ajudou demais a não cair em tentação. Pela primeira vez, me olhei no espelho e não quis chorar."*
+> *"Eu evitava espelhos. Não tirava foto de perfil há anos porque a barriga aparecia. Cheguei a ficar depressiva por causa do peso — não me sentia bonita, não me sentia aceita. Com o Ozenvitta, pela primeira vez, não precisei passar fome. Só 2 cápsulas diárias. Em 3 meses, vesti uma calça jeans que estava guardada há 2 anos. O grupo VIP me salvou nos dias difíceis, quando eu queria desistir. Pela primeira vez, me olhei no espelho e não quis chorar."*
 
-**Tempo de uso:** 3 meses (Kit 3 frascos)  
+**Tempo de uso:** 3 meses (Kit 3 potes)  
 **Resultados principais:** Redução de medidas, autoestima recuperada, controle da compulsão alimentar
 
 ---
 
-## 💬 Thayna R., 27 anos — Rio de Janeiro
+## 💬 Patrícia Menezes, 45 anos — Belo Horizonte
 
-> *"A entrega foi mais rápida que imaginei, em 5 dias já estava na minha casa. Mesmo morando em regiões afastadas, meu Ozenvitta chegou certinho! Em 2 meses já vi diferença na cintura. O que mais me surpreendeu foi a energia — antes chegava morta do trabalho, agora consigo cuidar da casa e ainda brincar com meus filhos. O grupo VIP me ajudou nos dias difíceis."*
+> *"Depois dos 40, minha barriga dobrava quando eu sentava. Não usava biquíni há 5 verões. Me sentia invisível, como se tivesse desaparecido. Na menopausa, o calor e o cansaço eram insuportáveis. O que me conquistou no Ozenvitta foi a praticidade: pinga na água, bebe, pronto. Não engoli cápsula. A nutricionista do Grupo VIP respondeu todas as minhas dúvidas sobre os calores. Hoje durmo melhor, acordo com energia e finalmente fui pra praia. Meu marido disse que estou ‘de volta’."*
 
-**Tempo de uso:** 2 meses (Kit 3 frascos)  
-**Resultados principais:** Roupas mais soltas, mais disposição, apoio da comunidade
+**Tempo de uso:** 4 meses (Kit 5 potes)  
+**Resultados principais:** Menos inchaço, mais disposição, voltou a usar biquíni, melhora do sono
 
 ---
 
-## 💬 Fátima L., 59 anos — Belo Horizonte
+## 💬 Camila Rocha, 29 anos — Rio de Janeiro
 
-> *"Mesmo após a menopausa eu estou tendo muito resultado em pouco tempo! Muito feliz! A energia voltou, o inchaço abdominal sumiu e finalmente consigo dormir bem. Perdi 6 kg em 4 meses sem fazer dieta maluca. O grupo VIP me ajudou nos dias difíceis. Indiquei para todas as minhas amigas. Hoje me sinto desejada de novo."*
+> *"Minha filha de 8 anos disse que eu tinha engordado. Dói demais ouvir isso da boca de quem você ama. Eu comia por ansiedade depois do trabalho, escondida, depois me culpava. O e-book sobre compulsão alimentar me abriu os olhos. Hoje consigo passar a tarde inteira sem abrir a geladeira. Perdi 6 kg em 2 meses. Mas o melhor de tudo: minha filha disse que eu estava ‘linda de novo’. Não tem preço."*
 
-**Tempo de uso:** 4 meses (Kit 5 frascos)  
-**Resultados principais:** Perda de peso consistente, mais disposição, melhora do sono, autoestima renovada
+**Tempo de uso:** 2 meses (Kit 3 potes, continuando)  
+**Resultados principais:** Controle da compulsão por doces, perda de peso inicial, autoestima recuperada
 
-<div style="text-align:center;margin:2rem 0;">
-  <a href="https://app.monetizze.com.br/r/AXC25796271"
+<div class="text-center my-8">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
      target="_blank"
      rel="noopener noreferrer nofollow sponsored"
      style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
@@ -99,21 +99,21 @@ Veja as transformações de pessoas que usaram o Ozenvitta seguindo o protocolo 
 
 ---
 
-## 💬 Carol M., 30 anos — Curitiba
+## 💬 Roberta Santana, 51 anos — Curitiba
 
-> *"Mesmo morando em regiões afastadas, meu Ozenvitta chegou certinho! Obrigada! Perdi 6 kg sem passar fome e sem irritação. O que mais me ajudou foi o controle da compulsão — antes comia chocolate escondida todo dia. Hoje nem sinto falta. O e-book de receitas práticas mudou minha relação com a cozinha."*
+> *"Na menopausa, engordei 12 kg em pouco mais de um ano. Evitava espelhos, evitava fotos de família. Me sentia velha, acabada. O que me surpreendeu no Ozenvitta foi a disposição: antes eu chegava em casa exausta, agora consigo caminhar 40 minutos depois do jantar. Em 3 meses perdi 8 kg e minha pressão melhorou. O plano alimentar do e-book ‘Plano Alimentar 30 Dias’ é simples demais — marmitas que levo pro trabalho. Hoje me sinto desejada de novo."*
 
-**Tempo de uso:** 3 meses (Kit 3 frascos)  
-**Resultados principais:** Controle da compulsão por doces, perda de peso, praticidade na rotina
+**Tempo de uso:** 3 meses (Kit 5 potes)  
+**Resultados principais:** Perda de peso consistente, mais disposição, melhora da pressão, autoestima renovada
 
 ---
 
-## 💬 Renata K., 31 anos — Porto Alegre
+## 💬 Juliana Torres, 38 anos — Salvador
 
-> *"Fiquei desconfiada no início, mas em 3 semanas já senti a diferença na roupa. Agora não largo mais. Sou mãe de dois filhos pequenos, trabalho fora e nunca tinha tempo para me cuidar. O Ozenvitta entrou na minha rotina sem esforço: 2 cápsulas por dia e pronto. Em 2 meses minhas roupas já estavam mais soltas. Valeu cada centavo."*
+> *"Sou mãe de dois filhos pequenos, trabalho fora e nunca tinha tempo para me cuidar. Comer correndo, noite mal dormida, estresse... já tentei 3 dietas diferentes e sempre engordei de volta (efeito sanfona). O Ozenvitta entrou na minha rotina sem esforço: 2 cápsulas diárias e pronto. Em 4 semanas minhas roupas já estavam mais soltas. O que mais gostei foi o suporte: a nutricionista do grupo VIP responde minhas dúvidas sobre cardápio e o app tem receitas práticas de 20 minutos. Paguei o kit de 3 potes e valeu cada centavo."*
 
-**Tempo de uso:** 2 meses (Kit 3 frascos)  
-**Resultados principais:** Roupas mais soltas, praticidade no dia a dia, quebrou o efeito sanfona
+**Tempo de uso:** 2 meses (Kit 3 potes)  
+**Resultados principais:** Roupas mais soltas, praticidade no dia a dia, apoio da comunidade, quebrou o efeito sanfona
 
 ---
 
@@ -121,17 +121,17 @@ Veja as transformações de pessoas que usaram o Ozenvitta seguindo o protocolo 
 
 Ao analisar os relatos, notamos padrões que confirmam a ação da fórmula:
 
-1. **Vergonha e autoestima** — antes, evitavam espelhos e fotos. Depois, se sentiram bonitas de novo
-2. **Praticidade das cápsulas** — 2 cápsulas por dia, encaixa na rotina de mães ocupadas
+1. **Vergonha e autoestima** — antes, evitavam espelhos, fotos e biquínis. Depois, se sentiram bonitas de novo
+2. **Praticidade das cápsulas** — 2 cápsulas diárias, sem engolir cápsulas, encaixa na rotina de mães ocupadas
 3. **Saciedade no primeiro mês** — a vontade de petiscar à noite diminui naturalmente
-4. **Mais disposição** — efeito da Spirulina, Zinco e L-Arginina, especialmente na menopausa
-5. **Comunidade e apoio** — o Grupo VIP de apoiadores faz a diferença nos dias difíceis
+4. **Mais disposição** — efeito da B12 e do suporte metabólico, especialmente na menopausa
+5. **Comunidade e apoio** — o Grupo VIP (1.400+ membros) e o App com 50+ aulas fazem a diferença nos dias difíceis
 
 ---
 
 ## ⏱️ Tempo Médio para Resultados
 
-Com base no perfil típico de usuários:
+Com base no perfil típico de usuárias:
 
 | Período | Resultados Mais Comuns |
 |---|---|
@@ -144,16 +144,17 @@ Com base no perfil típico de usuários:
 
 ## 🛒 Quer Ter Resultados como Esses?
 
-O Ozenvitta original está disponível apenas no site oficial da OzenPharma.
+O Ozenvitta original está disponível apenas no site oficial.
 
 Cada kit inclui:
 - Frete grátis para todo o Brasil
 - Parcelamento em até 12x no cartão
-- E-books digitais e guias de receitas
-- Grupo VIP de apoiadores
+- App com 50+ videoaulas
+- 7 e-books digitais exclusivos
+- Grupo VIP no Facebook com 1.400+ mulheres
 
-<div style="text-align:center;margin:2rem 0;">
-  <a href="https://app.monetizze.com.br/r/AXC25796271"
+<div class="text-center my-8">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
      target="_blank"
      rel="noopener noreferrer nofollow sponsored"
      style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"

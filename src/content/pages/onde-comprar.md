@@ -1,7 +1,7 @@
 ---
 title: "Onde Comprar Ozenvitta Original: Preço, Kits e Desconto"
-description: "Compre o Ozenvitta original apenas no site oficial da OzenPharma. Veja preços atualizados, kits promocionais, frete grátis, garantia de 30 dias e todos os bônus exclusivos."
-keywords: "ozenvitta onde comprar, ozenvitta preço, ozenvitta valor, ozenvitta site oficial, ozenvitta desconto, ozenvitta kit, ozenvitta frete gratis"
+description: "Compre o Ozenvitta original apenas no site oficial do Ozenvitta. Veja preços atualizados, kits promocionais, frete grátis, garantia de 30 dias e todos os bônus exclusivos."
+keywords: "ozenvitta valor, comprar ozenvitta, ozenvitta site oficial, ozenvitta original, ozenvitta preço, ozenvitta onde comprar, ozenvitta desconto, ozenvitta kit"
 order: 7
 navLabel: "Onde Comprar"
 ---
@@ -13,8 +13,8 @@ Se você chegou até aqui, provavelmente já pesquisou sobre o Ozenvitta e quer 
 
 Esta página traz todas as informações atualizadas sobre valores, kits, descontos e como evitar falsificações.
 
-<div style="text-align:center;margin:2rem 0;">
-  <a href="https://app.monetizze.com.br/r/AXC25796271"
+<div class="text-center my-8">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
      target="_blank"
      rel="noopener noreferrer nofollow sponsored"
      style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
@@ -30,7 +30,7 @@ Esta página traz todas as informações atualizadas sobre valores, kits, descon
 
 ## ⚠️ Evite Falsificações
 
-O Ozenvitta original em cápsulas **só é vendido pelo site oficial** da OzenPharma.
+O Ozenvitta original em cápsulas **só é vendido pelo site oficial** (ozenvitta.com).
 
 Não compre em:
 
@@ -44,18 +44,9 @@ Produtos vendidos fora do canal oficial podem ser falsificados, adulterados, ven
 
 ---
 
-<div style="text-align:center;margin:2rem 0;">
-  <img src="/images/produto.png" alt="Frasco Ozenvitta Original — 60 cápsulas da OzenPharma" width="300" height="300" style="width:280px;height:auto;margin:0 auto;display:block;" loading="lazy" decoding="async" />
-  <p style="font-size:0.85rem;color:rgba(26,26,46,0.6);margin-top:0.5rem;">
-    Frasco original Ozenvitta — 60 cápsulas · OzenPharma
-  </p>
-</div>
-
----
-
 ## 💰 Ozenvitta Preço — Kits Oficiais Atualizados
 
-O Ozenvitta trabalha com kits promocionais que oferecem maior economia conforme a quantidade de frascos.
+O Ozenvitta trabalha com kits promocionais que oferecem maior economia conforme a quantidade de potes.
 
 ---
 
@@ -63,10 +54,10 @@ O Ozenvitta trabalha com kits promocionais que oferecem maior economia conforme 
 
 - <span style="font-size:1.25rem;color:#e74c3c;font-weight:700;">12x R$ 14,76</span> <span style="font-size:0.85rem;color:rgba(26,26,46,0.5);">no cartão</span>
 - <span style="font-size:0.85rem;color:rgba(26,26,46,0.5);">À vista R$ 147,00</span>
-- **Incluso:** Frete Grátis + E-books digitais + Acesso ao Grupo VIP
+- **Incluso:** Frete Grátis + 1 E-book Bônus + Acesso ao App
 
-<div style="text-align:center;margin:1.5rem 0;">
-  <a href="https://app.monetizze.com.br/r/AXC25796271"
+<div class="text-center my-6">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
      target="_blank"
      rel="noopener noreferrer nofollow sponsored"
      style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#2d9cdb;padding:0.75rem 1.5rem;border-radius:9999px;text-decoration:none;font-size:0.9rem;"
@@ -82,10 +73,10 @@ O Ozenvitta trabalha com kits promocionais que oferecem maior economia conforme 
 - <span style="font-size:1.25rem;color:#e74c3c;font-weight:700;">12x R$ 19,78</span> <span style="font-size:0.85rem;color:rgba(26,26,46,0.5);">no cartão</span>
 - <span style="font-size:0.85rem;color:rgba(26,26,46,0.5);">À vista R$ 197,00</span>
 - **Economia:** R$ 210,00 em relação à compra avulsa
-- **Incluso:** Frete Grátis + E-books + Guias de Receitas + Grupo VIP + Garantia 30 Dias
+- **Incluso:** Frete Grátis + 7 E-books Bônus + App com Aulas + Grupo VIP Facebook
 
-<div style="text-align:center;margin:1.5rem 0;">
-  <a href="https://app.monetizze.com.br/r/AXC25796271"
+<div class="text-center my-6">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
      target="_blank"
      rel="noopener noreferrer nofollow sponsored"
      style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:0.75rem 1.5rem;border-radius:9999px;text-decoration:none;font-size:0.9rem;"
@@ -100,10 +91,10 @@ O Ozenvitta trabalha com kits promocionais que oferecem maior economia conforme 
 
 - <span style="font-size:1.25rem;color:#e74c3c;font-weight:700;">12x R$ 24,80</span> <span style="font-size:0.85rem;color:rgba(26,26,46,0.5);">no cartão</span>
 - <span style="font-size:0.85rem;color:rgba(26,26,46,0.5);">À vista R$ 247,00</span>
-- **Incluso:** Frete Grátis + Todos os E-books + Grupo VIP + Materiais Exclusivos
+- **Incluso:** Frete Grátis + 7 E-books + App + Acompanhamento Nutricionista
 
-<div style="text-align:center;margin:1.5rem 0;">
-  <a href="https://app.monetizze.com.br/r/AXC25796271"
+<div class="text-center my-6">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
      target="_blank"
      rel="noopener noreferrer nofollow sponsored"
      style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#2d9cdb;padding:0.75rem 1.5rem;border-radius:9999px;text-decoration:none;font-size:0.9rem;"
@@ -118,10 +109,10 @@ O Ozenvitta trabalha com kits promocionais que oferecem maior economia conforme 
 
 - <span style="font-size:1.25rem;color:#e74c3c;font-weight:700;">12x R$ 37,85</span> <span style="font-size:0.85rem;color:rgba(26,26,46,0.5);">no cartão</span>
 - <span style="font-size:0.85rem;color:rgba(26,26,46,0.5);">À vista R$ 377,00</span>
-- **Incluso:** Frete Grátis + Todos os Bônus Exclusivos + Grupo VIP + Suporte Prioritário
+- **Incluso:** Frete Grátis + Todos os Bônus Exclusivos + App + Grupo VIP + Suporte Prioritário
 
-<div style="text-align:center;margin:1.5rem 0;">
-  <a href="https://app.monetizze.com.br/r/AXC25796271"
+<div class="text-center my-6">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
      target="_blank"
      rel="noopener noreferrer nofollow sponsored"
      style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#2d9cdb;padding:0.75rem 1.5rem;border-radius:9999px;text-decoration:none;font-size:0.9rem;"
@@ -136,13 +127,13 @@ O Ozenvitta trabalha com kits promocionais que oferecem maior economia conforme 
 
 | Seu Objetivo | Kit Recomendado | Por Quê? |
 |---|---|---|
-| Quer experimentar | 1 frasco | Menor investimento inicial para testar |
-| Quer resultados reais | 3 frascos | Melhor custo-benefício e bônus completos |
-| Precisa perder +10 kg | 5 frascos | Tratamento completo com acompanhamento |
-| Divide com família | 8 frascos | Maior economia por unidade |
+| Quer experimentar | 1 pote | Menor investimento inicial para testar |
+| Quer resultados reais | 3 potes | Melhor custo-benefício e bônus completos |
+| Precisa perder +10 kg | 5 potes | Tratamento completo com acompanhamento |
+| Divide com família | 8 potes | Maior economia por unidade |
 
-<div style="text-align:center;margin:2rem 0;">
-  <a href="https://app.monetizze.com.br/r/AXC25796271"
+<div class="text-center my-8">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
      target="_blank"
      rel="noopener noreferrer nofollow sponsored"
      style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
@@ -160,11 +151,18 @@ O Ozenvitta trabalha com kits promocionais que oferecem maior economia conforme 
 
 Além do produto, o Ozenvitta entrega um ecossistema completo de apoio ao emagrecimento:
 
-**1. E-books Digitais e Guias de Receitas** — Materiais educativos sobre nutrição, receitas práticas e plano alimentar de 30 dias
+**1. App Ozenvitta** com 50+ videoaulas de nutricionista, psicóloga e personal trainer
 
-**2. Grupo VIP de Apoiadores** — Comunidade com suporte contínuo e motivação diária
+**2. 7 E-books digitais exclusivos:**
+- 250 Receitas Low Carb
+- Método Anti-Flacidez
+- Como Lidar com Compulsão Alimentar e Ansiedade
+- Exercícios Funcionais para Casa
+- Como Montar Marmitas Fitness
+- Diga Adeus à Celulite
+- Plano Alimentar de 30 Dias
 
-**3. Materiais Educacionais Exclusivos** — Conteúdos sobre emagrecimento saudável e controle da compulsão alimentar
+**3. Grupo VIP no Facebook** com mais de 1.400 membros e suporte diário de nutricionista (segunda a sexta)
 
 **4. Frete Grátis** para todo o Brasil
 
@@ -182,7 +180,7 @@ Se você não sentir resultados, não se adaptar ao produto ou simplesmente não
 - Sem burocracia ou perguntas embaraçosas
 - O reembolso é processado diretamente pela plataforma de pagamento
 
-Essa política demonstra a confiança da OzenPharma na qualidade e eficácia do Ozenvitta.
+Essa política demonstra a confiança na qualidade e eficácia do Ozenvitta.
 
 ---
 
@@ -206,14 +204,14 @@ Essa política demonstra a confiança da OzenPharma na qualidade e eficácia do 
 4. Selecione a forma de pagamento (cartão, boleto ou Pix)
 5. Receba o produto em casa e os bônus digitais no e-mail
 
-Os bônus digitais (e-books e guias) são enviados automaticamente por e-mail após a confirmação da compra.
+Os bônus digitais (e-books e app) são enviados automaticamente por e-mail após a confirmação da compra.
 
 ---
 
-> **Dica:** O kit com 3 frascos (Leve 3 Pague 2) é o mais vendido e oferece o melhor equilíbrio entre investimento e resultado. Com 90 dias de tratamento, você permite que o organismo se adapte completamente aos ativos e consolide os benefícios.
+> **Dica:** O kit com 3 potes (Leve 3 Pague 2) é o mais vendido e oferece o melhor equilíbrio entre investimento e resultado. Com 90 dias de tratamento, você permite que o organismo se adapte completamente aos ativos e consolide os benefícios.
 
-<div style="text-align:center;margin:2rem 0;">
-  <a href="https://app.monetizze.com.br/r/AXC25796271"
+<div class="text-center my-8">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
      target="_blank"
      rel="noopener noreferrer nofollow sponsored"
      style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"

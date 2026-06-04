@@ -1,19 +1,19 @@
 ---
-title: "Composição do Ozenvitta: 13 Ingredientes Naturais Explicados"
-description: "Conheça a composição completa do Ozenvitta: Inulina, L-Carnitina, Psyllium, Spirulina, Laranja Amarga, Cromo, Quitosana, Chia, Cálcio, Zinco, L-Arginina, L-Tirosina e Trans-Resveratrol. Veja como cada um ajuda no emagrecimento."
-keywords: "ozenvitta composição, ozenvitta em cápsulas, ozenvitta ingredientes, inulina emagrece, l-carnitina emagrece, spirulina emagrece, laranja amarga termogênico, cromo picolinato, quitosana emagrece, chia emagrece"
+title: "Composição do Ozenvitta: 9 Ingredientes Naturais Explicados"
+description: "Conheça a composição completa do Ozenvitta: Feno Grego, Cúrcuma, Inulina, Picolinato de Cromo, Vitamina B12, D3, DHC, Café Verde e Colina. Veja como cada um ajuda no emagrecimento."
+keywords: "ozenvitta composição, ozenvitta fórmula, ozenvitta ingredientes, ozenvitta como funciona, ozenvitta em cápsulas, ozenvitta suplemento"
 order: 2
 navLabel: "Composição"
 ---
 
 Você já leu o rótulo de um suplemento e não entendeu metade do que estava escrito?
 
-O Ozenvitta resolveu isso. Ele combina **13 ingredientes naturais** cuidadosamente selecionados para agir em sinergia na **ignição metabólica**, **limpeza interna** e **controle da compulsão alimentar** — tudo em **2 cápsulas diárias**.
+O Ozenvitta resolveu isso. Ele combina **9 ingredientes naturais** cuidadosamente selecionados para agir em sinergia na **ignição metabólica**, **limpeza interna** e **controle da compulsão alimentar** — tudo em **2 cápsulas diárias**.
 
 Abaixo, explicamos cada componente de forma simples: o que é, como funciona no seu corpo e como ajuda no emagrecimento.
 
-<div style="text-align:center;margin:2rem 0;">
-  <a href="https://app.monetizze.com.br/r/AXC25796271"
+<div class="text-center my-8">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
      target="_blank"
      rel="noopener noreferrer nofollow sponsored"
      style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
@@ -27,7 +27,34 @@ Abaixo, explicamos cada componente de forma simples: o que é, como funciona no 
 
 ---
 
-## 🌾 1. Inulina (Fibra Prebiótica)
+## 🌱 1. Feno Grego (*Trigonella foenum-graecum*)
+
+O Feno Grego é uma planta rica em **fibras solúveis** chamadas galactomananos.
+
+Quando ingerido, essas fibras formam um gel no estômago que:
+
+- Promove **saciedade prolongada**, reduzindo a fome entre as refeições
+- Regula o apetite ao estabilizar os níveis de glicose no sangue
+- Auxilia no controle do colesterol LDL
+
+> É um dos pilares da fórmula para quem busca comer menos sem passar necessidade.
+
+---
+
+## 🟡 2. Cúrcuma (*Curcuma longa*)
+
+A Cúrcuma é conhecida mundialmente pelo seu potente efeito **anti-inflamatório** e **antioxidante**.
+
+No contexto do emagrecimento, ela:
+
+- Reduz a inflamação de baixo grau associada à obesidade
+- Melhora a função hepática, favorecendo a metabolização de gorduras
+- Alivia inchaço abdominal e desconforto digestivo
+- Aumenta a sensibilidade à insulina
+
+---
+
+## 🌾 3. Inulina (Fibra Prebiótica)
 
 A Inulina é um tipo de fibra solúvel extraída de plantas como chicória.
 
@@ -40,36 +67,8 @@ Sua principal função é:
 
 > Um intestino saudável está diretamente ligado a um metabolismo mais eficiente.
 
----
-
-## 💪 2. L-Carnitina (Aminoácido)
-
-A L-Carnitina é um aminoácido essencial para o metabolismo energético.
-
-No Ozenvitta, ela:
-
-- **Transporta gordura** para as mitocôndrias serem queimadas como energia
-- Acelera o metabolismo e aumenta a disposição física
-- Auxilia na redução da fadiga durante exercícios
-- Melhora a performance cardiovascular
-
-> É o ingrediente-chave para quem quer queimar gordura durante o dia todo.
-
----
-
-## 🍃 3. Psyllium (*Plantago ovata*)
-
-O Psyllium é uma fibra solúvel derivada da semente da planta *Plantago ovata*.
-
-Ele:
-
-- Promove **saciedade prolongada**, reduzindo a fome entre as refeições
-- Regula o trânsito intestinal de forma natural
-- Ajuda a controlar o apetite com baixa caloria
-- Auxilia na redução do colesterol LDL
-
-<div style="text-align:center;margin:2rem 0;">
-  <a href="https://app.monetizze.com.br/r/AXC25796271"
+<div class="text-center my-8">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
      target="_blank"
      rel="noopener noreferrer nofollow sponsored"
      style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
@@ -83,35 +82,7 @@ Ele:
 
 ---
 
-## ⚡ 4. Spirulina (*Arthrospira platensis*)
-
-A Spirulina é uma microalga azul-verde rica em proteínas, vitaminas e minerais.
-
-No Ozenvitta, ela:
-
-- Aumenta a energia e combate a fadiga
-- Controla o apetite devido ao alto teor de proteína
-- Fortalece o sistema imunológico
-- Possui ação antioxidante que protege as células
-
----
-
-## 🍊 5. Laranja Amarga (*Citrus aurantium*)
-
-A Laranja Amarga é um potente termogênico natural.
-
-Ela:
-
-- Acelera o metabolismo basal, aumentando o gasto calórico
-- Promove a oxidação de gorduras (queima de gordura como combustível)
-- Não causa os efeitos colaterais da cafeína excessiva
-- Auxilia no controle do apetite
-
-> É o ingrediente-chave para quem quer acelerar a queima de calorias sem sentir agitação.
-
----
-
-## 🧠 6. Cromo Picolinato (Cr)
+## ⚡ 4. Picolinato de Cromo (Cr)
 
 O Cromo é um mineral essencial que desempenha um papel central no metabolismo de carboidratos e gorduras.
 
@@ -124,116 +95,99 @@ O Picolinato de Cromo presente no Ozenvitta:
 
 ---
 
-## 🛡️ 7. Quitosana (Fibra de crustáceos)
+## 💪 5. Vitamina B12 (Cobalamina)
 
-A Quitosana é uma fibra derivada do exoesqueleto de crustáceos.
+A Vitamina B12 é essencial para a produção de energia celular e para o funcionamento do metabolismo.
 
 No Ozenvitta, ela:
 
-- Atua como **bloqueador natural de gordura**, impedindo a absorção calórica no intestino
-- Ajuda a reduzir o colesterol LDL
-- Colabora na redução da gordura abdominal
-- Promove saciedade
-
-> **Atenção:** Pessoas com alergia a crustáceos devem evitar o Ozenvitta devido à presença de Quitosana.
+- Combate a **fadiga** e o cansaço excessivo
+- Potencializa a queima de gordura ao otimizar o metabolismo celular
+- Melhora o humor e a concentração, reduzindo a "neblina mental" comum em dietas
 
 ---
 
-## ✨ 8. Chia (*Salvia hispanica*)
+## ☀️ 6. Vitamina D3 (Colecalciferol)
 
-A Chia é uma semente rica em Ômega-3, fibras e proteínas.
+A Vitamina D3 vai muito além da saúde óssea.
 
-Ela:
+Pesquisas recentes mostram que ela:
 
-- Promove saciedade prolongada devido às fibras solúveis
-- Regula o intestino de forma natural
-- Fornece gorduras saudáveis (Ômega-3) que auxiliam no metabolismo
-- Ajuda a controlar o apetite entre as refeições
+- Regula hormônios relacionados ao apetite e peso corporal
+- Reforça o sistema imunológico, protegendo contra adoecimentos que interrompem a rotina
+- Auxilia na manutenção da **massa magra** durante o emagrecimento
+- Melhora a saúde cardiovascular
 
----
-
-## 🦴 9. Cálcio (Ca)
-
-O Cálcio é um mineral essencial conhecido por fortalecer ossos.
-
-Além disso, pesquisas mostram que ele:
-
-- Está associado à redução da gordura corporal
-- Melhora o metabolismo celular
-- Auxilia na regulação hormonal relacionada ao peso
-- Fortalece a saúde cardiovascular
-
----
-
-## 🔬 10. Zinco (Zn)
-
-O Zinco é um mineral essencial para diversas funções metabólicas.
-
-No Ozenvitta, ele:
-
-- Regula hormônios relacionados ao apetite e metabolismo
-- Fortalece o sistema imunológico
-- Auxilia na cicatrização e regeneração celular
-- Melhora o metabolismo de carboidratos e gorduras
+<div class="text-center my-8">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
+     target="_blank"
+     rel="noopener noreferrer nofollow sponsored"
+     style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
+  >
+    Site oficial Ozenvitta com desconto →
+  </a>
+  <p style="font-size:0.85rem;color:rgba(26,26,46,0.6);margin-top:0.75rem;">
+    Frete Grátis | Garantia 30 Dias | 12x no cartão
+  </p>
+</div>
 
 ---
 
-## ❤️ 11. L-Arginina (Aminoácido)
+## 🔥 7. DHC (Dihidrocapsiato)
 
-A L-Arginina é um aminoácido que melhora a circulação sanguínea.
+O DHC é um capsaicinoide derivado da pimenta, mas **sem o ardor** característico.
+
+Sua principal função é a **termogênese**:
+
+- Acelera o metabolismo basal, aumentando o gasto calórico
+- Promove a oxidação de gorduras (queima de gordura como combustível)
+- Não causa irritação gástrica, diferente da capsaícinapura
+
+> É o ingrediente-chave para quem quer acelerar a queima de calorias sem sentir ardência.
+
+---
+
+## ☕ 8. Café Verde (*Coffea arabica*)
+
+O Café Verde é a semente do café antes da torrefação, preservando altas concentrações de **ácido clorogênico**.
+
+Ele:
+
+- Inibe a absorção de gorduras e carboidratos no intestino
+- Acelera o metabolismo de forma natural
+- Ajuda a controlar o apetite, especialmente por alimentos calóricos
+- Possui ação antioxidante que protege as células
+
+---
+
+## 🧠 9. Colina (Vitamina B4)
+
+A Colina é um nutriente essencial para a saúde do fígado e do cérebro.
 
 No processo de emagrecimento, ela:
 
-- Melhora a função cardiovascular
-- Auxilia na queima de gordura durante exercícios físicos
-- Aumenta a disposição e resistência
-- Colabora na saúde vascular
-
----
-
-## 🧘 12. L-Tirosina (Aminoácido)
-
-A L-Tirosina é um precursor de neurotransmissores que regulam humor e estresse.
-
-Ela:
-
-- Reduz a compulsão alimentar emocional
-- Melhora o foco e a concentração
-- Aumenta a energia e disposição mental
-- Ajuda a controlar a ansiedade
-
----
-
-## 🍇 13. Trans-Resveratrol (Antioxidante)
-
-O Trans-Resveratrol é um potente antioxidante encontrado na pele de uvas.
-
-No Ozenvitta, ele:
-
-- Reduz a inflamação de baixo grau associada à obesidade
-- Melhora a sensibilidade à insulina
-- Protege a saúde cardiovascular
-- Possui ação anti-envelhecimento celular
+- Auxilia na **metabolização de gorduras** no fígado, prevenindo a esteatose hepática
+- Melhora a função cognitiva e o humor
+- Reduz o acúmulo de gordura na região abdominal
+- Contribui para a saúde cardiovascular
 
 ---
 
 ## 🔬 Sinergia da Fórmula
 
-A força do Ozenvitta não está em um único ingrediente, mas na **combinação estratégica** dos 13 componentes — uma abordagem de "ação multidirecional":
+A força do Ozenvitta não está em um único ingrediente, mas na **combinação estratégica** dos 9 componentes — uma abordagem de "ação multidirecional":
 
 | Pilar | Ingredientes Principais | Efeito no Organismo |
 |---|---|---|
-| **Termogênese** (queima) | Laranja Amarga, L-Carnitina | Acelera metabolismo e gasta mais calorias |
-| **Saciedade** | Psyllium, Inulina, Chia, Quitosana | Reduz fome e compulsão |
-| **Saúde intestinal** | Inulina, Chia | Diminui inchaço e melhora digestão |
-| **Suporte metabólico** | Cromo, Zinco, Cálcio | Equilibra hormônios e metabolismo de gordura |
-| **Energia e imunidade** | Spirulina, L-Arginina, L-Tirosina | Aumenta disposição e fortalece defesas |
-| **Antioxidante** | Trans-Resveratrol | Reduz inflamação e protege células |
+| **Termogênese** (queima) | DHC, Café Verde, B12 | Acelera metabolismo e gasta mais calorias |
+| **Saciedade** | Feno Grego, Inulina, Cromo | Reduz fome e compulsão |
+| **Saúde intestinal** | Cúrcuma, Inulina | Diminui inchaço e melhora digestão |
+| **Suporte metabólico** | D3, Cromo, Colina | Equilibra hormônios e metabolismo de gordura |
 
 Essa abordagem multidirecional é o que diferencia o Ozenvitta de suplementos com fórmulas simples e ingredientes isolados. Tudo isso concentrado em **2 cápsulas diárias** de fácil ingestão.
 
-<div style="text-align:center;margin:2rem 0;">
-  <a href="https://app.monetizze.com.br/r/AXC25796271"
+<div class="text-center my-8">
+  <a href="https://app.monetizze.com.br/r/ATX25785612"
      target="_blank"
      rel="noopener noreferrer nofollow sponsored"
      style="display:inline-flex;align-items:center;gap:0.5rem;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:#fff;background:#e74c3c;padding:1rem 2rem;border-radius:9999px;text-decoration:none;font-size:0.95rem;"
@@ -253,4 +207,4 @@ Agora que você conhece cada ingrediente, descubra como eles se traduzem em resu
 
 > **Aviso importante:** O Ozenvitta é um suplemento alimentar, não um medicamento. Os efeitos descritos são baseados em estudos científicos sobre os ingredientes individuais, não em ensaios clínicos do produto final. Resultados variam de pessoa para pessoa. **Consulte um médico ou nutricionista antes de iniciar qualquer suplementação**, especialmente se você tem condições de saúde pré-existentes, está grávida ou amamentando.
 >
-> **Nota:** O Ozenvitta é composto por ingredientes 100% naturais. Mesmo assim, quem possui alergia a crustáceos deve evitar o uso devido à Quitosana. Quem tem hipersensibilidade a qualquer componente deve consultar um médico antes de usar.
+> **Nota:** O Ozenvitta é composto por ingredientes 100% naturais. Ele não contém lactose, glúten ou conservantes artificiais. Mesmo assim, quem possui alergias alimentares deve ler o rótulo completo antes de usar.

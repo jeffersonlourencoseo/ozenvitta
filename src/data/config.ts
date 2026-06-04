@@ -12,27 +12,27 @@ export const SITE_CONFIG = {
   locale: 'pt_BR',
 
   // SEO Defaults
-  titleDefault: 'Ozenvitta Funciona? Análise 2026 — 2 cápsulas por dia',
+  titleDefault: 'Ozenvitta Funciona? Análise 2026 — 12 Gotas/Dia',
   descriptionDefault:
-    'Ozenvitta em cápsulas: 2 cápsulas por dia, 13 ingredientes naturais. Veja preços, kits com até 40% OFF e garantia de 30 dias.',
+    'Ozenvitta em cápsulas: 12 cápsulas por dia, 9 ingredientes naturais, App com aulas e e-books de bônus. Veja preços, kits com até 40% OFF e garantia de 30 dias.',
   keywordsDefault:
-    'ozenvitta funciona, ozenvitta funciona mesmo, o que é ozenvitta, pra que serve o ozenvitta, ozenvitta preço, ozenvitta valor, ozenvitta para emagrecer, ozenvitta para que serve, ozenvitta cápsulas, ozenvitta em cápsulas, ozenvitta emagrece, ozenvitta reclame aqui, ozenvitta onde comprar, ozenvitta desconto',
+    'ozenvitta funciona, ozenvitta funciona mesmo, o que é ozenvitta, pra que serve o ozenvitta, ozenvitta preço, ozenvitta valor, ozenvitta para emagrecer, ozenvitta para que serve, ozenvitta cápsulas, ozenvitta em cápsulas, ozenvitta emagrece, ozenvitta reclame aqui, ozenvitta onde comprar, ozenvitta desconto, ozenvitta ozenpharma',
 
   // Branding & E-E-A-T
   author: {
     name: 'Blog Ozenvitta',
-    role: 'Especialistas em Suplemento Alimentar em Cápsulas',
-    email: 'contato@portalozenvitta.com.br',
+    role: 'Especialistas em Suplementação Natural',
+    email: 'contato@blogozenvitta.com.br',
     since: '2025',
   },
 
   // Autor especialista para schemas Article (Person)
   expert: {
-    name: 'Dra. Carla Mendonça',
+    name: 'Dra. Ana Luiza Mendes',
     jobTitle: 'Nutricionista Funcional e Especialista em Suplementação Natural',
     url: 'https://portalozenvitta.vercel.app/sobre-nos/',
     description:
-      'Nutricionista funcional com mais de 12 anos de experiência em suplementação natural e emagrecimento saudável.',
+      'Nutricionista funcional com mais de 12 anos de experiência em suplementação natural, emagrecimento saudável e regulagem metabólica.',
   },
 
   // Redes sociais
@@ -47,14 +47,14 @@ export const SITE_CONFIG = {
   product: {
     name: 'Ozenvitta',
     brand: 'Ozenvitta',
-    category: 'Suplemento Alimentar em Cápsulas',
+    category: 'Suplemento Alimentar em Gotas',
     officialUrl: 'https://ozenvitta.com',
-    affiliateLink: 'https://app.monetizze.com.br/r/AXC25796271',
+    affiliateLink: 'https://app.monetizze.com.br/r/ATX25785612',
     price: '197.00',
     priceCurrency: 'BRL',
     availability: 'https://schema.org/InStock',
-    sku: 'OZENVITTA-60CAP',
-    image: 'https://portalozenvitta.vercel.app/images/produto.png',
+    sku: 'OZENVITTA-60CAPS',
+    image: 'https://portalozenvitta.vercel.app/images/ozenvitta-produto.jpg',
     aggregateRating: {
       ratingValue: '4.8',
       bestRating: '5',
@@ -73,7 +73,7 @@ export const SITE_CONFIG = {
   // Performance & SEO
   ogImage: 'https://portalozenvitta.vercel.app/images/og-default.jpg',
   twitterHandle: '',
-  themeColor: '#1e3a8a',
+  themeColor: '#513F7E',
 } as const;
 
 export type SiteConfig = typeof SITE_CONFIG;

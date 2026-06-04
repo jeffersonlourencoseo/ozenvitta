@@ -202,8 +202,8 @@
       "kits": [
         { "nome": "1 Frasco — Tratamento Inicial (30 dias)", "parcelado": "12x R$ 14,76", "avista": "147,00", "popular": false },
         { "nome": "3 Frascos — Leve 3 Pague 2 (90 dias) ⭐ Mais Popular", "parcelado": "12x R$ 19,78", "avista": "197,00", "popular": true },
-        { "nome": "5 Frascos — Kit Família (150 dias)", "parcelado": "12x R$ 24,80", "avista": "247,00", "popular": false },
-        { "nome": "8 Frascos — Transformação Total (240 dias)", "parcelado": "12x R$ 37,85", "avista": "377,00", "popular": false }
+        { "nome": "5 Frascos — Kit Família (150 dias)", "parcelado": "12x R$ 24,90", "avista": "247,00", "popular": false },
+        { "nome": "8 Frascos — Transformação Total (240 dias)", "parcelado": "12x R$ 37,90", "avista": "377,00", "popular": false }
       ],
       "naoComprar": ["Mercado Livre", "Shopee", "Amazon Marketplace", "Sites de descontos não autorizados", "Revendedores em redes sociais"]
     },
@@ -213,7 +213,7 @@
       { "pergunta": "Pra que serve o Vitacaps?", "resposta": "O Vitacaps é um suplemento alimentar natural formulado para auxiliar no processo de emagrecimento, acelerando o metabolismo e controlando o apetite. Não é um medicamento." },
       { "pergunta": "Quanto tempo leva para fazer efeito?", "resposta": "Os primeiros resultados geralmente são percebidos nas primeiras duas a quatro semanas. Para resultados mais expressivos, recomenda-se o uso por pelo menos 3 meses." },
       { "pergunta": "Vitacaps tem efeitos colaterais?", "resposta": "É composto por ingredientes naturais e é bem tolerado. Pessoas sensíveis a cafeína podem sentir agitação leve. Consulte um médico se tiver condições pré-existentes." },
-      { "pergunta": "Qual o preço do Vitacaps?", "resposta": "O Vitacaps está disponível em kits promociais no site oficial: 1 frasco por R$ 147.00; kit com 3 frascos por R$ 197.00; kit com 5 frascos por R$ 247.00; e kit com 8 frascos por R$ 377.00. Todos com frete grátis." },
+      { "pergunta": "Qual o preço do Vitacaps?", "resposta": "O Vitacaps está disponível em kits promociais no site oficial: 1 frasco por R$ 147,00; kit com 3 frascos por R$ 197,00; kit com 5 frascos por R$ 247,00; e kit com 8 frascos por R$ 377,00. Todos com frete grátis." },
       { "pergunta": "Onde comprar Vitacaps com desconto?", "resposta": "O desconto oficial está disponível apenas no site oficial do Vitacaps. Não compre em marketplaces para evitar produtos falsificados." },
       { "pergunta": "Vitacaps é aprovado pela Anvisa?", "resposta": "O Vitacaps é um suplemento alimentar, não um medicamento. É isento de registro obrigatório na Anvisa, conforme a legislação brasileira vigente (RDC 27/2010)." }
     ]

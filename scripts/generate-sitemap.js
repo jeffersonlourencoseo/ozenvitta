@@ -6,11 +6,11 @@
 import { readdirSync, statSync, writeFileSync, existsSync } from 'fs';
 import { join, resolve } from 'path';
 
-const DOMAIN = 'https://portalozenvitta.vercel.app';
+const DOMAIN = 'https://ozenvitta-five.vercel.app';
 const DIST = resolve(process.cwd(), 'dist');
 
 // Rotas que NÃO devem entrar no sitemap
-const EXCLUDED = new Set(['/menu', '/ozenvitta']);
+const EXCLUDED = new Set([]);
 
 function getRoutes(dir, base = '') {
   const routes = [];
@@ -51,7 +51,7 @@ function getPriority(route) {
   if (route.includes('onde-comprar')) return '0.9';
   if (route.includes('o-que-e') || route.includes('composicao') || route.includes('beneficios')) return '0.9';
   if (route.includes('como-usar') || route.includes('contraindicacoes') || route.includes('depoimentos')) return '0.8';
-  if (route.includes('reclame-aqui')) return '0.8';
+  if (route.includes('reclame-aqui') || route.includes('ozenvitta-cápsulas')) return '0.8';
   if (route.includes('politica-de-privacidade') || route.includes('termos-de-uso') || route.includes('politica-de-cookies')) return '0.3';
   return '0.5';
 }

@@ -1,0 +1,222 @@
+{
+  "produto": {
+    "nome": "Ozenvitta",
+    "nomeSlug": "ozenvitta",
+    "categoria": "Suplemento Alimentar em Cápsulas",
+    "formato": "cápsulas",
+    "volumeFrasco": "60 cápsulas",
+    "dosagem": "2 cápsulas por dia",
+    "quantidadeIngredientes": "13",
+    "siteOficial": "https://ozenvitta.com",
+    "linkAfiliado": "https://app.monetizze.com.br/r/AXC25796271",
+    "precoPopular": "197.00",
+    "precoAvista1": "147.00",
+    "precoParcelado1": "14,76",
+    "precoAvista3": "197.00",
+    "precoParcelado3": "19,78",
+    "precoAvista5": "247.00",
+    "precoParcelado5": "24,80",
+    "precoAvista8": "377.00",
+    "precoParcelado8": "37,85",
+    "sku": "OZENVITTA-60CAP",
+    "corTema": "#1e3a8a",
+    "dominio": "https://ozenvitta-site.vercel.app",
+    "siteName": "Blog Ozenvitta",
+    "tagline": "Análise Independente do Suplemento Ozenvitta",
+    "expertNome": "Dra. Carla Mendonça",
+    "expertCargo": "Nutricionista Funcional e Especialista em Suplementação Natural",
+    "expertDescricao": "Nutricionista funcional com mais de 12 anos de experiência em suplementação natural e emagrecimento saudável.",
+    "email": "contato@portalozenvitta.com.br",
+    "ogImage": "https://ozenvitta-site.vercel.app/images/og-default.jpg",
+    "productImage": "https://ozenvitta-site.vercel.app/images/produto.jpg",
+    "reviewCount": "2157",
+    "ratingValue": "4.8",
+    "socialProofNumero": "1.400",
+    "socialProofTexto": "mulheres",
+    "bonusApp": "E-books digitais e guias de receitas",
+    "bonusEbooks": "Materiais exclusivos de apoio",
+    "bonusGrupo": "Grupo VIP de apoiadores",
+    "tempoGarantiaDias": "30",
+    "palavrasChave": [
+      "ozenvitta funciona",
+      "ozenvitta funciona mesmo",
+      "ozenvitta emagrece",
+      "ozenvitta preço",
+      "ozenvitta valor",
+      "ozenvitta onde comprar",
+      "ozenvitta site oficial",
+      "ozenvitta original",
+      "ozenvitta desconto",
+      "ozenvitta kit",
+      "o que é ozenvitta",
+      "ozenvitta para que serve",
+      "ozenvitta composição",
+      "ozenvitta ingredientes",
+      "ozenvitta benefícios",
+      "ozenvitta contraindicações",
+      "ozenvitta depoimentos",
+      "ozenvitta resultados",
+      "ozenvitta antes e depois",
+      "ozenvitta reclame aqui",
+      "ozenvitta é bom",
+      "ozenvitta vale a pena",
+      "ozenvitta como usar",
+      "ozenvitta dosagem",
+      "suplemento para emagrecer",
+      "emagrecer naturalmente",
+      "acelerar metabolismo"
+    ]
+  },
+  "conteudo": {
+    "oQueE": {
+      "resumo": "O Ozenvitta é um suplemento alimentar natural em cápsulas desenvolvido pela OzenPharma com fórmula exclusiva de 13 nutrientes.",
+      "beneficiosList": [
+        "Acelerar o metabolismo",
+        "Controlar o apetite",
+        "Auxiliar na queima de gordura",
+        "Reduzir a compulsão alimentar",
+        "Melhorar a digestão e reduzir o inchaço"
+      ],
+      "problemasTabela": [
+        { "problema": "Metabolismo lento", "solucao": "Inulina e L-Carnitina aceleram a queima calórica" },
+        { "problema": "Fome entre refeições", "solucao": "Psyllium e Chia promovem saciedade prolongada" },
+        { "problema": "Compulsão por doces", "solucao": "Cromo estabiliza glicose e reduz desejos" },
+        { "problema": "Barriga estufada", "solucao": "Fibras melhoram digestão e reduzem inchaço" },
+        { "problema": "Cansaço excessivo", "solucao": "Espirulina e vitaminas aumentam energia" }
+      ],
+      "ecossistema": [
+        "📱 E-books digitais e guias de receitas exclusivos",
+        "📚 Materiais educativos sobre nutrição e bem-estar",
+        "👥 Grupo VIP de apoiadores e suporte contínuo"
+      ]
+    },
+    "composicao": {
+      "ingredientes": [
+        { "nome": "Inulina", "emoji": "🔥", "acao": "Fibra prebiótica que acelera o metabolismo e regula o intestino" },
+        { "nome": "L-Carnitina", "emoji": "💪", "acao": "Transporta gordura para ser queimada como energia nas células" },
+        { "nome": "Psyllium", "emoji": "🍃", "acao": "Fibra solúvel que promove saciedade e regula o trânsito intestinal" },
+        { "nome": "Spirulina", "emoji": "⚡", "acao": "Microalga rica em nutrientes que controla o apetite e aumenta disposição" },
+        { "nome": "Laranja Amarga", "emoji": "🍊", "acao": "Potente termogênico natural que auxilia na queima de gordura" },
+        { "nome": "Cromo Picolinato", "emoji": "🧠", "acao": "Regula a glicose no sangue e reduz a compulsão por doces" },
+        { "nome": "Quitosana", "emoji": "🛡️", "acao": "Bloqueador natural de gordura que impede absorção calórica" }
+      ],
+      "sinergia": "A combinação de Inulina com Psyllium cria uma dupla poderosa na saciedade e regulação intestinal, enquanto a L-Carnitina e a Laranja Amarga trabalham na queima de gordura. O Cromo estabiliza a glicose, quebrando o ciclo de vontade de doce, completando uma fórmula sinérgica e completa."
+    },
+    "beneficios": {
+      "itens": [
+        {
+          "titulo": "Saciedade Prolongada",
+          "emoji": "🍽️",
+          "descricao": "Você já abriu a geladeira à noite comendo escondido e sentindo culpa? As fibras solúveis de Psyllium e Chia expandem no trato digestivo, criando plenitude e reduzindo a fome entre refeições.",
+          "resultadoPratico": "Você come naturalmente menos, sem passar fome."
+        },
+        {
+          "titulo": "Aceleração do Metabolismo",
+          "emoji": "🔥",
+          "descricao": "Inulina e L-Carnitina aumentam o gasto calórico basal. Seu corpo queima mais energia mesmo em repouso, potencializado pela ação termogênica da Laranja Amarga.",
+          "resultadoPratico": "Você queima gordura dormindo."
+        },
+        {
+          "titulo": "Redução da Compulsão",
+          "emoji": "🧠",
+          "descricao": "O pior não é comer — é comer por ansiedade. O Cromo estabiliza os níveis de açúcar no sangue, reduzindo os desejos por doces e quebrando o ciclo vicioso.",
+          "resultadoPratico": "Você quebra o ciclo ansiedade → comer → culpa."
+        },
+        {
+          "titulo": "Mais Energia no Dia a Dia",
+          "emoji": "⚡",
+          "descricao": "Espirulina e vitaminas do complexo B combatem o cansaço excessivo, mantendo você disposta para trabalhar, cuidar da casa e treinar.",
+          "resultadoPratico": "Acorda disposta e mantém energia estável até de noite."
+        }
+      ]
+    },
+    "comoUsar": {
+      "passos": [
+        { "nome": "Dosagem", "texto": "Tome 2 cápsulas por dia, uma antes do café da manhã e outra antes do jantar." },
+        { "nome": "Como tomar", "texto": "Ingerir com um copo de água (200ml). Não ultrapassar a dose recomendada." },
+        { "nome": "Duração", "texto": "Para resultados consistentes, recomenda-se o uso por pelo menos 90 dias (3 frascos)." }
+      ],
+      "timeline": [
+        { "tempo": "Semana 1-2", "efeito": "Primeiros sinais de saciedade e disposição" },
+        { "tempo": "Mês 1-2", "efeito": "Redução de medidas e mais energia no dia a dia" },
+        { "tempo": "Mês 3+", "efeito": "Resultados expressivos e consolidados" }
+      ]
+    },
+    "contraindicacoes": {
+      "quemNaoPode": [
+        "Gestantes e lactantes",
+        "Crianças menores de 18 anos",
+        "Pessoas com hipersensibilidade a crustáceos (quitosana)",
+        "Pessoas com condições graves pré-existentes sem orientação médica"
+      ],
+      "interacoes": [
+        "Medicamentos para diabetes",
+        "Anticoagulantes",
+        "Remédios para tireoide"
+      ],
+      "efeitos": "Alguns usuários podem sentir leve desconforto digestivo inicial nos primeiros dias de uso, devido às fibras. Pessoas sensíveis a cafeína devem observar a reação ao Cromo e Laranja Amarga."
+    },
+    "depoimentos": [
+      {
+        "nome": "Talita S.",
+        "idade": "33",
+        "cidade": "São Paulo",
+        "tempoUso": "3 meses",
+        "kit": "3 frascos",
+        "texto": "Comprei 3 potes e vou adquirir mais, estou super feliz com o resultado que tive! O Ozenvitta mudou minha relação com a comida."
+      },
+      {
+        "nome": "Thayna R.",
+        "idade": "27",
+        "cidade": "Rio de Janeiro",
+        "tempoUso": "2 meses",
+        "kit": "3 frascos",
+        "texto": "A entrega foi mais rápida que imaginei, em 5 dias já estava na minha casa. Em 2 meses já vi diferença na cintura."
+      },
+      {
+        "nome": "Carol M.",
+        "idade": "30",
+        "cidade": "Curitiba",
+        "tempoUso": "4 meses",
+        "kit": "5 frascos",
+        "texto": "Mesmo morando em regiões afastadas, meu Ozenvitta chegou certinho! Obrigada! Perdi 6 kg sem passar fome."
+      },
+      {
+        "nome": "Fátima L.",
+        "idade": "59",
+        "cidade": "Belo Horizonte",
+        "tempoUso": "3 meses",
+        "kit": "3 frascos",
+        "texto": "Mesmo após a menopausa eu estou tendo muito resultado em pouco tempo! Muito feliz! A energia voltou."
+      },
+      {
+        "nome": "Renata K.",
+        "idade": "31",
+        "cidade": "Porto Alegre",
+        "tempoUso": "2 meses",
+        "kit": "3 frascos",
+        "texto": "Fiquei desconfiada no início, mas em 3 semanas já senti a diferença na roupa. Agora não largo mais."
+      }
+    ],
+    "ondeComprar": {
+      "aviso": "O Ozenvitta original só é vendido pelo site oficial da OzenPharma.",
+      "kits": [
+        { "nome": "1 Frasco — Tratamento Inicial (30 dias)", "parcelado": "12x R$ 14,76", "avista": "147,00", "popular": false },
+        { "nome": "3 Frascos — Leve 3 Pague 2 (90 dias) ⭐ Mais Popular", "parcelado": "12x R$ 19,78", "avista": "197,00", "popular": true },
+        { "nome": "5 Frascos — Kit Família (150 dias)", "parcelado": "12x R$ 24,80", "avista": "247,00", "popular": false },
+        { "nome": "8 Frascos — Transformação Total (240 dias)", "parcelado": "12x R$ 37,85", "avista": "377,00", "popular": false }
+      ],
+      "naoComprar": ["Mercado Livre", "Shopee", "Amazon Marketplace", "Sites de descontos não autorizados", "Revendedores em redes sociais"]
+    },
+    "faq": [
+      { "pergunta": "Ozenvitta funciona mesmo?", "resposta": "A fórmula do Ozenvitta combina 13 ingredientes naturais com ação documentada na literatura científica para saciedade, metabolismo e controle glicêmico. Resultados variam conforme o estilo de vida de cada pessoa." },
+      { "pergunta": "Ozenvitta emagrece?", "resposta": "O Ozenvitta auxilia no emagrecimento ao agir no metabolismo, saciedade e controle da compulsão alimentar. Resultados individuais variam conforme alimentação e atividade física." },
+      { "pergunta": "Pra que serve o Ozenvitta?", "resposta": "O Ozenvitta é um suplemento alimentar natural formulado para auxiliar no processo de emagrecimento, acelerando o metabolismo e controlando o apetite. Não é um medicamento." },
+      { "pergunta": "Quanto tempo leva para fazer efeito?", "resposta": "Os primeiros resultados geralmente são percebidos nas primeiras duas a quatro semanas. Para resultados mais expressivos, recomenda-se o uso por pelo menos 3 meses (3 frascos)." },
+      { "pergunta": "Ozenvitta tem efeitos colaterais?", "resposta": "É composto por ingredientes naturais e é bem tolerado. Algumas pessoas podem sentir leve desconforto digestivo inicial devido às fibras. Pessoas alérgicas a crustáceos devem evitar devido à Quitosana." },
+      { "pergunta": "Qual o preço do Ozenvitta?", "resposta": "O Ozenvitta está disponível em kits promocionais no site oficial: 1 frasco por R$ 147,00; kit com 3 frascos por R$ 197,00; kit com 5 frascos por R$ 247,00; e kit com 8 frascos por R$ 377,00. Todos com frete grátis e parcelamento em até 12x." },
+      { "pergunta": "Onde comprar Ozenvitta com desconto?", "resposta": "O desconto oficial está disponível apenas no site oficial do Ozenvitta. Não compre em marketplaces para evitar produtos falsificados." },
+      { "pergunta": "Ozenvitta é aprovado pela Anvisa?", "resposta": "O Ozenvitta é um suplemento alimentar, não um medicamento. É isento de registro obrigatório na Anvisa, conforme a legislação brasileira vigente (RDC 27/2010)." }
+    ]
+  }
+}

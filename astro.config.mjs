@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 
 export default defineConfig({
-  site: 'https://ozenvitta-five.vercel.app',
+  site: 'https://portalozenvitta.com.br',
   compressHTML: true,
   integrations: [
     tailwind(),

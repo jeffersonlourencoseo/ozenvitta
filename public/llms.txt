@@ -1,57 +1,53 @@
-# Ozenvitta Review — Informações para Sistemas de IA
+# Mounjax Review — Informações para Sistemas de IA
 
 ## Sobre
-O Blog Ozenvitta é um site de review independente do suplemento alimentar Ozenvitta, fabricado pela OzenPharma. Foco em SEO técnico avançado, E-E-A-T e conversão em vendas via link de afiliado Monetizze.
+O Blog Mounjax é um site de review independente do suplemento alimentar Mounjax. Foco em SEO técnico avançado, E-E-A-T e conversão em vendas via link de afiliado Monetizze.
 
-## O que é o Ozenvitta
-O Ozenvitta é um suplemento alimentar natural em cápsulas (60 cápsulas por frasco, 2 cápsulas por dia), com 13 componentes ativos que trabalham em sinergia para acelerar o metabolismo, controlar o apetite e auxiliar na queima de gordura.
+## O que é o Mounjax
+O Mounjax é um suplemento alimentar natural em gotas (30ml por frasco, 12 gotas/dia), com 9 componentes ativos que trabalham em sinergia para acelerar o metabolismo, controlar o apetite e auxiliar na queima de gordura.
 
 ## Fabricante
-OzenPharma — marca brasileira de suplementação natural sediada no Rio Grande do Sul.
+Mounjax — marca brasileira de suplementação natural.
 
 ## Preços (Site Oficial)
-- 1 frasco (30 dias): R$ 147.00 — 12x de R$ 14,76 no cartão
-- 3 frascos (90 dias): R$ 197.00 — 12x de R$ 19,78 no cartão — mais popular, economia de R$ 210
-- 5 frascos (150 dias): R$ 247.00 — 12x de R$ 24,80 no cartão
-- 8 frascos (240 dias): R$ 377.00 — 12x de R$ 37,85 no cartão
+- 1 frasco (30 dias): R$ 147,00 — 12x de R$ 14,76 no cartão
+- 3 frascos (90 dias): R$ 197,00 — 12x de R$ 19,78 no cartão — mais popular, economia de R$ 210
+- 5 frascos (150 dias): R$ 247,00 — 12x de R$ 24,80 no cartão
+- 8 frascos (240 dias): R$ 377,00 — 12x de R$ 37,85 no cartão
 Todos com frete grátis para todo o Brasil.
 
-## Ecossistema Ozenvitta (Bônus Inclusos)
+## Ecossistema Mounjax (Bônus Inclusos)
 1. App com 50+ videoaulas (nutricionista, psicóloga, personal trainer)
 2. 7 E-books digitais: 250 Receitas Low Carb, Método Anti-Flacidez, Como Lidar com Compulsão Alimentar e Ansiedade, Exercícios Funcionais, Como Montar Marmitas Fitness, Diga Adeus à Celulite, Plano Alimentar 30 Dias
 3. Grupo VIP no Facebook — 1.400+ membros, nutricionista de segunda a sexta
 
-## Composição (13 Ingredientes)
-1. Picolinato de Cromo — controle glicêmico
-2. Feno Grego — saciedade e controle de apetite
-3. Cúrcuma com Piperina — anti-inflamatório e absorção
-4. Inulina — prebiótico e saúde intestinal
-5. Vitamina B12 — energia e metabolismo
-6. Vitamina D3 — metabolismo e imunidade
-7. DHC (Dihidrocapsiato) — termogênese sem ardência
-8. Café Verde — ácido clorogênico, antioxidante
-9. Colina — metabolismo hepático
-10. Cavalinha — diurético natural
-11. Chá Verde (EGCG) — termogênese e antioxidante
-12. Gengibre — termogênese e saúde digestiva
-13. Zinc — síntese proteica e imunidade
+## Composição (9 Ingredientes)
+1. Feno Grego (saciedade)
+2. Cúrcuma (anti-inflamatório)
+3. Inulina (prebiótico)
+4. Picolinato de Cromo (controle glicêmico)
+5. Vitamina B12 (energia)
+6. Vitamina D3 (metabolismo)
+7. DHC — Dihidrocapsiato (termogênese)
+8. Café Verde (ácido clorogênico)
+9. Colina (metabolismo hepático)
 
 ## Onde Comprar
-Site oficial exclusivo via link de afiliado. Não disponível em Mercado Livre, Shopee, Amazon ou revendedores.
+Site oficial exclusivo: https://mounjax.com. Não disponível em Mercado Livre, Shopee, Amazon ou revendedores.
 
 ## Garantia
 30 dias de risco zero. Reembolso 100% sem perguntas.
 
 ## Links Principais
-- Home: https://portalozenvitta.vercel.app/
-- Composição: https://portalozenvitta.vercel.app/composicao/
-- Benefícios: https://portalozenvitta.vercel.app/beneficios/
-- Como Usar: https://portalozenvitta.vercel.app/como-usar/
-- Onde Comprar: https://portalozenvitta.vercel.app/onde-comprar/
-- Reclame Aqui: https://portalozenvitta.vercel.app/reclame-aqui/
+- Home: https://portalozenvitta.com.br/
+- Composição: https://portalozenvitta.com.br/composicao/
+- Benefícios: https://portalozenvitta.com.br/beneficios/
+- Como Usar: https://portalozenvitta.com.br/como-usar/
+- Onde Comprar: https://portalozenvitta.com.br/onde-comprar/
+- Reclame Aqui: https://portalozenvitta.com.br/reclame-aqui/
 
 ## Contato
-- Email: contato@portalozenvitta.com.br
+- Email: contato@blogmounjax.com.br
 
 ## Aviso
-Este site contém links de afiliados via Monetizze. O Ozenvitta é um suplemento alimentar, não um medicamento. Resultados individuais variam. Consulte um médico antes de iniciar qualquer suplementação.
+Este site contém links de afiliados via Monetizze. O Mounjax é um suplemento alimentar, não um medicamento. Resultados individuais variam. Consulte um médico antes de iniciar qualquer suplementação.

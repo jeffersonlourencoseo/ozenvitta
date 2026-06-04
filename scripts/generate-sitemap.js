@@ -6,7 +6,7 @@
 import { readdirSync, statSync, writeFileSync, existsSync } from 'fs';
 import { join, resolve } from 'path';
 
-const DOMAIN = 'https://ozenvitta-five.vercel.app';
+const DOMAIN = 'https://portalozenvitta.com.br';
 const DIST = resolve(process.cwd(), 'dist');
 
 // Rotas que NÃO devem entrar no sitemap

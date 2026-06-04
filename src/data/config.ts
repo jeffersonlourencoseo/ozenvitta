@@ -5,7 +5,7 @@
 
 export const SITE_CONFIG = {
   // Domínio e identidade
-  domain: 'https://portalozenvitta.vercel.app',
+  domain: 'https://portalozenvitta.com.br',
   siteName: 'Blog Ozenvitta',
   tagline: 'Análise Independente do Suplemento Ozenvitta',
   language: 'pt-BR',
@@ -30,7 +30,7 @@ export const SITE_CONFIG = {
   expert: {
     name: 'Dra. Ana Luiza Mendes',
     jobTitle: 'Nutricionista Funcional e Especialista em Suplementação Natural',
-    url: 'https://portalozenvitta.vercel.app/sobre-nos/',
+    url: 'https://portalozenvitta.com.br/sobre-nos/',
     description:
       'Nutricionista funcional com mais de 12 anos de experiência em suplementação natural, emagrecimento saudável e regulagem metabólica.',
   },
@@ -54,7 +54,7 @@ export const SITE_CONFIG = {
     priceCurrency: 'BRL',
     availability: 'https://schema.org/InStock',
     sku: 'OZENVITTA-60CAPS',
-    image: 'https://portalozenvitta.vercel.app/images/ozenvitta-produto.jpg',
+    image: 'https://portalozenvitta.com.br/images/ozenvitta-produto.jpg',
     aggregateRating: {
       ratingValue: '4.8',
       bestRating: '5',
@@ -71,7 +71,7 @@ export const SITE_CONFIG = {
   },
 
   // Performance & SEO
-  ogImage: 'https://portalozenvitta.vercel.app/images/og-default.jpg',
+  ogImage: 'https://portalozenvitta.com.br/images/og-default.jpg',
   twitterHandle: '',
   themeColor: '#513F7E',
 } as const;

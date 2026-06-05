@@ -171,14 +171,14 @@ COMO FUNCIONA O SCRIPT (resumido tecnico)
 O script:
 1. Copia o projeto modelo inteiro
 2. Limpa arquivos desnecessarios (.git, node_modules...)
-3. Substitui "Ozenvitta" (nome do modelo) pelo novo produto em TODOS os arquivos
+3. Substitui "Mounjax" (nome do modelo) pelo novo produto em TODOS os arquivos
 4. Gera KW-{produto}.txt como TEMPLATE VAZIO para preenchimento
 5. Gera src/data/config.ts com os dados do novo produto
 6. Gera os 7 arquivos .md de conteudo com textos personalizados
    → Keywords sao genericas (baseadas no nome do produto)
    → Voce atualiza com as palavras reais depois
 7. Gera a index.astro com FAQ, HowTo, precos e depoimentos
-8. Renomeia a pagina de foco (ex: produto-gotas.astro (exemplo: ozenvitta-gotas.astro))
+8. Renomeia a pagina de foco (ex: produto-gotas.astro (exemplo: mounjax-gotas.astro))
 9. Atualiza package.json e README
 
 ============================================================

@@ -8,7 +8,7 @@ navLabel: "Como Usar"
 
 O Ozenvitta é um suplemento alimentar em cápsulas desenvolvido com fórmula natural de 9 ingredientes ativos.
 
-Sua praticidade é um dos grandes diferenciais: não precisa engolir cápsulas grandes, basta medir a dose com o dosagem recomendada e ingerir.
+Sua praticidade é um dos grandes diferenciais: apenas 2 cápsulas pequenas por dia, fáceis de engolir, sem gosto desagradável.
 
 Abaixo, você encontra o guia completo de como usar o Ozenvitta para obter os melhores resultados — incluindo o ecossistema de apoio (App, aulas e grupo VIP) que acompanha a compra oficial.
 
@@ -31,21 +31,22 @@ Abaixo, você encontra o guia completo de como usar o Ozenvitta para obter os me
 
 A dosagem oficial recomendada é de **2 cápsulas por dia**.
 
-- Use o dosagem recomendada que acompanha o pote para medir a quantidade exata
+- Tome 1 cápsula antes do almoço e 1 antes do jantar, ou as 2 juntas no mesmo horário
 - Não exceda a dose recomendada sem orientação médica
 - A consistência no horário potencializa a ação dos 9 componentes ativos
 
 ---
 
-## 💧 Como Tomar as Gotas
+## 💊 Como Tomar as Cápsulas
 
-Existem duas formas de ingerir o Ozenvitta em cápsulas. Ambas são eficazes:
+A ingestão das cápsulas é simples e prática:
 
-### Opção 1: Direto na Boca (Sublingual)
-Aplique as 2 cápsulas diretamente sob a língua, aguarde 30 segundos e depois engula. Essa forma permite uma **absorção mais rápida** dos ativos pela mucosa oral.
+### Passo a Passo
+1. Pegue 2 cápsulas do pote
+2. Ingerir com um copo de água (aproximadamente 200ml)
+3. Tome sempre no mesmo horário, preferencialmente antes das principais refeições
 
-### Opção 2: Diluído em Água
-Coloque as 2 cápsulas em um copo com água (aproximadamente 200ml), misture e beba. Essa é a forma mais indicada para quem prefere evitar o gosto concentrado.
+A cápsula dissolve no trato digestivo e libera os 9 ingredientes ativos de forma gradual, garantindo absorção eficiente ao longo do dia.
 
 <div class="text-center my-8">
   <a href="https://app.monetizze.com.br/r/ATX25785612"
@@ -134,7 +135,7 @@ Durma 7 a 8 horas por noite. O metabolismo de gordura acontece intensamente dura
 
 - Não exceda 2 cápsulas por dia
 - Guarde o pote em local fresco, ao abrigo de luz solar direta
-- Agite levemente o pote antes de usar
+- Guarde o pote fechado em local fresco e seco, ao abrigo de luz solar direta
 - Após aberto, consumir preferencialmente dentro de 60 dias para garantir a potência dos ativos
 
 ---

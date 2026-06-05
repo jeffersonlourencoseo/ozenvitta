@@ -1,0 +1,210 @@
+============================================================
+COMO USAR O BLUEPRINT EM OUTRO PROJETO
+Blog Review de Produto - Astro + Tailwind
+============================================================
+
+Este passo a passo serve para criar um novo site de review
+a partir do projeto base (Mounjax).
+
+============================================================
+PASSO 1: COPIAR O PROJETO BASE
+============================================================
+
+1. Copie a pasta do projeto Mounjax para uma nova pasta:
+   Exemplo: C:\Users\Jefferson\Desktop\SEO LOCAL\NOVO-PRODUTO\
+
+2. Entre na pasta e delete a pasta .git (para criar um novo repo):
+   - Abra o terminal na pasta
+   - Digite: rmdir /s /q .git
+
+3. Inicialize um novo repositorio Git:
+   git init
+   git add .
+   git commit -m "Primeiro commit - projeto base"
+
+============================================================
+PASSO 2: INSTALAR DEPENDENCIAS
+============================================================
+
+1. No terminal, dentro da pasta do novo projeto, digite:
+   npm install
+
+2. Teste o build para ver se esta tudo funcionando:
+   npm run build
+
+3. Se aparecer "16 page(s) built" e "Sitemap gerado", esta OK.
+
+============================================================
+PASSO 3: CONFIGURAR O NOVO PRODUTO
+============================================================
+
+Abra o arquivo: src/data/config.ts
+
+Altere TUDO que esta em [Produto] ou tem o nome Mounjax:
+
+- domain: URL do novo site no Vercel
+- siteName: Blog [NOME DO PRODUTO]
+- tagline: Analise Independente do [NOME DO PRODUTO]
+- titleDefault: [NOME] Funciona? Analise 2026
+- descriptionDefault: texto sobre o novo produto
+- keywordsDefault: palavras-chave de busca do Google
+- author.name: Blog [NOME]
+- author.email: contato@blog[NOME].com.br
+- expert.name: nome da especialista do novo nicho
+- expert.jobTitle: cargo da especialista
+- product.name: NOME DO PRODUTO
+- product.brand: NOME DO PRODUTO
+- product.category: categoria (ex: Suplemento em Capsulas)
+- product.officialUrl: site oficial do produto
+- product.affiliateLink: SEU LINK DE AFILIADO
+- product.price: preco do kit mais popular
+- product.sku: SKU do produto
+- product.image: URL da imagem do produto no novo site
+- affiliate.disclaimer: texto de afiliado
+- affiliate.partner: NOME DO PRODUTO - Programa de Afiliados
+- ogImage: URL da imagem OG padrao
+- themeColor: cor principal do novo produto (ex: #513F7E)
+
+DICA: Use Ctrl+H para substituir "Mounjax" por "NovoProduto" em TODOS os arquivos.
+
+============================================================
+PASSO 4: ATUALIZAR PAGINAS INTERNAS (src/content/pages/)
+============================================================
+
+Abra cada arquivo .md e substitua:
+
+- Nome do produto (Mounjax -> NovoProduto)
+- Dosagem (12 gotas -> dose do novo produto)
+- Ingredientes (9 ingredientes -> ingredientes do novo)
+- Precos
+- Beneficios
+- Contraindicacoes
+- Depoimentos
+
+REGRAS DE FORMATACAO:
+- Use emojis nos titulos: ## 🔥 1. Nome do Beneficio
+- Use tabelas para timelines e comparativos
+- Use blockquote para depoimentos
+- Insira o CTA inline em cada pagina (minimo 3-4 por pagina)
+- Nunca use a classe "prose" no HTML inline
+
+============================================================
+PASSO 5: ATUALIZAR A HOME (src/pages/index.astro)
+============================================================
+
+1. Altere o nome do produto em todos os textos
+2. Altere a dosagem, formato e ingredientes
+3. Atualize os precos nos cards
+4. Atualize os depoimentos
+5. Atualize o Schema FAQ (8 perguntas)
+6. Atualize o Schema HowTo (3 passos)
+
+============================================================
+PASSO 6: ATUALIZAR IMAGENS (public/images/)
+============================================================
+
+Substitua todas as imagens mantendo os mesmos nomes:
+
+- logo.png
+- produto.jpg
+- og-default.jpg
+- og-o-que-e.jpg, og-composicao.jpg, og-beneficios.jpg, etc.
+- antes-depois-1.jpg ate 5.jpg
+
+IMPORTANTE:
+- OG images: 1200x630 pixels
+- Antes/depois: pelo menos 600x400 pixels
+- Logo: 200x50 pixels (fundo transparente se possivel)
+- Produto: 800x800 pixels
+
+============================================================
+PASSO 7: ATUALIZAR OUTRAS PAGINAS
+============================================================
+
+Abra e edite:
+
+- src/pages/sobre-nos.astro: especialista, historia
+- src/pages/contato.astro: email, texto
+- src/pages/reclame-aqui.astro: nome do produto
+- src/pages/[NOME]-gotas.astro: renomeie para o formato do produto
+
+============================================================
+PASSO 8: CHECKLIST ANTES DO DEPLOY
+============================================================
+
+Confira cada item:
+
+[ ] Nome do produto substituido em TODO o site (Ctrl+F "Mounjax")
+[ ] Link de afiliado esta correto em TODOS os CTAs
+[ ] Precos atualizados (parcelado em destaque, a vista pequeno)
+[ ] Imagens antes/depois nao repetem entre paginas
+[ ] CTA em todas as paginas (minimo 3-4 por pagina interna)
+[ ] Zero mencoes ao produto/fabricante antigo
+[ ] SEO: titles, descriptions, keywords de todas as paginas
+[ ] OG images criadas para cada pagina
+[ ] Favicon e apple-touch-icon substituidos
+[ ] Termos de uso, Privacidade, Cookies atualizados
+[ ] npm run build passa sem erros
+[ ] 16 paginas geradas no dist/
+[ ] Sitemap gerado com 15 rotas
+[ ] Lighthouse mobile score >= 85
+
+============================================================
+PASSO 9: COMMIT E DEPLOY
+============================================================
+
+1. Commit das alteracoes:
+   git add .
+   git commit -m "Configura novo produto [NOME]"
+
+2. Crie um repositorio novo no GitHub e faca push:
+   git remote add origin https://github.com/SEU-USER/novo-produto.git
+   git push -u origin master
+
+3. No Vercel, importe o novo projeto e faca deploy.
+
+============================================================
+PASSO 10: POS-DEPLOY
+============================================================
+
+1. Acesse o site no Vercel e teste todos os links
+2. Rode o Lighthouse (Chrome DevTools ou PageSpeed Insights)
+3. Se score < 85, volte ao blueprint na secao PERFORMANCE
+4. Submeta o sitemap.xml no Google Search Console
+5. Configure o Google Analytics com o G-XXXXXXXXXX correto
+
+============================================================
+DICAS IMPORTANTES
+============================================================
+
+- Nunca delete o arquivo scripts/async-css-postbuild.js
+- Nunca delete o arquivo scripts/generate-sitemap.js
+- Sempre faca npm run build antes de commitar
+- Sempre rode Lighthouse antes de considerar pronto
+- Mantenha o padrao de CTA vermelho (#e74c3c) em todas as paginas
+- Use o checklist na secao 8 para nao esquecer nada
+
+============================================================
+ARQUIVOS QUE NUNCA DEVEM SER ALTERADOS
+============================================================
+
+- src/components/SEO.astro (exceto G-XXXXXXXXXX)
+- src/components/SchemaMarkup.astro
+- src/layouts/Layout.astro (exceto fontes se necessario)
+- src/components/Navigation.astro
+- src/components/Footer.astro
+- scripts/async-css-postbuild.js
+- scripts/generate-sitemap.js
+- tailwind.config.mjs (exceto cores se necessario)
+
+============================================================
+SUPORTE
+============================================================
+
+Se algo quebrar:
+1. Rode npm run build e veja o erro
+2. Verifique se o config.ts esta com sintaxe correta
+3. Verifique se os arquivos .md tem o frontmatter correto
+4. Verifique se as imagens existem na pasta public/images/
+
+============================================================

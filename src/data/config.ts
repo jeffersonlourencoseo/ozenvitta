@@ -12,9 +12,9 @@ export const SITE_CONFIG = {
   locale: 'pt_BR',
 
   // SEO Defaults
-  titleDefault: 'Ozenvitta Funciona? Análise 2026 — 12 Gotas/Dia',
+  titleDefault: 'Ozenvitta Funciona? Análise 2026 — 2 Cápsulas/Dia',
   descriptionDefault:
-    'Ozenvitta em cápsulas: 12 cápsulas por dia, 9 ingredientes naturais, App com aulas e e-books de bônus. Veja preços, kits com até 40% OFF e garantia de 30 dias.',
+    'Ozenvitta em cápsulas: 2 cápsulas por dia, 9 ingredientes naturais, App com aulas e e-books de bônus. Veja preços, kits com até 40% OFF e garantia de 30 dias.',
   keywordsDefault:
     'ozenvitta funciona, ozenvitta funciona mesmo, o que é ozenvitta, pra que serve o ozenvitta, ozenvitta preço, ozenvitta valor, ozenvitta para emagrecer, ozenvitta para que serve, ozenvitta cápsulas, ozenvitta em cápsulas, ozenvitta emagrece, ozenvitta reclame aqui, ozenvitta onde comprar, ozenvitta desconto, ozenvitta ozenpharma',
 
@@ -47,7 +47,7 @@ export const SITE_CONFIG = {
   product: {
     name: 'Ozenvitta',
     brand: 'Ozenvitta',
-    category: 'Suplemento Alimentar em Gotas',
+    category: 'Suplemento Alimentar em Cápsulas',
     officialUrl: 'https://ozenvitta.com',
     affiliateLink: 'https://app.monetizze.com.br/r/ATX25785612',
     price: '197.00',
@@ -73,7 +73,7 @@ export const SITE_CONFIG = {
   // Performance & SEO
   ogImage: 'https://portalozenvitta.com.br/images/og-default.jpg',
   twitterHandle: '',
-  themeColor: '#513F7E',
+  themeColor: '#1B3A6B',
 } as const;
 
 export type SiteConfig = typeof SITE_CONFIG;

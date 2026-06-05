@@ -6,7 +6,7 @@ order: 1
 navLabel: "O que é"
 ---
 
-Se você está buscando uma alternativa natural para emagrecer sem passar fome, sem dietas malucas e sem engolir cápsulas grandes, este guia é para você.
+Se você está buscando uma alternativa natural para emagrecer sem passar fome, sem dietas malucas e sem complicações, este guia é para você.
 
 Aqui, explicamos **tudo sobre o Ozenvitta** — o suplemento em cápsulas que já ajudou mais de 1.400 mulheres a recuperarem a autoestima.
 

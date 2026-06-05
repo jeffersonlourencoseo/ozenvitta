@@ -1,5 +1,5 @@
 {
-  "name": "ozenvitta",
+  "name": "mounjax-site",
   "type": "module",
   "version": "0.0.1",
   "engines": {
@@ -14,14 +14,12 @@
     "create-site": "node scripts/create-new-site.js"
   },
   "dependencies": {
-    "@astrojs/preact": "^5.1.5",
     "@astrojs/tailwind": "^5.1.5",
     "@fontsource/cormorant-garamond": "^5.2.11",
     "@fontsource/inter": "^5.2.8",
     "astro": "^4.13.2",
     "autoprefixer": "^10.5.0",
     "postcss": "^8.5.14",
-    "preact": "^10.29.2",
     "tailwindcss": "^3.4.19",
     "zod": "^4.4.3"
   }

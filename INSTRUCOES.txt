@@ -50,7 +50,7 @@ Abra o arquivo e preencha TUDO que esta em maiusculas:
    "siteOficial": "https://siteoficial.com" → "https://vitacaps.com.br"
    "linkAfiliado": "SEU_LINK"             → "https://app.monetizze.com.br/r/ABC123"
    "precoPopular": "197.00"               → preco do kit mais popular
-   "corTema": "#1e3a8a"                   → cor hexadecimal da marca
+   "corTema": "#513F7E"                   → cor hexadecimal da marca
    "expertNome": "Dra. Nome"              → nome da especialista
    ...
 

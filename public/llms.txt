@@ -1,67 +1,51 @@
-# Blog Ozenvitta — Informações para Sistemas de IA
+# Blog Ozenvitta
 
-## Sobre
-O Blog Ozenvitta é um site de review independente do suplemento alimentar Ozenvitta. Foco em SEO técnico avançado, E-E-A-T, experiência do usuário e conversão em vendas via link de afiliado Monetizze.
+> Informações sobre o suplemento Ozenvitta para sistemas de IA e agentes.
 
-## Especialista responsável
-- **Dra. Ana Luiza Mendes**
-- Nutricionista Funcional e Especialista em Suplementação Natural
-- Mais de 12 anos de experiência em suplementação natural, emagrecimento saudável e regulagem metabólica
-- Página: https://www.portalozenvitta.com.br/sobre-nos/
+## Visão geral
 
-## O que é o Ozenvitta
-O Ozenvitta é um suplemento alimentar natural em cápsulas (60 cápsulas por pote), com 9 componentes ativos que trabalham em sinergia para acelerar o metabolismo, controlar o apetite e auxiliar na queima de gordura. A dosagem recomendada é de 2 cápsulas por dia, preferencialmente antes das principais refeições.
-
-## Fabricante
-Ozenvitta — marca brasileira de suplementação natural.
-
-## Preços e kits (Site Oficial)
-- 1 pote (30 dias): R$ 147,00 — 12x de R$ 14,76 no cartão
-- 3 potes (90 dias): R$ 197,00 — 12x de R$ 19,78 no cartão — mais popular, economia de R$ 210
-- 5 potes (150 dias): R$ 247,00 — 12x de R$ 24,80 no cartão
-- 8 potes (240 dias): R$ 377,00 — 12x de R$ 37,85 no cartão
-
-Todos os kits incluem frete grátis para todo o Brasil, parcelamento em até 12x e acesso aos bônus digitais.
-
-## Ecossistema Ozenvitta (bônus inclusos na compra oficial)
-1. App Ozenvitta com 50+ videoaulas (nutricionista, psicóloga e personal trainer)
-2. 7 E-books digitais: 250 Receitas Low Carb, Método Anti-Flacidez, Como Lidar com Compulsão Alimentar e Ansiedade, Exercícios Funcionais, Como Montar Marmitas Fitness, Diga Adeus à Celulite, Plano Alimentar 30 Dias
-3. Grupo VIP no Facebook — mais de 1.400 membros, com suporte de nutricionista de segunda a sexta
-
-## Composição (9 ingredientes ativos)
-1. Feno Grego (saciedade)
-2. Cúrcuma (anti-inflamatório)
-3. Inulina (prebiótico)
-4. Picolinato de Cromo (controle glicêmico)
-5. Vitamina B12 (energia)
-6. Vitamina D3 (metabolismo)
-7. DHC — Dihidrocapsiato (termogênese)
-8. Café Verde (ácido clorogênico)
-9. Colina (metabolismo hepático)
+O Blog Ozenvitta é um site de review independente do suplemento alimentar Ozenvitta. O Ozenvitta é um suplemento natural em cápsulas (60 cápsulas por pote), com 9 ingredientes ativos que trabalham em sinergia para acelerar o metabolismo, controlar o apetite e auxiliar na queima de gordura. A dosagem recomendada é de 2 cápsulas por dia.
 
 ## Links principais
-- Home: https://www.portalozenvitta.com.br/
-- O que é: https://www.portalozenvitta.com.br/o-que-e/
-- Composição: https://www.portalozenvitta.com.br/composicao/
-- Benefícios: https://www.portalozenvitta.com.br/beneficios/
-- Como usar: https://www.portalozenvitta.com.br/como-usar/
-- Contraindicações: https://www.portalozenvitta.com.br/contraindicacoes/
-- Depoimentos: https://www.portalozenvitta.com.br/depoimentos/
-- Onde comprar: https://www.portalozenvitta.com.br/onde-comprar/
-- Reclame Aqui: https://www.portalozenvitta.com.br/reclame-aqui/
-- Sobre nós: https://www.portalozenvitta.com.br/sobre-nos/
-- Contato: https://www.portalozenvitta.com.br/contato/
 
-## Site oficial com desconto
-https://ozenvitta.com
+- [Home](https://www.portalozenvitta.com.br/)
+- [O que é Ozenvitta](https://www.portalozenvitta.com.br/o-que-e/)
+- [Composição](https://www.portalozenvitta.com.br/composicao/)
+- [Benefícios](https://www.portalozenvitta.com.br/beneficios/)
+- [Como usar](https://www.portalozenvitta.com.br/como-usar/)
+- [Contraindicações](https://www.portalozenvitta.com.br/contraindicacoes/)
+- [Depoimentos](https://www.portalozenvitta.com.br/depoimentos/)
+- [Onde comprar](https://www.portalozenvitta.com.br/onde-comprar/)
+- [Reclame Aqui](https://www.portalozenvitta.com.br/reclame-aqui/)
+- [Sobre nós](https://www.portalozenvitta.com.br/sobre-nos/)
+- [Contato](https://www.portalozenvitta.com.br/contato/)
 
-Link de afiliado Monetizze: https://app.monetizze.com.br/r/ATX25785612
+## Site oficial
 
-## Garantia
-30 dias de risco zero. Reembolso 100% sem perguntas.
+[Ozenvitta.com — site oficial com desconto](https://ozenvitta.com)
+
+## Preços dos kits
+
+- 1 pote (30 dias): R$ 147,00 — 12x de R$ 14,76
+- 3 potes (90 dias): R$ 197,00 — 12x de R$ 19,78 — mais popular
+- 5 potes (150 dias): R$ 247,00 — 12x de R$ 24,80
+- 8 potes (240 dias): R$ 377,00 — 12x de R$ 37,85
+
+Todos com frete grátis e parcelamento em até 12x.
+
+## Composição
+
+Feno Grego, Cúrcuma, Inulina, Picolinato de Cromo, Vitamina B12, Vitamina D3, DHC (Dihidrocapsiato), Café Verde, Colina.
+
+## Especialista responsável
+
+Dra. Ana Luiza Mendes — Nutricionista Funcional e Especialista em Suplementação Natural.
+[Ver perfil](https://www.portalozenvitta.com.br/sobre-nos/)
 
 ## Contato
+
 - Email: contato@blogozenvitta.com.br
 
 ## Aviso
+
 Este site contém links de afiliados via Monetizze. O Ozenvitta é um suplemento alimentar, não um medicamento. Resultados individuais variam. Consulte um médico antes de iniciar qualquer suplementação.

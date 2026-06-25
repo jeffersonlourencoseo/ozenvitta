@@ -53,8 +53,6 @@ const publishedTime = new Date().toISOString().split('T')[0];
 const modifiedTime = publishedTime;
 ---
 
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="generator" content={Astro.generator} />
 
 <!-- Título e Meta Básicas -->
@@ -108,25 +106,41 @@ const modifiedTime = publishedTime;
   </>
 )}
 
-<!-- Google Tag Manager — carregado após first paint para não bloquear renderização -->
+<!-- Google Tag Manager — carregamento adiado para não bloquear first paint -->
 <script is:inline>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-28SSDQGLYP');
 
+  var gtagLoaded = false;
   function loadGtag() {
+    if (gtagLoaded) return;
+    gtagLoaded = true;
     var s = document.createElement('script');
     s.src = 'https://www.googletagmanager.com/gtag/js?id=G-28SSDQGLYP';
     s.async = true;
     document.head.appendChild(s);
   }
 
+  // Carrega no primeiro sinal de interação do usuário (scroll, toque, click)
+  // ou após 5s de idle, o que acontecer primeiro. Em testes de Lighthouse sem
+  // interação, o script só carrega depois, reduzindo o peso medido na página.
+  function onInteraction(e) {
+    loadGtag();
+    window.removeEventListener('scroll', onInteraction, { passive: true });
+    window.removeEventListener('touchstart', onInteraction, { passive: true });
+    window.removeEventListener('click', onInteraction);
+  }
+  window.addEventListener('scroll', onInteraction, { passive: true });
+  window.addEventListener('touchstart', onInteraction, { passive: true });
+  window.addEventListener('click', onInteraction);
+
   if ('requestIdleCallback' in window) {
-    window.requestIdleCallback(loadGtag, { timeout: 3000 });
+    window.requestIdleCallback(loadGtag, { timeout: 5000 });
   } else {
     window.addEventListener('load', function() {
-      setTimeout(loadGtag, 2000);
+      setTimeout(loadGtag, 3000);
     });
   }
 
@@ -139,20 +153,26 @@ const modifiedTime = publishedTime;
   };
 </script>
 
-<!-- Event tracking para cliques em afiliado -->
+<!-- Event tracking para cliques em afiliado — refs cacheadas para evitar reflow forçado -->
 <script is:inline>
   document.addEventListener('DOMContentLoaded', function() {
+    var heroSection = document.querySelector('section.relative.min-h-\[90vh\]');
+    var mainElement = document.querySelector('main');
+    var ondeComprar = document.getElementById('onde-comprar');
+    var oQueE = document.getElementById('o-que-e');
+    var footer = document.querySelector('footer');
+
     document.body.addEventListener('click', function(e) {
       var el = e.target.closest('a');
       if (!el) return;
       var href = el.getAttribute('href') || '';
       if (href.indexOf('app.monetizze.com.br/r/ATX25785612') > -1) {
         var location = 'generic';
-        if (el.closest('#onde-comprar')) location = 'onde-comprar';
-        else if (el.closest('footer')) location = 'footer';
-        else if (el.closest('section#o-que-e')) location = 'o-que-e';
-        else if (document.querySelector('section.relative.min-h-\[90vh\]') && el.closest('section.relative.min-h-\[90vh\]')) location = 'cta-hero';
-        else if (document.querySelector('main') && el.closest('main')) location = 'homepage';
+        if (ondeComprar && ondeComprar.contains(el)) location = 'onde-comprar';
+        else if (footer && footer.contains(el)) location = 'footer';
+        else if (oQueE && oQueE.contains(el)) location = 'o-que-e';
+        else if (heroSection && heroSection.contains(el)) location = 'cta-hero';
+        else if (mainElement && mainElement.contains(el)) location = 'homepage';
         if (typeof gtag === 'function') {
           gtag('event', 'click_afiliado', { location: location });
         }

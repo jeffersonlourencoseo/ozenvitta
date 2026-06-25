@@ -42,23 +42,15 @@ const {
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <SEO
-    title={title}
-    description={description}
-    keywords={keywords}
-    image={image}
-    canonical={canonical}
-    noindex={noindex}
-    ogType={ogType}
-    ogAlt={ogAlt}
-  />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Preload Performance: apenas fontes críticas para first paint -->
+  <!-- Preload Performance: fontes críticas descobertas o mais cedo possível -->
   <link rel="preload" href="/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/fonts/inter-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/fonts/cormorant-garamond-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <!-- Fontes críticas inline — apenas 3 variantes para first paint -->
+  <!-- Fontes críticas inline — 3 variantes para first paint -->
   <style is:inline>
     @font-face {
       font-family: 'Inter';

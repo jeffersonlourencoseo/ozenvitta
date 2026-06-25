@@ -31,8 +31,8 @@ import Footer from '../components/Footer.astro';
     <!-- HERO -->
     <section class="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
       <div class="absolute inset-0 bg-gradient-to-br from-brand/5 via-surface to-brand-light/5"></div>
-      <div class="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-brand/10 rounded-full blur-[100px] animate-orb"></div>
-      <div class="absolute bottom-[-5%] left-[-5%] w-[400px] h-[400px] bg-accent/10 rounded-full blur-[100px] animate-orb animate-orb-delay"></div>
+      <div class="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-brand/10 rounded-full blur-[60px] animate-orb will-change-transform"></div>
+      <div class="absolute bottom-[-5%] left-[-5%] w-[400px] h-[400px] bg-accent/10 rounded-full blur-[60px] animate-orb animate-orb-delay will-change-transform"></div>
 
       <div class="relative z-10 container mx-auto px-6 lg:px-12 text-center max-w-4xl">
         <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-accent mb-6">
@@ -407,21 +407,21 @@ import Footer from '../components/Footer.astro';
         </p>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div class="bg-surface rounded-2xl overflow-hidden shadow-sm border border-brand/5">
-            <img src="/images/antes-depois-1.jpg" alt="Antes e depois Ozenvitta - Resultado real 1" class="w-full h-64 object-cover" loading="lazy" />
+            <img src="/images/antes-depois-1.jpg" alt="Antes e depois Ozenvitta - Resultado real 1" class="w-full h-64 object-cover" loading="lazy" decoding="async" fetchpriority="low" />
             <div class="p-4 text-center">
               <p class="text-sm font-semibold text-brand-dark">Fernanda Lima, 34 anos</p>
               <p class="text-xs text-brand-dark/70">3 meses de uso · Kit 3 potes</p>
             </div>
           </div>
           <div class="bg-surface rounded-2xl overflow-hidden shadow-sm border border-brand/5">
-            <img src="/images/antes-depois-2.jpg" alt="Antes e depois Ozenvitta - Resultado real 2" class="w-full h-64 object-cover" loading="lazy" />
+            <img src="/images/antes-depois-2.jpg" alt="Antes e depois Ozenvitta - Resultado real 2" class="w-full h-64 object-cover" loading="lazy" decoding="async" fetchpriority="low" />
             <div class="p-4 text-center">
               <p class="text-sm font-semibold text-brand-dark">Patrícia Menezes, 45 anos</p>
               <p class="text-xs text-brand-dark/70">4 meses de uso · Kit 5 potes</p>
             </div>
           </div>
           <div class="bg-surface rounded-2xl overflow-hidden shadow-sm border border-brand/5">
-            <img src="/images/antes-depois-3.jpg" alt="Antes e depois Ozenvitta - Resultado real 3" class="w-full h-64 object-cover" loading="lazy" />
+            <img src="/images/antes-depois-3.jpg" alt="Antes e depois Ozenvitta - Resultado real 3" class="w-full h-64 object-cover" loading="lazy" decoding="async" fetchpriority="low" />
             <div class="p-4 text-center">
               <p class="text-sm font-semibold text-brand-dark">Camila Rocha, 29 anos</p>
               <p class="text-xs text-brand-dark/70">2 meses de uso · Kit 3 potes</p>

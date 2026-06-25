@@ -70,13 +70,25 @@ const {
       color: #fff;
     }
 
+    /* Fallback de fontes nativas sem download para evitar CLS de font-display: swap.
+       A fonte web só é usada depois de carregada; se não carregar, o fallback já
+       tem métricas similares e não gera salto visível. */
     body {
-      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     }
 
     h1, h2, h3, h4 {
-      font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+      font-family: Georgia, 'Times New Roman', 'Songti SC', 'SimSun', serif;
       text-wrap: balance;
+    }
+
+    /* Fontes web carregadas via stylesheet lazy; se falharem ou demorarem,
+       o layout não quebra */
+    .fonts-loaded body {
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    .fonts-loaded h1, .fonts-loaded h2, .fonts-loaded h3, .fonts-loaded h4 {
+      font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
     }
 
     @media (prefers-reduced-motion: reduce) {

@@ -29,10 +29,11 @@ import Footer from '../components/Footer.astro';
 
   <main class="pt-[72px]">
     <!-- HERO -->
-    <section class="relative min-h-[90vh] flex items-center justify-center overflow-hidden isolate">
+    <section class="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
       <div class="absolute inset-0 bg-gradient-to-br from-brand/5 via-surface to-brand-light/5"></div>
-      <div class="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-brand/10 rounded-full blur-[80px] animate-orb" style="contain:layout paint;transform:translateZ(0)"></div>
-      <div class="absolute bottom-[-5%] left-[-5%] w-[400px] h-[400px] bg-accent/10 rounded-full blur-[80px] animate-orb animate-orb-delay" style="contain:layout paint;transform:translateZ(0)"></div>
+      <!-- Bolhas decorativas estáticas e pequenas para evitar CLS e animações não compostas -->
+      <div class="absolute top-[10%] right-[5%] w-[200px] h-[200px] bg-brand/10 rounded-full blur-[60px]"></div>
+      <div class="absolute bottom-[10%] left-[5%] w-[160px] h-[160px] bg-accent/10 rounded-full blur-[60px]"></div>
 
       <div class="relative z-10 container mx-auto px-6 lg:px-12 text-center max-w-4xl">
         <span class="inline-block text-xs font-semibold uppercase tracking-[0.2em] text-accent mb-6">
@@ -714,17 +715,4 @@ import Footer from '../components/Footer.astro';
   </main>
 
   <Footer />
-
-  <style>
-    @keyframes orb {
-      0%, 100% { opacity: 0.5; transform: scale(1); }
-      50% { opacity: 0.8; transform: scale(1.05); }
-    }
-    .animate-orb {
-      animation: orb 8s ease-in-out infinite;
-    }
-    .animate-orb-delay {
-      animation-delay: 4s;
-    }
-  </style>
 </Layout>
